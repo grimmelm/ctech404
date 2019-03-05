@@ -11,9 +11,9 @@
 ## Exercise Instructions
 <em>
    1. In the code edtior you have a blank program named "exercise.py" 
-   2. Add a print() function containing the text of your choosing to the program.
-   3. Execute your program. 
-   In the terminal, type <code>python exercise.py</code> at the command line prompt <code>$</code>. 
+   2. In the code editor, write a print function containing the text of your choosing.
+   3. Execute your program (exercise.py) in the terminal [to test out your print statement]
+   (In the terminal, type <code>python exercise.py</code> at the command line prompt <code>$</code>.)
 </em>
 
 ## Any Unique Requirements or Notes?
