@@ -14,7 +14,7 @@
 
 <code>>>></code> is the Python interpreter's prompt. You can now run Python commands. 
 
-2. Print the text "I can write Python programs!" to the screen (Hint: You can use Python's print function)
+2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
  </em>
 
 ## Any Unique Requirements or Notes?
