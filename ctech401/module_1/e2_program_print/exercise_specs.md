@@ -10,9 +10,9 @@
 
 ## Exercise Instructions
 <em>
-1. In the code edtior you have a blank program named "exercise.py" 
-2. Add a print() function containing the text of your choosing to the program.
-3. Execute your program. 
+   1. In the code edtior you have a blank program named "exercise.py" 
+   2. Add a print() function containing the text of your choosing to the program.
+   3. Execute your program. 
    In the terminal, type <code>python exercise.py</code> at the command line prompt <code>$</code>. 
 </em>
 
