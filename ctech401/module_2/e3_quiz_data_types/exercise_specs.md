@@ -2,13 +2,45 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>This quiz will test the student's comprehension of data types. Students will also be tested on the difference between operations performed on different data types.</em>
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>Every value in Python has a type. This exercise will ...</em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>
+Quiz:
+  
+What dataype is this:
+
+4.0 (int, flaot, string)
+'4' (int, float, string)
+the result of 6/7 (int, float, string)
+the result of 2*6 (int, float, string)
+'hello world' (int, float, string)
+
+What is the result of the following expressions:
+
+20//7 = 2 (options: 2.85, 2, 6)
+
+10/4 = 2.5 (options: 2.5, 2, '2.5')
+
+35%8 = 3 (options: 3, 4, 4.375)
+
+'bye' + 5 (options" 'bye5', bye5, 5, none of the above)
+
+What operator would you use to get this answer (choose all that apply):
+
+40[]6 = 4 (/ // % *)
+72[]9 = 8  (/ // % *)
+7[]3=2 (/ // % *)
+10[]5 = 2 (/ // % *)
+5[]10 = 5 (/ // % *)
+
+
+
+
+</em>
 
 ## Any Unique Requirements or Notes?
 
