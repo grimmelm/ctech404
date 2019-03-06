@@ -2,28 +2,34 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>This exercise teaches students to write a fully functioning (albeit rather simple) program in a code editor. Students will learn to execute their program on the terminal. 
+</em>
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>This exercise will teach you to write your programs in a code editor and <i>run</i> them from a terminal.</em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>
+   1. In the code edtior you have a blank program named "exercise.py" 
+   2. In the code editor, write a print function containing the text of your choosing.
+   3. Execute your program (exercise.py) in the terminal [to test out your print statement]
+   (In the terminal, type <code>python exercise.py</code> at the command line prompt <code>$</code>.)
+</em>
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+<em><strong>I</em>
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+<em>Code editor, terminal</em>
 
 ## Language/s Used
-<em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
+<em></em>
 
 ## Package/s Required
-<em>Indicate here any unique packages that need to be installed for the exercise to function.</em>
+<em></em>
 
 ---
 # Test Requirements
