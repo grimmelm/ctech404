@@ -2,13 +2,17 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>This exercise will allow students to become comfortable with using the python interpreter to practice order of operations and python expressions</em>
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>Try your hand at the expressions from the quiz. Use the print function to print the result to the screen. </em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>[ give students examples to play with and to move parenthesis around the expression, etc
+
+
+]
+</em>
 
 ## Any Unique Requirements or Notes?
 
