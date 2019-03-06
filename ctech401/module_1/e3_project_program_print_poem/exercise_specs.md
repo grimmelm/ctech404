@@ -14,7 +14,9 @@
  'There was an Old Man with a beard, Who said, It is just as I feared! Two Owls and a Hen, Four Larks and a Wren,
  Have all built their nests in my beard!'
  
- A limerick is a humerous poem consisting of 5 lines. 
+ A limerick is a humerous poem consisting of 5 lines with the first, second and fifth lines consisting of 
+ seven to ten syllables while the  third and fourth lines consists of five to seven syllables. (syllable portion may be overkill)
+ 
  Write a program that prints the Limerick above to the screen in five separate lines (Hint: use the print function/statement more than once).
  Execute your program on the command line.
 </em>
