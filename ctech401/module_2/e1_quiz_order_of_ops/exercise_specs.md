@@ -2,22 +2,41 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>This exercise will test the student's comprehension of order of operations</em>
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em></em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>2 options:
+  
+  Value of expressions, oR
+  Output of print(expression) OR 
+  Drag and drop??
+  
+  
+  Choose the value of the following expressions 
+  
+  2 * 20 + (7 - 4) * 5  = 55 (options: 27, 215, 55, 34)
+  
+  2 * (20 + 7) - 4 * 5  = 34 (options: 27, 215, 55, 34)  
+  
+  (4 * 5) + 10 + 2 = 32 (options: 32, 62,  68, none of the above)
+  
+  4 * 5 + (10 + 2) = 32 (options: 32, 62, 68, none of the above)
+  
+  6 + 9 + 8 * 4 + 5 = 52 (options: 52, 97, 87, 207)
+  
+  </em>
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+<em><strong>H5P</strong></em>
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+<em>H5P embedded window</em>
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
