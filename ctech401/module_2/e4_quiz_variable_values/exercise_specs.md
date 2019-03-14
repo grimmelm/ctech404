@@ -11,7 +11,7 @@
 
 What is a valid variable name?
 
-myVariable 
+myVariable \n
 myvariable
 MYVARIABLE
 _my_variable1
