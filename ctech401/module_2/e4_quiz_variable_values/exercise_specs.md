@@ -13,12 +13,18 @@ What is a valid variable name?
 
 myVariable
   
-myvariable
+myvariable 
+  
 MYVARIABLE
+
 _my_variable1
+
 my variable 
+
 1myVariable
+
 myVariable@Foo
+
 my1Variable
 
 What is the correct values?
