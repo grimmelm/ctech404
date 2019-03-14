@@ -9,8 +9,7 @@
 ## Exercise Instructions
 <em>
 
-What is a valid variable name?
-
+What is a valid variable name?  
 myVariable
   
 myvariable 
