@@ -22,46 +22,43 @@ my1Variable<br>
 
 What is the correct values?
 
-x=4
-y=5
-z=x+y
+x=4<br>
+y=5<br>
+z=x+y<br>
 
-What is the value of x
-What is the value of z
+What is the value of x?
+What is the value of z?
 
-x=4
-y=5
-z=1
-z=x+y
-
-What is the value of y
-What is the value of z
-
-x=4
-y=5
-y=1
-z=x+y
+x=4<br>
+y=5<br>
+z=1<br>
+z=x+y<br>
 
 What is the value of y
 What is the value of z
 
-x=4
-y=5
-Y=1
-z=x+y
+x=4<br>
+y=5<br>
+y=1<br>
+z=x+y<br>
+
+What is the value of y
+What is the value of z
+
+x=4<br>
+y=5<br>
+Y=1<br>
+z=x+y<br>
 
 
 What is the value of y
 What is the value of z
 
 
-myVariable = "hello!"
-myvariable = "goodbye!"
+myVariable = "hello!"<br>
+myvariable = "goodbye!"<br>
 
 What is value of myVariable?
-
-
-
 
 </em>
 
