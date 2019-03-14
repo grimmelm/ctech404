@@ -12,18 +12,13 @@
 What is a valid variable name? 
 
 myVariable<br/> 
-myvariable  
-MYVARIABLE 
-
-_my_variable1
-
-my variable 
-
-1myVariable
-
-myVariable@Foo
-
-my1Variable
+myvariable<br/>
+MYVARIABLE<br/> 
+_my_variable1<br/>
+my variable <br/>
+1myVariable<br/>
+myVariable@Foo<br>
+my1Variable<br>
 
 What is the correct values?
 
