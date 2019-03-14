@@ -2,13 +2,68 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>Quiz will test students knowledge of variables, variable assignments, re-assigments, the difference betweewn different variable names</em>
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
-
+<em>You your knowledge of Python variables to answer the followin questions</em>
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>
+
+What is a valid variable name?
+
+myVariable 
+myvariable
+MYVARIABLE
+_my_variable1
+my variable 
+1myVariable
+myVariable@Foo
+my1Variable
+
+What is the correct values?
+
+x=4
+y=5
+z=x+y
+
+What is the value of x
+What is the value of z
+
+x=4
+y=5
+z=1
+z=x+y
+
+What is the value of y
+What is the value of z
+
+x=4
+y=5
+y=1
+z=x+y
+
+What is the value of y
+What is the value of z
+
+x=4
+y=5
+Y=1
+z=x+y
+
+
+What is the value of y
+What is the value of z
+
+
+myVariable = "hello!"
+myvariable = "goodbye!"
+
+What is value of myVariable?
+
+
+
+
+</em>
 
 ## Any Unique Requirements or Notes?
 
