@@ -9,12 +9,11 @@
 ## Exercise Instructions
 <em>
 
-What is a valid variable name?  
-myVariable
-  
-myvariable 
-  
-MYVARIABLE
+What is a valid variable name? 
+
+myVariable 
+myvariable  
+MYVARIABLE 
 
 _my_variable1
 
