@@ -21,21 +21,18 @@ the result of 2*6 (int, float, string)<br>
 
 What is the result of the following expressions:
 
-20//7 = 2 (options: 2.85, 2, 6)
-
-10/4 = 2.5 (options: 2.5, 2, '2.5')
-
-35%8 = 3 (options: 3, 4, 4.375)
-
-'bye' + 5 (options" 'bye5', bye5, 5, none of the above)
+20//7 = 2 (options: 2.85, 2, 6)<br>
+10/4 = 2.5 (options: 2.5, 2, '2.5')<br>
+35%8 = 3 (options: 3, 4, 4.375)<br>
+'bye' + 5 (options" 'bye5', bye5, 5, none of the above)<br>
 
 What operator would you use to get this answer (choose all that apply):
 
-40[]6 = 4 (/ // % *)
-72[]9 = 8  (/ // % *)
-7[]3=2 (/ // % *)
-10[]5 = 2 (/ // % *)
-5[]10 = 5 (/ // % *)
+40[]6 = 4 (/ // % *)<br>
+72[]9 = 8  (/ // % *)<br>
+7[]3=2 (/ // % *)<br>
+10[]5 = 2 (/ // % *)<br>
+5[]10 = 5 (/ // % *)<br>
 
 
 
