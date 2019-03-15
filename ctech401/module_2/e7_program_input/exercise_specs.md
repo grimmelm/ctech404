@@ -2,13 +2,14 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>Students will learn how to use the input() function in a program, and how to combine inputs to create onep output</em>
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>Up until now, we have been using python programs to output data to the screen using print(). This exercise will ..how to input data from a user.</em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>Input your first name and last name in the command line. Output then in the opposite order (Last First)<br>
+Hint(use two inputs and two outputs)</em> . [redo these requirements]
 
 ## Any Unique Requirements or Notes?
 
@@ -17,7 +18,7 @@
 <em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+<em>Terminal, code editor</em>
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
