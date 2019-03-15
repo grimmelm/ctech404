@@ -10,9 +10,9 @@
 
 ## Exercise Instructions
 <em>
-1. Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>. 
+ 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands. 
+<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
 
 2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
  </em>
