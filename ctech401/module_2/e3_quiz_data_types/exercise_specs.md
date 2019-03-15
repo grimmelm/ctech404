@@ -13,11 +13,11 @@ Quiz:
   
 What dataype is this:
 
-4.0 (int, flaot, string)
-'4' (int, float, string)
-the result of 6/7 (int, float, string)
-the result of 2*6 (int, float, string)
-'hello world' (int, float, string)
+4.0 (int, float, string) <br>
+'4' (int, float, string) <br>
+the result of 6/7 (int, float, string)<br>
+the result of 2*6 (int, float, string)<br>
+'hello world' (int, float, string)<br>
 
 What is the result of the following expressions:
 
