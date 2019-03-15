@@ -22,7 +22,7 @@
 <em><strong></strong></em>
 
 ## Environment/s Used
-<em>Code editor running python, command line to execute program</em>
+<em>Code editor running python, terminal to execute program</em>
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
