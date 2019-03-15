@@ -9,7 +9,7 @@
       >>>x=5<br>
       >>>x<br>
       5<br>
-  This does not work the same way when run from a Python program. In this exercise you will use the print function to print a variable to the screen.
+  This does not work the same way when you run it from a Python program. In this exercise you will use the print function to print the value of a variable to the screen.
 </em>
 
 ## Exercise Instructions
