@@ -12,7 +12,7 @@
 <em>
    1. In the code edtior you have a blank program named "exercise.py" <br>
    2. In the code editor, write a print function containing the text of your choosing. <br>
-   3. Execute your program (exercise.py) in the terminal [to test out your print statement] <br>
+   3. Execute your program (exercise.py) in the terminal(command line) [to test out your print statement] <br>
    (In the terminal, type <code>python exercise.py</code> at the command line prompt <code>$</code>.)
 </em>
 
