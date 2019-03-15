@@ -10,7 +10,7 @@
 
 ## Exercise Instructions
 <em>
-1. Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+ 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
 
 <code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
 
