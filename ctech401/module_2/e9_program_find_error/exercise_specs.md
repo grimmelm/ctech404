@@ -2,20 +2,33 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Students will learn how to use the input() function in a program, and how to combine inputs to create onep output</em>
+<em>Student will learn to recognize different types of errors that can be found in their code.
+Syntax errors
+Type Errors
+Name error (variable or function python doesn't recognize)	
+</em>
 
 ## Exercise Context
-<em>Up until now, we have been using python programs to output data to the screen using print(). This exercise will ..how to input data from a user.</em>
+<em>It's good practice to learn to identify errors in your code and fix them. The program below contains some of the errors we discussed. </em>
 
 ## Exercise Instructions
-<em>Input your first name and last name in the command line. Output then in the opposite order (Last First)<br>
-Hint(use two inputs and two outputs)</em> . [redo these requirements]
+<em>
+Run the program [name of program] and notice the errors.
+Then find the errors and fix them. 
+Every time you fix an error, run your code and notice the output.
+  
+x=5+&9
+y=x+'4'
+z=x+y
+pint(z)
+  
+  
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+<em><strong></strong></em>
 
 ## Environment/s Used
 <em>Terminal, code editor</em>
