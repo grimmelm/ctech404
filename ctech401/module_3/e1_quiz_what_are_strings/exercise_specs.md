@@ -12,12 +12,12 @@ Can we do true/false on which of these are valid strings and then have ones with
 
 <em>Is this a valid string? (T/F)
   
-emoji (can we do this?) 
-'Good Morning everyone!"
-''
-'I won't go!'
-'I TURN 25 TODAY!!'
-(non roman alphabet)
+emoji (can we do this?) <br>
+'Good Morning everyone!"<br>
+''<br>
+'I won't go!'<br>
+'I TURN 4 TODAY!!'<br>
+(non roman alphabet)<br>
   
 
 </em>
