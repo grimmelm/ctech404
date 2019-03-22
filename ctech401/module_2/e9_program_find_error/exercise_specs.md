@@ -13,14 +13,14 @@ Name error (variable or function python doesn't recognize)
 
 ## Exercise Instructions
 <em>
-Run the program [name of program] and notice the errors.
-Then find the errors and fix them. 
-Every time you fix an error, run your code and notice the output.
+Run the program [name of program] and notice the errors.<br>
+Then find the errors and fix them. <br>
+Every time you fix an error, run your code and notice the output.<br>
   
-x=5+&9
-y=x+'4'
-z=x+y
-pint(z)
+x=5+&9<br>
+y=x+'4'<br>
+z=x+y<br>
+pint(z)<br>
   
   
 
