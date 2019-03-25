@@ -11,19 +11,19 @@
 <em>
 Which is a valid if statement (select all that apply)?  (todo: hit space bar four times)
   
-if x == 4
+if x == 4<br>
   print('x is 4!')
 
-if color == 'red':
+if color == 'red':<br>
 print('the color is red')
 
-if the_string=='hello':
+if the_string=='hello':<br>
   print('HELLO!')
   
-if y==450
+if y==450<br>
 print('y is 450')
 
-if x ==4:
+if x ==4:<br>
   print('x is 4!')
   
 </em>
