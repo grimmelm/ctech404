@@ -2,13 +2,33 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>Tests student's comrehension of string operators. **Multiple choice?? can it be a text box entering the string?</em>
 
 ## Exercise Context
 <em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>
+What is the output?
+  
+'hello'+'student'
+
+'X'*2
+
+'X'+' '+'Y'
+
+4* ('A'+'B') (ABABABAB)
+'A'+'B'+5  (invalid)-maybe leave out
+'A'+'B'+'5'
+'A'+'B'*5 (ABABABABAB)
+
+#code snippet
+a='n'
+b='e'
+c='s'
+d= "T"+b+(2*a)+b+(2*c)+(2*b)
+
+</em>
 
 ## Any Unique Requirements or Notes?
 
