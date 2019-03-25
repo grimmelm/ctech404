@@ -17,16 +17,17 @@ What is the output?
 
 'X'+' '+'Y'
 
-4* ('A'+'B') (ABABABAB)
-'A'+'B'+5  (invalid)-maybe leave out
-'A'+'B'+'5'
-'A'+'B'*5 (ABABABABAB)
+4* ('A'+'B') (ABABABAB)<br>
+'A'+'B'+5  (invalid)-maybe leave out <br>
+'A'+'B'+'5'<br>
+'A'+'B'*5 (ABABABABAB)<br>
 
 #code snippet
-a='n'
-b='e'
-c='s'
-d= "T"+b+(2*a)+b+(2*c)+(2*b)
+a='n'<br>
+b='e'<br>
+c='s'<br>
+d= "T"+b+(2*a)+b+(2*c)+(2*b)<br>
+print(d) output <br>
 
 </em>
 
