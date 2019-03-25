@@ -9,15 +9,15 @@
 
 ## Exercise Instructions
 <em>
-What is the output? 
+What is the output? (maybe add an invalid option
   
-str(4) (4, '4', 4.0)
-int(4) (4, '4', 4.0)
-int('56') (56, '56', 56.0)
-str(int('27.0')) (27, '27', 27.0) . #should we introduce this type conversion here?
-int(str('100')) (100, '100', 100.0)
-str('100.0') (100, '100', 100.0)
-print('I am outputting the number ' + str(int('123')))
+str(4) (4, '4', 4.0) <br>
+int(4) (4, '4', 4.0)<br>
+int('56') (56, '56', 56.0)<br>
+str(int('27.0')) (27, '27', 27.0)<br>  #should we introduce this type conversion here?
+int(str('100')) (100, '100', 100.0)<br>
+str('100.0') (100, '100', 100.0)<br>
+print('I am outputting the number ' + str(int('123')))<br> 
 
 </em>
 
