@@ -10,7 +10,7 @@
 </em>
 
 ## Exercise Instructions
-<em>Input the city and state where you live on the command line. <br>
+<em>Using an input prompt, enter the city and state where you live on the command line. <br>
   Output the string, "Hello, I live in <i>city</i>, <i>state</i>",<br>
   with  <i>city</i> and <i>state</i> corresponding to your inputs.
 
