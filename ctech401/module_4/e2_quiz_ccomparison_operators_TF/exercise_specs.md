@@ -2,13 +2,28 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>This quiz tests the student's comprehension of conditional statements</em>
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em></em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>Are these statmements true or false?
+
+1.  x=4
+  x == 5
+
+2. 75 == 75.0
+3. 75 == '75'
+
+4. 'Hello == 'hello'
+
+5. color = 'red'
+color == 'red' 
+
+
+
+</em>
 
 ## Any Unique Requirements or Notes?
 
