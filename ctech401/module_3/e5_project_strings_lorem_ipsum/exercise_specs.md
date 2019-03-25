@@ -8,7 +8,7 @@
 <em>It's time to put into practive everything we have learned in this module about string operators and functions.</em>
 
 ## Exercise Instructions
-<em>Write a program that asks the user for a word and for the number of times to repeat it. Use the appropriate string operators to output the results to the screen. </em>
+<em>Write a program that ask the user for a word and for the number of times to repeat it. Use the appropriate string operators to output the results to the screen. </em>
 
 ## Any Unique Requirements or Notes?
 
