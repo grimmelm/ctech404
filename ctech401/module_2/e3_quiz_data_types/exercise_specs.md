@@ -26,10 +26,10 @@ What is the result of the following expressions:
 35%8 = 3 (options: 3, 4, 4.375)<br>
 'bye' + 5 (options" 'bye5', bye5, 5, none of the above)<br>
 
-What operator would you use to get this answer (choose all that apply):
+What operator would you use to get this answer (choose all that apply): (GO OVER THIS)
 
-40[]6 = 4 (/ // % *)<br>
-72[]9 = 8  (/ // % *)<br>
+40[]6 = 4 (/ // % *)<br>  (%)
+72[]9 = 8.0  (/ // % *)<br>(/)
 7[]3=2 (/ // % *)<br>
 10[]5 = 2 (/ // % *)<br>
 5[]10 = 5 (/ // % *)<br>
