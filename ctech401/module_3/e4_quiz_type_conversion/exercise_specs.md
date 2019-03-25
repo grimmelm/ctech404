@@ -2,13 +2,24 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>This quiz will test string functions, namely int() and string()</em>
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>Sometimes it is necessary to use string functions when writing output. For example, we may want to convert an integer into a s string to output a number along with text. The following quiz will test the proper string functions to use./</em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>
+What is the output? 
+  
+str(4) (4, '4', 4.0)
+int(4) (4, '4', 4.0)
+int('56') (56, '56', 56.0)
+str(int('27.0')) (27, '27', 27.0) . #should we introduce this type conversion here?
+int(str('100')) (100, '100', 100.0)
+str('100.0') (100, '100', 100.0)
+print('I am outputting the number ' + str(int('123')))
+
+</em>
 
 ## Any Unique Requirements or Notes?
 
