@@ -2,7 +2,9 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+<em>Exercise will test student's comprehension of conditional statement comparison operators 
+(<, >, >=, <=, !=)
+</em>
 
 ## Exercise Context
 <em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
