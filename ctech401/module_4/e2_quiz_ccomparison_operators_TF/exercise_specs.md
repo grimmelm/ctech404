@@ -8,7 +8,7 @@
 <em></em>
 
 ## Exercise Instructions
-<em>Are these statmements true or false?
+<em>Are these statmements true or false?  (maybe use if statements to demonstrate this)
 
 1.  x=4
   x == 5
