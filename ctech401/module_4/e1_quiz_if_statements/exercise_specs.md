@@ -20,7 +20,7 @@ print('the color is red')
 if the_string=='hello':<br>
   print('HELLO!')
   
-if y==450<br>
+if y==450;<br>
 print('y is 450')
 
 if x ==4:<br>
