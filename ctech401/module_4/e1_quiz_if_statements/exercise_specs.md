@@ -9,7 +9,7 @@
 
 ## Exercise Instructions
 <em>
-Which is a valid if statement (select all that apply)?  (todo: hit space bar four times) (are we asking students to correct them?)
+Which is a valid if statement (select all that apply)?  (todo: hit space bar four times) 
   
 if x == 4<br>
   print('x is 4!')
