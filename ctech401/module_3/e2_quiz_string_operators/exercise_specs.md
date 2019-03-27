@@ -2,7 +2,7 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Tests student's comrehension of string operators. **Multiple choice?? can it be a text box entering the string?</em>
+<em>Tests student's comrehension of string operators. **Multiple choice?? Prefer if students enter the string response</em>
 
 ## Exercise Context
 <em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
