@@ -6,12 +6,44 @@
 </em>
 
 ## Exercise Context
-<em> </em>
+<em> Let's practice creating variables and assigning values to them.  </em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>In the python interpreter, enter the following commands.<br>
+Notice the output (include errors?)<br>
 
-## Any Unique Requirements or Notes?
+1. <br>
+x=145<br>
+x<br>
+y=10<br>
+z=x*y<br>
+z<br>
+
+2.<br>
+month_12="December"<br>
+month_12<br>
+
+3. <br>
+4Numbers = '1,2,3,4'  (error)
+4Numbers
+</em>
+
+4.<br>
+four_numbers = '1,2,3,4'<br>
+four_numbers<br>
+
+Play around on the command line.<br>
+Create variables and assign values to them.<br>
+Remember:<br>
+
+Variable names have to start with a letter or the underscore _, and then they can contain
+letters, digits, and underscores.<br>
+
+OK: months, my2data, BIG_variable<br>
+
+Not OK: email@domain.com, 10times<br>
+
+Variable names are case-sensitive<br>
 
 ---
 # Technical Requirements

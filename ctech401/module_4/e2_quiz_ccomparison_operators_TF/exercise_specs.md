@@ -8,20 +8,27 @@
 <em></em>
 
 ## Exercise Instructions
-<em>Are these statmements true or false?  (maybe use if statements to demonstrate this)
+<em>What should be inside the print statements?  (enter True or False in the box?)
 
-1.  x=4
-  x == 5
+1.  
+  x=4<br>
+  if x == 5:<br>
+    print(_)<br>
+    
+2. if 75 == 75.0:<br>
+    print(__)<br>
+    
+3. if 75 == '75':<br>
+    print(__)<br>
 
-2. 75 == 75.0
-3. 75 == '75'
+4. if 'Hello == 'hello':<br>
+      print(__)<br>
+      
+5.
+color='red'<br>
 
-4. 'Hello == 'hello'
-
-5. color = 'red'
-color == 'red' 
-
-
+if color == 'red':<br>
+  print(__)<br>
 
 </em>
 
