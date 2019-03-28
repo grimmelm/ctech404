@@ -8,7 +8,16 @@
 <em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<em>
+  Are these boolean conditons true or false
+  
+number =10
+number > 12 and number <25
+
+not number == 5
+
+number < 5 or number <= 10
+</em>
 
 ## Any Unique Requirements or Notes?
 
