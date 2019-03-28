@@ -8,27 +8,26 @@
 <em></em>
 
 ## Exercise Instructions
-<em>What should be inside the print statements?  (enter True or False in the box?)
+<em>Are these statements true or false
 
 1.  
   x=4<br>
-  if x == 5:<br>
-    print(_)<br>
+  x == 5<br>
+   
     
-2. if 75 == 75.0:<br>
-    print(__)<br>
+2. 75 == 75.0<br>
+   
     
-3. if 75 == '75':<br>
-    print(__)<br>
+3. 75 == '75'<br>
+    
 
-4. if 'Hello == 'hello':<br>
-      print(__)<br>
+4. 'Hello == 'hello'<br>
+    
       
 5.
 color='red'<br>
-
-if color == 'red':<br>
-  print(__)<br>
+color == 'red'<br>
+ 
 
 </em>
 
