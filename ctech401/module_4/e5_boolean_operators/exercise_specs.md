@@ -11,12 +11,12 @@
 <em>
   Are these boolean conditons true or false
   
-number =10
-number > 12 and number <25
+number =10<br>
+number > 12 and number <25<br><br>
 
-not number == 5
+not number == 5<br><br>
 
-number < 5 or number <= 10
+number < 5 or number <= 10<br>
 </em>
 
 ## Any Unique Requirements or Notes?
