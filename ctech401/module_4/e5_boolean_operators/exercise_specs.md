@@ -9,7 +9,7 @@
 
 ## Exercise Instructions
 <em>
-  Are these boolean conditons true or false
+  Are these boolean conditons true or false<br>
   
 number =10<br>
 number > 12 and number <25<br><br>
