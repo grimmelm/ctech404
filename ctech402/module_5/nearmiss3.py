@@ -1,10 +1,16 @@
+def near_miss(target, tolerance, guess):
+    if guess > target:
+        difference = guess - target
+    else:
+         difference = target - guess
+    if difference <= tolerance:
+        return True
+    else:
+        return False
+    
 def near_miss_list(target, tolerance, guesses):
     for guess in guesses:
-        if guess > target:
-            difference = guess - target
-        else:
-            difference = target - guess
-        if difference <= tolerance:
+        if near_miss(target, tolerance, guess):
             return True
     return False
 

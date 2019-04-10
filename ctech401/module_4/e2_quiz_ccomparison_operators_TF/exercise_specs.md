@@ -8,7 +8,32 @@
 <em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
 
 ## Exercise Instructions
+<<<<<<< HEAD
 <em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+=======
+<em>Are these statements true or false
+
+1.  
+  x=4<br>
+  x == 5<br>
+   
+    
+2. 75 == 75.0<br>
+   
+    
+3. 75 == '75'<br>
+    
+
+4. 'Hello == 'hello'<br>
+    
+      
+5.
+color='red'<br>
+color == 'red'<br>
+ 
+
+</em>
+>>>>>>> 86fea69bdc3302581d2ca42510b562e6b3343344
 
 ## Any Unique Requirements or Notes?
 

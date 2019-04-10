@@ -2,28 +2,28 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>This exercise will test students' comprehesion of if statements and their syn</em>
+<em>This exercise will test students' comprehesion of if statements and their syntax. </em>
 
 ## Exercise Context
 <em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
 
 ## Exercise Instructions
 <em>
-Which is a valid if statement (select all that apply)?  (todo: hit space bar four times)
+Which is a valid if statement (select all that apply)?  (todo: hit space bar four times) 
   
-if x == 4
+if x == 4<br>
   print('x is 4!')
 
-if color == 'red':
+if color == 'red':<br>
 print('the color is red')
 
-if the_string=='hello':
+if the_string=='hello':<br>
   print('HELLO!')
   
-if y==450
+if y==450;<br>
 print('y is 450')
 
-if x ==4:
+if x ==4:<br>
   print('x is 4!')
   
 </em>

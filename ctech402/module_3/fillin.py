@@ -15,14 +15,14 @@ VERBS = ['vomited', 'catapulted', 'squeaked']
 
 # Perform substitutions
 while NOUN_PLACEHOLDER in story:
-    newWord = random.choice(NOUNS)
-    story = story.replace(NOUN_PLACEHOLDER, newWord, 1)
+    new_word = random.choice(NOUNS)
+    story = story.replace(NOUN_PLACEHOLDER, new_word, 1)
 while ADJECTIVE_PLACEHOLDER in story:
-    newWord = random.choice(ADJECTIVES)
-    story = story.replace(ADJECTIVE_PLACEHOLDER, newWord, 1)
+    new_word = random.choice(ADJECTIVES)
+    story = story.replace(ADJECTIVE_PLACEHOLDER, new_word, 1)
 while VERB_PLACEHOLDER in story:
-    newWord = random.choice(verbs)
-    story = story.replace(VERB_PLACEHOLDER, newWord, 1)
+    new_word = random.choice(VERBS)
+    story = story.replace(VERB_PLACEHOLDER, new_word, 1)
 
 # Output story with substitutions
 print(story)
