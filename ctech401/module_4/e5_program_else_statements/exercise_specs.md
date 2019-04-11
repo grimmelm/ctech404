@@ -12,9 +12,9 @@ In the code editor, write a program that determines whether an integer is a mult
 Ask the user to input any interger value on the command line.<br>
 Using an if/else statement, determine whether the integer is a multiple of 10, and output the results to the user.<br>
 
-Sample output:
+<em>Sample output:</em><br>
 
-"4 is not a multiple of 10"
+"4 is not a multiple of 10"<br>
 "100 is a multiple of 10"
 
 
