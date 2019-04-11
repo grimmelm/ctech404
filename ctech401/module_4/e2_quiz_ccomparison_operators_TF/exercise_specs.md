@@ -10,7 +10,7 @@ The == comparison operator is one of the most common operators used in an if sta
 
 ## Exercise Instructions
 
-Are these conditional statements true or false?
+Are these conditional statements True or False?
 
 x=4<br>
 x == 5<br>
