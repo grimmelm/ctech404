@@ -8,22 +8,22 @@ This exercise will test students' comprehesion of if statements and their syntax
 If statements are a very basic, yet important tool that allows our programs to make decisions: if a condition is True, a block of code will run. In order to write your own if statement, you have to master it's syntax. This quiz will test your comprehension of the if statmement syntax.
 
 ## Exercise Instructions
-Which is a valid if statement (select all that apply)?  (todo: hit space bar four times) 
+Which is a valid if statement (select all that apply)?  
   
 if x == 4<br>
-  print('x is 4!')<br>
+    print('x is 4!')<br>
 
 if color == 'red':<br>
-print('the color is red')<br>
+    print('the color is red')<br>
 
 if the_string=='hello':<br>
-  print('HELLO!')<br>
+    print('HELLO!')<br>
   
 if y==450;<br>
-  print('y is 450')<br>
+    print('y is 450')<br>
 
 if x ==4:<br>
-  print('x is 4!')<br>
+    print('x is 4!')<br>
   
 
 ## Any Unique Requirements or Notes?
