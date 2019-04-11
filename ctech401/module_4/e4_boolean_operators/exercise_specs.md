@@ -2,31 +2,41 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+Learn to use boolean operators 
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+When we work with comparison operators, the values are either True or False:<br>
+
+x =10
+if x > 4:
+&nbsp;print("It is greater than 4!")
+
+Boolean operators allow us to combine two or more comparison operators.
+
+It combines two Booleans, and it has the
+value True if both of them are True
 
 ## Exercise Instructions
-<em>
-  Are these boolean conditons true or false<br>
+
+Are these boolean conditons True or False?<br>
   
 number =10<br>
-number > 12 and number <25<br><br>
 
-not number == 5<br><br>
+1. number > 12 and number <25<br><br>
 
-number < 5 or number <= 10<br>
-</em>
+2. not number == 5<br><br>
+
+3. number < 5 or number <= 10<br>
+
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+h5p T/F
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
