@@ -9,7 +9,7 @@ Learn to write nested ifs and elif statements
 
 ## Exercise Instructions
 
-You have a red truck. 
+You have a red truck. <br>
 
 If vehicle = truck and color = red, select the output of each code sample.
 
