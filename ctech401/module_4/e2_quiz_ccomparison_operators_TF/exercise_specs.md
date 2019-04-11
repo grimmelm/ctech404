@@ -12,7 +12,7 @@ The == comparison operator is one of the most common operators used in an if sta
 
 Are these conditional statements true or false?
 
-1.  x=4<br>
+1.&nbsp;x=4<br>
 &nbsp;&nbsp;x == 5<br>
    
     
