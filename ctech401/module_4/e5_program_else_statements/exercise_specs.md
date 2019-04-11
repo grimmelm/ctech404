@@ -5,11 +5,11 @@
 The ability to write if/else statements
 
 ## Exercise Context
-We've already used if statements to execute a block of code if a condition is true. But what if we want to execute a statement if the condition is false? Else statement are useful when there are two possible outcomes (True and False) that we want to work with.
+We've already used if statements to execute a block of code if a condition is True. But what if we want to execute a statement if the condition is False? Else statements are useful when there are two possible outcomes (True and False) that we want to work with.
 
 ## Exercise Instructions
 In the code editor, write a program that determines whether an integer is a multiple of 10.<br>
-Ask the user to input any interger value.<br>
+Ask the user to input any interger value on the command line.<br>
 Using an if/else statement, determine whether the integer is a multiple of 10, and output the results to the user.<br>
 
 Sample output:
@@ -25,7 +25,8 @@ Sample output:
 
 
 ## Environment/s Used
-Code editor and terminal to run program (while terminal is preferred, is this necessary as unit testing may be required here)
+Code editor and terminal
+Should students run program on terminal? (while terminal is preferred, is this necessary as unit testing may be required here)
 
 ## Language/s Used
 
