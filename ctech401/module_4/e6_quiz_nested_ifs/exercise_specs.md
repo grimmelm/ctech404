@@ -21,9 +21,9 @@ color = input('Enter a color: ')
 if vehicle == 'truck':<br>
 &ensp;print('I have a truck too.')<br>
 &ensp;if color == 'blue':<br>
-&ensp;ensp;print('Blue is the best!')<br>
+&ensp;&ensp;&ensp;('Blue is the best!')<br>
 &ensp;else:<br>
-&ensp;&ensp;print('I don\'t like' + ' ' + color)<br>
+&ensp;&ensp;&ensp;('I don\'t like' + ' ' + color)<br>
 
 MC: <br>
 1. I have a truck too/Blue is the best  
