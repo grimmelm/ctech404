@@ -13,7 +13,7 @@ You have a red truck.
 
 If vehicle = truck and color = red, select the output of each code sample.
 
-**Please refer to sampleCode.py for the MC coding questions as formatting is off here**
+**Please refer to mcCode.py for the MC coding questions as formatting is off here**
 
 QUESTION #1:<br>
 
