@@ -6,7 +6,12 @@ Learn to use comparison operator (<, >, >=, <=, !=)
 
 
 ## Exercise Context
-
+== is not the only comparison operator used in conditonal statements. In this quiz, you will learn to use: <br>
+> greater than <br>
+< less than <br>
+>= greater than or equals<br> 
+<= less than or equals<br>
+!= not equal to. it's the exact opposite of ==<br>
 
 ## Exercise Instructions
 Are the following comparisons True or False?
