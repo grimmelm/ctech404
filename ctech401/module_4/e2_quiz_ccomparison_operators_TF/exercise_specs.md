@@ -25,9 +25,8 @@ Are these conditional statements true or false?
 4. 'Hello == 'hello'<br>
     
       
-5.
-color='red'<br>
-color == 'red'<br>
+5. color='red'<br>
+&nbsp;color == 'red'<br>
  
 
 </em>
