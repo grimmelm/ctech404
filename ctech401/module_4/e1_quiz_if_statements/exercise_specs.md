@@ -2,40 +2,38 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>This exercise will test students' comprehesion of if statements and their syntax. </em>
+This exercise will test students' comprehesion of if statements and their syntax. 
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+If statements are a very basic, yet important tool that allows our programs to make decisions: if a condition is True, a block of code will run. In order to write your own if statement, you have to master it's syntax. This quiz will test your comprehension of the if statmement syntax.
 
 ## Exercise Instructions
-<em>
 Which is a valid if statement (select all that apply)?  (todo: hit space bar four times) 
   
 if x == 4<br>
-  print('x is 4!')
+  print('x is 4!')<br>
 
 if color == 'red':<br>
-print('the color is red')
+print('the color is red')<br>
 
 if the_string=='hello':<br>
-  print('HELLO!')
+  print('HELLO!')<br>
   
 if y==450;<br>
-print('y is 450')
+  print('y is 450')<br>
 
 if x ==4:<br>
-  print('x is 4!')
+  print('x is 4!')<br>
   
-</em>
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+h5p quiz - select all
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
