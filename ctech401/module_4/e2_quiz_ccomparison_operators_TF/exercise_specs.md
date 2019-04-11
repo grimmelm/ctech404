@@ -12,21 +12,21 @@ The == comparison operator is one of the most common operators used in an if sta
 
 Are these conditional statements true or false?
 
-1.&nbsp;x=4<br>
-&nbsp;&nbsp;x == 5<br>
+x=4<br>
+x == 5<br>
    
     
-2. 75 == 75.0<br>
+75 == 75.0<br>
    
     
-3. 75 == '75'<br>
+75 == '75'<br>
     
 
-4. 'Hello == 'hello'<br>
+'Hello == 'hello'<br>
     
       
-5. color='red'<br>
-&nbsp;color == 'red'<br>
+color='red'<br>
+color == 'red'<br>
  
 
 </em>
@@ -36,10 +36,10 @@ Are these conditional statements true or false?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+h5p T/F
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
