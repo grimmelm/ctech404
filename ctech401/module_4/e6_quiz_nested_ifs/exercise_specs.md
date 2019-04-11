@@ -13,6 +13,8 @@ You have a red truck.
 
 If vehicle = truck and color = red, select the output of each code sample.
 
+**Please refer to sampleCode.py for the MC coding questions as formatting is off here**
+
 QUESTION #1:<br>
 
 vehicle = input('Enter a vehicle: ')
@@ -21,9 +23,9 @@ color = input('Enter a color: ')
 if vehicle == 'truck':<br>
 &ensp;print('I have a truck too.')<br>
 &ensp;if color == 'blue':<br>
-&ensp;&ensp;&ensp;('Blue is the best!')<br>
+&ensp;&ensp;&ensp;print('Blue is the best!')<br>
 &ensp;else:<br>
-&ensp;&ensp;&ensp;('I don\'t like' + ' ' + color)<br>
+&ensp;&ensp;&ensp;print('I don\'t like' + ' ' + color)<br>
 
 MC: <br>
 1. I have a truck too/Blue is the best  
@@ -32,7 +34,7 @@ MC: <br>
 4. No output
 
 
-vehicle = input('Enter a vehicle: ')
+<code>vehicle = input('Enter a vehicle: ')
 color = input('Enter a color: ')
 
 if vehicle == 'car':
@@ -48,7 +50,7 @@ else:
 		print('I love silver!')
 	if color == 'red':
 		print('I love red!')	
-	
+</code>
 MC
 1. I have a car too/I dont like red. 
 2. I dont have a car either
