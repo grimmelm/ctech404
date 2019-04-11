@@ -34,7 +34,7 @@ MC: <br>
 4. No output
 
 
-<code>vehicle = input('Enter a vehicle: ')
+vehicle = input('Enter a vehicle: ')
 color = input('Enter a color: ')
 
 if vehicle == 'car':
@@ -50,7 +50,7 @@ else:
 		print('I love silver!')
 	if color == 'red':
 		print('I love red!')	
-</code>
+
 MC
 1. I have a car too/I dont like red. 
 2. I dont have a car either
