@@ -13,20 +13,20 @@ You have a red truck.
 
 If vehicle = truck and color = red, select the output of each code sample.
 
-QUESTION #1:
+QUESTION #1:<br>
 
 vehicle = input('Enter a vehicle: ')
 color = input('Enter a color: ')
 
-if vehicle == 'truck':
-	print('I have a truck too.')
-	if color == 'blue':
-    	print('Blue is the best!')
-  	else:
-     	print('I don\'t like' + ' ' + color)
+if vehicle == 'truck':<br>
+&ensp;print('I have a truck too.')<br>
+&ensp;if color == 'blue':<br>
+&ensp;ensp;print('Blue is the best!')<br>
+&ensp;else:<br>
+&ensp;&ensp;print('I don\'t like' + ' ' + color)<br>
 
-MC
-1. I have a truck too/Blue is the best . 
+MC: <br>
+1. I have a truck too/Blue is the best  
 2. I have a truck too/I dont like blue 
 3. I have a truck too/I dont like red 
 4. No output
