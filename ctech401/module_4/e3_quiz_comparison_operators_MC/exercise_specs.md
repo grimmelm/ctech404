@@ -10,14 +10,14 @@
 <em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
 
 ## Exercise Instructions
-<em> Are the following comparisons true or false
-x=180
- y=175
-x != y
+<em> Are the following comparisons true or false<br>
+x=180<br>
+y=175<br>
+x != y<br>
   
-'lmnop' < 'lmnpq'
+'lmnop' < 'lmnpq'<br>
 
-'goodbye' >= 4.0 (invalid)
+'goodbye' >= 4.0 (invalid)<br>
  
 
 
