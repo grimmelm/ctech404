@@ -9,17 +9,18 @@ When we work with comparisons, their values are either True or False. These are 
 
 So far we have been working with one Boolean:
 
-if x > 4:
+if x > 4:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;print("Greater than 4!")<br>
+
 x > 4 will either be True or False
 
-Boolean operators <em>and</em>, <em>or</em?, and <em>not</em> all us to do more interesting things with Booleans, including combining two or more Booleans.
+Boolean operators <em>and</em>, <em>or</em>, and <em>not</em> allow us to do interesting things with Booleans, including combining two or more Booleans.
 
-This quiz will 
+In the following quiz, you will learn how to use Boolean operators in conditional statements.
 
 ## Exercise Instructions
 
-Are these boolean conditons True or False?<br>
+Are these conditons True or False?<br>
   
 number = 10<br>
 
