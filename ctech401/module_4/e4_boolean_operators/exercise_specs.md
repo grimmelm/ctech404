@@ -5,24 +5,25 @@
 Learn to use boolean operators 
 
 ## Exercise Context
-When we work with comparison operators, the values are either True or False:<br>
+When we work with comparisons, their values are either True or False. These are known as Boolean values.<br>
 
-x =10
+So far we have been working with one Boolean:
+
 if x > 4:
-&nbsp;print("It is greater than 4!")
+&nbsp;&nbsp;&nbsp;&nbsp;print("Greater than 4!")<br>
+x > 4 will either be True or False
 
-Boolean operators allow us to combine two or more comparison operators.
+Boolean operators <em>and</em>, <em>or</em?, and <em>not</em> all us to do more interesting things with Booleans, including combining two or more Booleans.
 
-It combines two Booleans, and it has the
-value True if both of them are True
+This quiz will 
 
 ## Exercise Instructions
 
 Are these boolean conditons True or False?<br>
   
-number =10<br>
+number = 10<br>
 
-1. number > 12 and number <25<br><br>
+1. number > 12 and number < 25<br><br>
 
 2. not number == 5<br><br>
 
