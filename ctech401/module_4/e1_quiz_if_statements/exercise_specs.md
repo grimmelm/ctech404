@@ -11,19 +11,19 @@ If statements are a very basic, yet important tool that allows our programs to m
 Which is a valid if statement (select all that apply)?  
   
 if x == 4<br>
-    print('x is 4!')<br>
+&nbsp;&nbsp;&nbsp;&nbsp;print('x is 4!')<br>
 
 if color == 'red':<br>
-    print('the color is red')<br>
+&nbsp;&nbsp;&nbsp;&nbsp;print('the color is red')<br>
 
 if the_string=='hello':<br>
-    print('HELLO!')<br>
+&nbsp;&nbsp;&nbsp;&nbsp;print('HELLO!')<br>
   
 if y==450;<br>
-    print('y is 450')<br>
+&nbsp;&nbsp;&nbsp;&nbsp;('y is 450')<br>
 
 if x ==4:<br>
-    print('x is 4!')<br>
+&nbsp;&nbsp;&nbsp;&nbsp;print('x is 4!')<br>
   
 
 ## Any Unique Requirements or Notes?
