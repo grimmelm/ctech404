@@ -3,11 +3,11 @@
 # Instructional Requirements
 ## Key Technical Outcome
 Test the comprehension of most topics covered in this course:
-1.I/O
-2.Branching with if/else statements and nested if/else statements
-3.comparison operators 
-4.data types and type conversion
-5.expressions
+1. I/O
+2. Branching with if/else statements and nested if/else statements
+3. comparison operators 
+4. data types and type conversion
+5. expressions
 
 
 ## Exercise Context
