@@ -14,8 +14,8 @@ In the code editor, write a program that prompts the user for their first and la
 
 Hint(use two inputs and two outputs)
 
-<em>Sample output:</em>
-Smith
+<em>Sample output:</em><br>
+Smith<br>
 Eric
 
 ## Any Unique Requirements or Notes?
