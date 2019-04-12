@@ -10,7 +10,7 @@ This exercise is designed to help you practice creating variables and assigning 
 ## Exercise Instructions
 In the python interpreter, enter the following commands.<br>
 
-Notice the output (include errors?)<br>
+Note the output (should I include errors?)<br>
 
 1. <br>
 x=145<br>
@@ -33,8 +33,7 @@ four_numbers = '1,2,3,4'<br>
 four_numbers<br>
 
 
-You can Play around on the command line.<br>
-Create variables and assign values to them.<br>
+Experiment with creating your own variables and assigning values to them.<br>
 
 <em>Remember:</em><br>
 
