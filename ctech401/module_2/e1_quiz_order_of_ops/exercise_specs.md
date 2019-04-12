@@ -5,14 +5,17 @@
 This exercise will test the student's comprehension of order of operations
 
 ## Exercise Context
-<em></em>
+At it's simplest, Python serves as a calculator.
+
+This exercise uses three of Pythons operators + (additon) * (multiplication) and - (subtraction)
+
+Take into account the rules of operator precedence and determine the value of the following Python expressions.
 
 ## Exercise Instructions
 
-2 options:
-  
-  Value of expressions, oR Output of print(expression) 
-  Why was drag and drop in notes? 
+2 options:<br>
+Value of expressions, oR Output of print(expression)<br> 
+Why was drag and drop in notes? <br>
   
   
   Choose the value of the following expressions: 
