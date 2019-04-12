@@ -2,14 +2,14 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-Understadning variables, variable assignments, re-assigments, and variable naming conventions
+Understanding variables, variable assignments, re-assigments, and variable naming conventions
 
 
 ## Exercise Context
-<em>You your knowledge of Python variables to answer the followin questions</em>
+(Not sure if we need a summary of variables here)
 
 ## Exercise Instructions
-
+Use your knowledge of Python variables to answer the following questions
 
 #### What is a valid variable name? (Select all that apply)
 
