@@ -11,7 +11,7 @@ Understadning variables, variable assignments, re-assigments, and variable namin
 ## Exercise Instructions
 
 
-####What is a valid variable name? (Select all that apply)
+#### What is a valid variable name? (Select all that apply)
 
 myVariable<br/> 
 myvariable<br/>
@@ -23,7 +23,7 @@ myVariable@Foo<br>
 my1Variable<br>
 
 
-####What are the correct values?
+#### What are the correct values?
 
 <em>Question #1</em>:
 
