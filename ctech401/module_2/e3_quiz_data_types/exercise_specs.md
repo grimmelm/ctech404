@@ -2,7 +2,7 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>This quiz will test the student's comprehension of data types. Students will also be tested on the difference between operations performed on different data types.</em>
+Understanding different data types and operations that can be performed on these particular data types
 
 ## Exercise Context
 <em>Every value in Python has a type. This exercise will ...</em>
@@ -28,14 +28,13 @@ What is the result of the following expressions:
 
 What operator would you use to get this answer (choose all that apply): (GO OVER THIS)
 
-40[]6 = 4 (/ // % *)<br>  (%)
-72[]9 = 8.0  (/ // % *)<br>(/)
-7[]3=2 (/ // % *)<br>
-10[]5 = 2 (/ // % *)<br>
-5[]10 = 5 (/ // % *)<br>
-
-
-
+40[]6 = 4 (/ // <b>%</b> *)<br>
+72[]9 = 8.0  (<b>/</b> // % *)<br>
+7[]3=2 (/ <b>//</b> % *)<br> 
+6.0[]4 =24.0 (/ //  %<b> *</b>)<br>
+10[]5 = 2 (/ <b>//</b> % *)<br>
+5[]10 = 5 (/ // <b> %</b> *)<br>
+7.0[]2 = 3.5 (<b>/</b> // % *)<br>
 
 </em>
 
