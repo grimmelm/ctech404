@@ -5,10 +5,10 @@
 Understanding different data types and operations that can be performed on these particular data types
 
 ## Exercise Context
-<em>Every value in Python has a type. This exercise will ...</em>
+Every value in Python has a type. 
 
 ## Exercise Instructions
-<em>
+
 Quiz:
   
 What dataype is this:
@@ -36,7 +36,7 @@ What operator would you use to get this answer (choose all that apply): (GO OVER
 5[]10 = 5 (/ // <b> %</b> *)<br>
 7.0[]2 = 3.5 (<b>/</b> // % *)<br>
 
-</em>
+
 
 ## Any Unique Requirements or Notes?
 
