@@ -2,13 +2,15 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Program will test everything students have learned in this module.</em>
+Understand everything covered in this module. ??
 
 ## Exercise Context
-<em>It's time to put into practive everything we have learned in this module about string operators and functions.</em>
+It's time to put into practice everything we have learned so far about string operators and functions!
 
 ## Exercise Instructions
-<em>Write a program that ask the user for a word and for the number of times to repeat it. Use the appropriate string operators to output the results to the screen. </em>
+Write a program that ask the user for a word and for the number of times to repeat it. Use the appropriate string operators to output the results to the screen. 
+
+(elaborate!!)
 
 ## Any Unique Requirements or Notes?
 
