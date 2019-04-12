@@ -2,7 +2,7 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-Understand everything covred in module. Input, output, expressions, variable assignments, type conversion
+Understand everything covered in module. Input, output, expressions, variable assignments, type conversion
 
 ## Exercise Context
 It's time to put into pratice everything you've learned thus far!
