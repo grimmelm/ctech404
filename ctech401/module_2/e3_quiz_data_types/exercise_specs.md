@@ -5,7 +5,8 @@
 Understanding different data types and operations that can be performed on these particular data types
 
 ## Exercise Context
-Every value in Python has a type. 
+Every value in Python has a data type. We have learned about strings, intergers and floats.
+This exercise will help you understand the difference between data types, and the result of applying arithmetic operations to numbers of different types. 
 
 ## Exercise Instructions
 
@@ -19,7 +20,7 @@ the result of 6/7 (int, float, string)<br>
 the result of 2*6 (int, float, string)<br>
 'hello world' (int, float, string)<br>
 
-What is the result of the following expressions:
+What is the value of the following expressions:
 
 20//7 = 2 (options: 2.85, 2, 6)<br>
 10/4 = 2.5 (options: 2.5, 2, '2.5')<br>
