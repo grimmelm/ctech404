@@ -17,7 +17,7 @@ For this project, you are going to write a program that prints a poem.
  A limerick is a humerous poem consisting of 5 lines with the first, second and fifth lines consisting of 
  seven to ten syllables while the  third and fourth lines consists of five to seven syllables. (<b>note: syllable portion may be overkill</b>)<br>
  
- In the code editor, write a program that prints the limerick above to the screen in five separate lines (Hint: use the print function/statement more than once).<br>
+ In the code editor, write a program that prints the limerick above to the screen in five separate lines (Hint: use the print function more than once).<br>
  Execute your program on the command line.
 
 
