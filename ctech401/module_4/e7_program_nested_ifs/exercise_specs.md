@@ -22,9 +22,9 @@ D = 60-69<br>
 F =< 60<br>
 
 <em>Sample output:</em><br>
-"You received an A!"
+You received an A!
 
-If the student scored 100%, output the additional message "Perfect Score!"
+If the student scored 100%, output the additional message 'Perfect Score!'
 
 
 ## Any Unique Requirements or Notes?
