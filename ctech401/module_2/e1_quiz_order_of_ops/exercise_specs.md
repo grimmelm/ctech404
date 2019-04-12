@@ -11,11 +11,11 @@ This exercise will test the student's comprehension of order of operations
 
 2 options:
   
-  Value of expressions, oR Output of print(expression) <b>
+  Value of expressions, oR Output of print(expression) 
   Why was drag and drop in notes? 
   
   
-  Choose the value of the following expressions: <b>
+  Choose the value of the following expressions: 
   
   2 * 20 + (7 - 4) * 5  = 55 (options: 27, 215, 55, 34)
   
