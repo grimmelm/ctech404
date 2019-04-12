@@ -6,16 +6,14 @@ Become comfortable with practicing order of operations and python expressions on
 This is a <b>sandbox</b> assignment in which students are using the interpreter as a playground.
 
 # Exercise Context:
-This exercise designed to help you get familiar with writing arithmetic operaters in Python, and understanding operator precedence, as well of grouping these to build up more complicated expressions. 
+This exercise is designed to help you become familiar with writing and understanding arithmetic operaters and operator precedence in Python, as well of grouping these together to build up more complicated expressions. 
 
-After each expression, you should hit <enter> or <return> on your keyboard. You should notice that once you do so, the expression will evaluate and the result will be listed alongside an "Out" prompt, such as:
-## Exercise Context
-It's good to become comfortable with writing and understanding Python expressions. Try your hand at writing some of the expressions you've seen in the Python interpreter and note the results. 
+In the Python interpreter, try your hand at writing some of the expressions you've seen and note the results.
 
 ## Exercise Instructions
 
 Enter the following expressions into the Python interpreter. <br>
-After each expression, hit <enter> or <return> on your keyboard. Once you do so, the expression will be evaluated and the result will be displayed alongside the command line prompt.
+After each expression, hit <enter> or <return> on your keyboard. Once you do so, the expression will be evaluated and the result will be displayed alongside the command line prompt.<br>
   
 Try modifying some of these expressions and note the difference in output.<br>
 You can also experiment with python expressions and write your own.<br>
