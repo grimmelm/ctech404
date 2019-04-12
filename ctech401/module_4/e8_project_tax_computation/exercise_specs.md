@@ -41,7 +41,6 @@ After you have computed the tax owed, round that amount to the nearest dollar.
 Your program will ask the user to input his or her yearly income, will compute how much tax is owed, and then output that amount to the user.
 
 <em>Sample output:</em>
-
 Tax due: $1,250
 
 
