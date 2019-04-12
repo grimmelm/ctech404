@@ -5,14 +5,14 @@
 Learn how to use the input() function in a program, and how to combine inputs to create one output.
 
 ## Exercise Context
-Up until now, we have been using python programs to output data to the screen using print(). <b>
-But what if we want a user to provide our program with data? Let's say for example, their name or their birthdate?<b>
-This exercise will teach you how to input data from a user on the command line.<b>
+Up until now, we have been using python programs to output data to the screen using print(). <br>
+But what if we want a user to provide our program with data? Let's say for example, their name or their birthdate?<br>
+This exercise will teach you how to input data from a user on the command line.<br>
 
 ## Exercise Instructions
 In the code editor, write a program that prompts the user for their first and last name, and then outputs these in the opposite order (last and then first).
 
-Hint(use two inputs and two outputs)</em>
+Hint(use two inputs and two outputs)
 
 <em>Sample output:</em>
 Smith
