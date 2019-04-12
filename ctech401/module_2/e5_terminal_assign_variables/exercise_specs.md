@@ -5,10 +5,11 @@
 Understand how to assign values to variables 
 
 ## Exercise Context
-<em> Let's practice creating variables and assigning values to them.  </em>
+This exercise is designed to help you practice creating variables and assigning values to them.
 
 ## Exercise Instructions
-<em>In the python interpreter, enter the following commands.<br>
+In the python interpreter, enter the following commands.<br>
+
 Notice the output (include errors?)<br>
 
 1. <br>
@@ -31,9 +32,11 @@ month_12<br>
 four_numbers = '1,2,3,4'<br>
 four_numbers<br>
 
-Play around on the command line.<br>
+
+You can Play around on the command line.<br>
 Create variables and assign values to them.<br>
-Remember:<br>
+
+<em>Remember:</em><br>
 
 Variable names have to start with a letter or the underscore _, and then they can contain
 letters, digits, and underscores.<br>
@@ -46,10 +49,10 @@ Variable names are case-sensitive<br>
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+terminal
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
