@@ -6,7 +6,7 @@ Understand everything covered in module. Input, output, expressions, variable as
 
 ## Exercise Context
 It's time to put into pratice everything you've learned thus far!
-You're going to create an interactive program that uses python expressions to calculate how many cartons of eggs you can fill during your next grocery story visit! (kinda lame but ...lol)
+You're going to create an interactive program that uses python expressions to calculate how many cartons of eggs you can fill during your next grocery story visit! (<b>kinda lame but ...lol</b> any more context?)
 
 ## Exercise Instructions
 One carton of eggs contains 12 eggs. 
