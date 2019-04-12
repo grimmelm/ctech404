@@ -2,14 +2,16 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Quiz will test students knowledge of variables, variable assignments, re-assigments, the difference betweewn different variable names</em>
+Understanding variables, variable assignments, re-assigments, and variable naming conventions
+
 
 ## Exercise Context
-<em>You your knowledge of Python variables to answer the followin questions</em>
-## Exercise Instructions
-<em>
+(Not sure if we need a summary of variables here)
 
-What is a valid variable name? 
+## Exercise Instructions
+Use your knowledge of Python variables to answer the following questions
+
+#### What is a valid variable name? (Select all that apply)
 
 myVariable<br/> 
 myvariable<br/>
@@ -20,7 +22,10 @@ my variable <br/>
 myVariable@Foo<br>
 my1Variable<br>
 
-What is the correct values?
+
+#### What are the correct values?
+
+<em>Question #1</em>:
 
 x=4<br>
 y=5<br>
@@ -28,6 +33,8 @@ z=x+y<br>
 
 What is the value of x?
 What is the value of z?
+
+<em>Question #2</em>:
 
 x=4<br>
 y=5<br>
@@ -37,6 +44,8 @@ z=x+y<br>
 What is the value of y
 What is the value of z
 
+<em>Question #3</em>:
+
 x=4<br>
 y=5<br>
 y=1<br>
@@ -44,6 +53,9 @@ z=x+y<br>
 
 What is the value of y
 What is the value of z
+
+
+<em>Question #4</em>:
 
 x=4<br>
 y=5<br>
@@ -54,13 +66,13 @@ z=x+y<br>
 What is the value of y
 What is the value of z
 
+<em>Question #5</em>:
 
 myVariable = "hello!"<br>
 myvariable = "goodbye!"<br>
 
 What is value of myVariable?
 
-</em>
 
 ## Any Unique Requirements or Notes?
 

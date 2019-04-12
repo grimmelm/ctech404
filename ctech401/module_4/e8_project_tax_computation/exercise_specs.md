@@ -2,22 +2,55 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+Test the comprehension of most topics covered in this course:
+1. I/O
+2. Branching with if/else statements and nested if/else statements
+3. comparison operators 
+4. data types and type conversion
+5. expressions
+
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+It's time to put into practice everything we have learned in this course!
+(elaborate?)
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+You will write a program that computes a user's federal income tax for the year.
+
+The table below contains the federal income tax rates:
+
+| Tax rate	| Taxable income bracket	| Tax owed
+| ----------|-------------------------| ------------------------------------------------ |
+| 10%       | $0 to $9,525            | 10% of taxable income                            |
+| 12%	      | $9,526 to $38,700	      | $952.50 plus 12% of the amount over $9,525       |
+| 22%	      | $38,701 to $82,500	    | $4,453.50 plus 22% of the amount over $38,700    |
+| 24%	      | $82,501 to $157,500	    | $14,089.50 plus 24% of the amount over $82,500   |
+| 32%	      | $157,501 to $200,000	  | $32,089.50 plus 32% of the amount over $157,500  |
+| 35%	      | $200,001 to $500,000	  | $45,689.50 plus 35% of the amount over $200,000  |
+| 37%	      | $500,001 or more	      | $150,689.50 plus 37% of the amount over $500,000 |
+
+
+Your program should use the information contained in this table to compute the tax owed for the different tax brackets (hint: use nested if/else). <b>should i give the formula?  x = 952.50 + 0.12*(income - 9525)?</b>
+  
+  
+The IRS requests that that we round our amounts to the nearest dollar. <br>
+For example, $101.49 rounds to $101, while $101.51 round to $102.
+
+After you have computed the tax owed, round that amount to the nearest dollar.
+
+Your program will ask the user to input his or her yearly income, will compute how much tax is owed, and then output that amount to the user.
+
+<em>Sample output:</em>
+Tax due: $1,250
+
 
 ## Any Unique Requirements or Notes?
-
+I'm using the tax table from 2018-19. 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+Code editor and terminal
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>

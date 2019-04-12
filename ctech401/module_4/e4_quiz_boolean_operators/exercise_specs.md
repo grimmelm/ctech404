@@ -2,31 +2,43 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+Learn to use boolean operators 
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+When we work with comparisons, their values are either True or False. These are known as Boolean values.<br>
+
+So far we have been working with one Boolean:
+
+if x > 4:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;print("Greater than 4!")<br>
+
+x > 4 will either be True or False
+
+Boolean operators <em>and</em>, <em>or</em>, and <em>not</em> allow us to do interesting things with Booleans, including combining two or more Booleans.
+
+In the following quiz, you will learn how to use Boolean operators in conditional statements.
 
 ## Exercise Instructions
-<em>
-  Are these boolean conditons true or false<br>
+
+Are these conditons True or False?<br>
   
-number =10<br>
-number > 12 and number <25<br><br>
+number = 10<br>
 
-not number == 5<br><br>
+1. number > 12 and number < 25<br><br>
 
-number < 5 or number <= 10<br>
-</em>
+2. not number == 5<br><br>
+
+3. number < 5 or number <= 10<br>
+
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+h5p T/F
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>

@@ -2,30 +2,29 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+Learn to evaluate the value of conditional statments using the comparison operator
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+The == comparison operator is one of the most common operators used in an if statement. It tests whether the value on the left is equal to the value on the right. The result is either True or False. In this quiz, you will learn to use the comparison operator.
+
 
 ## Exercise Instructions
 
-<em>Are these statements true or false
+Are these conditional statements True or False?
 
-1.  
-  x=4<br>
-  x == 5<br>
+x=4<br>
+x == 5<br>
    
     
-2. 75 == 75.0<br>
+75 == 75.0<br>
    
     
-3. 75 == '75'<br>
+75 == '75'<br>
     
 
-4. 'Hello == 'hello'<br>
+'Hello == 'hello'<br>
     
       
-5.
 color='red'<br>
 color == 'red'<br>
  
@@ -37,10 +36,10 @@ color == 'red'<br>
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+h5p T/F
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>

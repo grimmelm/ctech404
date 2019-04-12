@@ -2,13 +2,14 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>This quiz will test the student's comprehension of data types. Students will also be tested on the difference between operations performed on different data types.</em>
+Understanding different data types and operations that can be performed on these particular data types
 
 ## Exercise Context
-<em>Every value in Python has a type. This exercise will ...</em>
+Every value in Python has a data type. We have learned about strings, intergers and floats.
+This exercise will help you understand the difference between data types, and the result of applying arithmetic operations to numbers of different types. 
 
 ## Exercise Instructions
-<em>
+
 Quiz:
   
 What dataype is this:
@@ -19,7 +20,7 @@ the result of 6/7 (int, float, string)<br>
 the result of 2*6 (int, float, string)<br>
 'hello world' (int, float, string)<br>
 
-What is the result of the following expressions:
+What is the value of the following expressions:
 
 20//7 = 2 (options: 2.85, 2, 6)<br>
 10/4 = 2.5 (options: 2.5, 2, '2.5')<br>
@@ -28,16 +29,15 @@ What is the result of the following expressions:
 
 What operator would you use to get this answer (choose all that apply): (GO OVER THIS)
 
-40[]6 = 4 (/ // % *)<br>  (%)
-72[]9 = 8.0  (/ // % *)<br>(/)
-7[]3=2 (/ // % *)<br>
-10[]5 = 2 (/ // % *)<br>
-5[]10 = 5 (/ // % *)<br>
+40[]6 = 4 (/ // <b>%</b> *)<br>
+72[]9 = 8.0  (<b>/</b> // % *)<br>
+7[]3=2 (/ <b>//</b> % *)<br> 
+6.0[]4 =24.0 (/ //  %<b> *</b>)<br>
+10[]5 = 2 (/ <b>//</b> % *)<br>
+5[]10 = 5 (/ // <b> %</b> *)<br>
+7.0[]2 = 3.5 (<b>/</b> // % *)<br>
 
 
-
-
-</em>
 
 ## Any Unique Requirements or Notes?
 

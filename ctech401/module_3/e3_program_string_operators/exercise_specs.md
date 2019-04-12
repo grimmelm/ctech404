@@ -2,28 +2,25 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Student will put string operators into practice.</em>
+Learn to write strings and string operators
 
 ## Exercise Context
-<em>We've already used the input() and print() functions to input and output text to the screen on separate lines. Let's use string operators to format output nicely on line line.
+We've already used the input() and print() functions to input and output text to the screen on separate lines. <br> Let's use string operators to nicely format output on one line.
 
-</em>
 
 ## Exercise Instructions
-<em>Using an input prompt, enter the city and state where you live on the command line. <br>
-  Output the string, "Hello, I live in <i>city</i>, <i>state</i>",<br>
-  with  <i>city</i> and <i>state</i> corresponding to your inputs.
+In the code editor, write a program that prompts the user to input the city and state where they live <br>
+and using string operators, combines these inputs to output the string 'Hello! I live in <i>city</i>, <i>state</i>' to the screen.
 
-</em>
+<b>Sample output:</b>
+Hello! I live in Ithaca, New York!
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
-
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+Code editor, terminal
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>

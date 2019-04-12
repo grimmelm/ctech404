@@ -2,14 +2,102 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+Learn to write nested ifs and elif statements
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+<cant think of anything to say here>
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
 
+You have a red truck. <br>
+
+If vehicle = truck and color = red, select the output of each code sample.
+
+**Please refer to mcCode.py for the MC coding questions as formatting is off here**
+
+QUESTION #1:<br>
+
+vehicle = input('Enter a vehicle: ')
+color = input('Enter a color: ')
+
+if vehicle == 'truck':<br>
+&ensp;print('I have a truck too.')<br>
+&ensp;if color == 'blue':<br>
+&ensp;&ensp;&ensp;print('Blue is the best!')<br>
+&ensp;else:<br>
+&ensp;&ensp;&ensp;print('I don\'t like' + ' ' + color)<br>
+
+MC: <br>
+1. I have a truck too/Blue is the best  
+2. I have a truck too/I dont like blue 
+3. I have a truck too/I dont like red 
+4. No output
+
+
+vehicle = input('Enter a vehicle: ')
+color = input('Enter a color: ')
+
+if vehicle == 'car':
+	print('I have a car too.')
+	if color == 'blue':
+		print('Blue is the best!')
+    else:
+    	print('I don\'t like' + ' ' + color)
+
+else:
+	print('I don\'t have a car either)
+	if color == 'silver':
+		print('I love silver!')
+	if color == 'red':
+		print('I love red!')	
+
+MC
+1. I have a car too/I dont like red. 
+2. I dont have a car either
+3. I dont have a car either/I love silver/I love red
+4. I dont have a car either/I love red
+
+
+
+vehicle = input('Enter a vehicle: ')
+color = input('Enter a color: ')
+
+if vehicle == 'car':
+	print('I have a car too.')
+	if color == 'blue':
+		print('Blue is the best!')
+    else:    
+      print('I don\'t like' + ' ' + color)
+      	
+        	
+MC
+1. I have a car too/I dont like red. 
+2. I have a car too/Blue is the best
+3. I have a car too
+4. No output
+
+
+vehicle = input('Enter a vehicle: ')
+if vehicle == 'car':
+	print('I have a car too!')
+elif vehicle == 'van':
+	print('I don\'t like vans much, sorry!')
+elif vehicle == 'bike':
+	print('I wish I had a bike!')
+else:
+	print('Awesome!')	
+	
+MC
+1. I have a car too 
+2. I wish I had a bike!
+3. Awesome!
+4. No output
+	  
+ OR T/F this produces no output?
+ 
+ 
+ 
+    
 ## Any Unique Requirements or Notes?
 
 ---

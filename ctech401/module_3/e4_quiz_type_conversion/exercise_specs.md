@@ -2,14 +2,17 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>This quiz will test string functions, namely int() and string()</em>
+Understand string functions, namely int() and string()
 
 ## Exercise Context
-<em>Sometimes it is necessary to use string functions when writing output. For example, we may want to convert an integer into a s string to output a number along with text. The following quiz will test the proper string functions to use./</em>
+Sometimes it is necessary to use string functions when writing output. <br>
+For example, we may want to convert an integer into a string to output a number along with text. <br>
+The following exercise will demonstrate how to properly use these functions.
+
 
 ## Exercise Instructions
-<em>
-What is the output? (maybe add an invalid option
+
+MC Select the output? (maybe add an invalid option?)<br>
   
 str(4) (4, '4', 4.0) <br>
 int(4) (4, '4', 4.0)<br>
@@ -17,9 +20,11 @@ int('56') (56, '56', 56.0)<br>
 str(int('27.0')) (27, '27', 27.0)<br>  #should we introduce this type conversion here?
 int(str('100')) (100, '100', 100.0)<br>
 str('100.0') (100, '100', 100.0)<br>
+
+Enter the output into the text box: <br>
+
 print('I am outputting the number ' + str(int('123')))<br> 
 
-</em>
 
 ## Any Unique Requirements or Notes?
 

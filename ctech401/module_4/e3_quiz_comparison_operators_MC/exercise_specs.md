@@ -2,35 +2,40 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Exercise will test student's comprehension of conditional statement comparison operators 
-(<, >, >=, <=, !=)
-</em>
+Learn to use comparison operator (<, >, >=, <=, !=)
+
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+== is not the only comparison operator used in conditonal statements. In this quiz, you will learn to use: <br>
+> greater than <br>
+< less than <br>
+>= greater than or equals<br> 
+<= less than or equals<br>
+!= not equal to. it's the exact opposite of ==<br>
 
 ## Exercise Instructions
-<em> Are the following comparisons true or false<br>
+Are the following comparisons True or False?
+
 x=180<br>
 y=175<br>
 x != y<br>
-  
+y < x
+y <= x
+
 'lmnop' < 'lmnpq'<br>
 
-'goodbye' >= 4.0 (invalid)<br>
+'goodbye' >= 4.0 (trick question, invalid-should we leave this or not?)<br>
  
-
-
-</em>
+'python' <= 'python'
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+h5p quiz T/F
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>

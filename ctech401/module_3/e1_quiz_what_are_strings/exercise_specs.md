@@ -2,15 +2,14 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Students will learn to identify a valid and invalid string</em>
-Can we do true/false on which of these are valid strings and then have ones with no escaping, mismatched quotation marks, etc mixed in with perfectly fine strings?
+Learn to identify a valid and invalid strings
 
 ## Exercise Context
 <em></em>
 
 ## Exercise Instructions
 
-<em>Is this a valid string? (T/F)
+Is this a valid string? (T/F)
   
 emoji (can we do this?) <br>
 'Good Morning everyone!"<br>
@@ -19,8 +18,6 @@ emoji (can we do this?) <br>
 'I TURN 4 TODAY!!'<br>
 (non roman alphabet)<br>
   
-
-</em>
 
 ## Any Unique Requirements or Notes?
 

@@ -2,22 +2,39 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+Ability to write nested ifs and elifs
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+It's time to try your hand at writing a nested if/else statement.
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+
+In the code editor, write a program that assigns a letter grade to a student's numerical score.
+
+Ask the user to input their score (an integer value between 0 and 100) on the command line.
+
+Use the following rules to determine the equivalent letter grade and output the letter grade to the user:
+
+A = 90-100<br>
+B = 80-89<br>
+C = 70-79<br>
+D = 60-69<br>
+F =< 60<br>
+
+<em>Sample output:</em><br>
+You received an A!
+
+If the student scored 100%, output the additional message 'Perfect Score!'
+
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+Code editor and terminal
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>

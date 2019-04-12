@@ -2,20 +2,23 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>This exercise will test the student's comprehension of order of operations</em>
+This exercise will test the student's comprehension of order of operations
 
 ## Exercise Context
-<em></em>
+At it's simplest, Python serves as a calculator.
+
+This exercise uses three of Pythons artithmetic operators: addition ( + ), subtraction ( - ), multiplication ( * )
+
+Take into account the rules of operator precedence and determine the value of the following Python expressions.
 
 ## Exercise Instructions
-<em>2 options:
+
+2 options:<br>
+Value of expressions, oR Output of print(expression)<br> 
+Why was drag and drop in notes? <br>
   
-  Value of expressions, oR
-  Output of print(expression) OR 
-  Drag and drop??
   
-  
-  Choose the value of the following expressions 
+  Choose the value of the following expressions: 
   
   2 * 20 + (7 - 4) * 5  = 55 (options: 27, 215, 55, 34)
   
@@ -27,7 +30,7 @@
   
   6 + 9 + 8 * 4 + 5 = 52 (options: 52, 97, 87, 207)
   
-  </em>
+
 
 ## Any Unique Requirements or Notes?
 

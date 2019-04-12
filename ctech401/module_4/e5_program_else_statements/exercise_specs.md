@@ -2,28 +2,36 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+The ability to write if/else statements
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+We've already used if statements to execute a block of code if a condition is True. But what if we want to execute a statement if the condition is False? Else statements are useful when there are two possible outcomes (True and False) that we want to work with.
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+In the code editor, write a program that determines whether an integer is a multiple of 10.<br>
+Ask the user to input any integer value on the command line.<br>
+Using an if/else statement, determine whether the integer is a multiple of 10, and output the results to the user.<br>
+
+<em>Sample output:</em><br>
+4 is not a multiple of 10<br>
+100 is a multiple of 10
+
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
+
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+Code editor and terminal
+Should students run program on terminal? (while terminal is preferred, is this necessary as unit testing may be required here)
 
 ## Language/s Used
-<em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
+
 
 ## Package/s Required
-<em>Indicate here any unique packages that need to be installed for the exercise to function.</em>
+
 
 ---
 # Test Requirements

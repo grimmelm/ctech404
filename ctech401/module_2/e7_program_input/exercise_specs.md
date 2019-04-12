@@ -2,14 +2,21 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Students will learn how to use the input() function in a program, and how to combine inputs to create onep output</em>
+Learn how to use the input() function in a program, and how to combine inputs to create one output.
 
 ## Exercise Context
-<em>Up until now, we have been using python programs to output data to the screen using print(). This exercise will ..how to input data from a user.</em>
+Up until now, we have been using python programs to output data to the screen using print(). <br>
+But what if we want a user to provide our program with data? Let's say for example, their name or their birthdate?<br>
+This exercise will teach you how to input data from a user on the command line.<br>
 
 ## Exercise Instructions
-<em>Input your first name and last name in the command line. Output then in the opposite order (Last First)<br>
-Hint(use two inputs and two outputs)</em> . [redo these requirements]
+In the code editor, write a program that prompts the user for their first and last name, and then outputs these in the opposite order (last and then first).
+
+Hint(use two inputs and two outputs)
+
+<em>Sample output:</em><br>
+Smith<br>
+Eric
 
 ## Any Unique Requirements or Notes?
 
@@ -18,7 +25,7 @@ Hint(use two inputs and two outputs)</em> . [redo these requirements]
 <em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
 
 ## Environment/s Used
-<em>Terminal, code editor</em>
+Terminal, code editor
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>

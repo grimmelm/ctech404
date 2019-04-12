@@ -2,25 +2,29 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Student will learn to recognize different types of errors that can be found in their code.
-Syntax errors
-Type Errors
-Name error (variable or function python doesn't recognize)	
-</em>
+Recognize three different types of errors that they may encounter
+
+Syntax errors<br>
+Type Errors<br>
+Name error (variable or function python doesn't recognize)<br>
 
 ## Exercise Context
-<em>It's good practice to learn to identify errors in your code and fix them. The program below contains some of the errors we discussed. </em>
+There are three kinds of errors you may encounter: syntax errors, name errors, and type errors.<br>
+It's good practice to learn to identify errors in your code and fix them.<br>
+The program below (?) contains some of the errors we discussed. 
 
 ## Exercise Instructions
-<em>
+
 Run the program [name of program] and notice the errors.<br>
-Then find the errors and fix them. <br>
-Every time you fix an error, run your code and notice the output.<br>
-  
+Find the errors and fix them. <br>
+Each time you fix an error, run your code again and notice the output.<br>
+Continue this process until all of the errors are gone!
+
+<em>source code with errors:</em> <br>
 x=5+&9<br>
 y=x+'4'<br>
 z=x+y<br>
-pint(z)<br>
+pint(z)
   
   
 

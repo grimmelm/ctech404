@@ -2,26 +2,31 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Test students on everything they've learned in this module. Input, output, expressions, variable assignments, type conversion</em>
+Understand everything covered in module. Input, output, expressions, variable assignments, type conversion
 
 ## Exercise Context
-<em>The purpose of this exercise is to practice everything we have learned in this module. We are going to create  interactive Python program...</em>
+It's time to put into pratice everything you've learned thus far!
+You're going to create an interactive program that uses python expressions to calculate how many cartons of eggs you can fill during your next grocery story visit! (<b>kinda lame but ...lol</b> any more context?)
 
 ## Exercise Instructions
-<em>One carton of eggs contains 12 eggs. Write a program which takes a number of eggs as input, and then outputs two things:<br>
- 1. How many were filled with eggs.
+One carton of eggs contains 12 eggs. 
+
+In the code editor, write a program that inputs a number of eggs, and then outputs two things:<br>
+
+ 1. How many cartons can be filled with eggs.
  2. How many eggs are left over. /em>
 
-(should we tell students the text that should accompany the numbers?)
+<em>Sample output:</em><br>
+Cartons: 5<br>
+Left over eggs: 2<br>
 
 ## Any Unique Requirements or Notes?
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+code editor, terminal
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>

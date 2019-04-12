@@ -2,24 +2,24 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>This exercise will teach students to create a program with multiple statements. They will learn how programs execute statememtns in sequential order.</em>
+This exercise will teach students how to create a program with multiple statements. They will learn how programs execute statements in sequential order.
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
-
+For this project, you are going to write a program that prints a poem.
+(*<b>should we add somthing telling students that their program will be executed from the top down....slightly more complex program than the one liners they've been writing?</b>)
+ 
 ## Exercise Instructions
-<em>
-  There was an Old Man with a beard by Edward Lear<br>
-  
- 'There was an Old Man with a beard, Who said, It is just as I feared! Two Owls and a Hen, Four Larks and a Wren,
- Have all built their nests in my beard!'<br>
+
+><em>There was an Old Man with a beard by Edward Lear</em>                          
+>'There was an Old Man with a beard, Who said, It is just as I feared! Two Owls and a Hen, Four Larks and a Wren,
+> Have all built their nests in my beard!'
  
  A limerick is a humerous poem consisting of 5 lines with the first, second and fifth lines consisting of 
- seven to ten syllables while the  third and fourth lines consists of five to seven syllables. (syllable portion may be overkill)<br>
+ seven to ten syllables while the  third and fourth lines consists of five to seven syllables. (<b>note: syllable portion may be overkill</b>)<br>
  
- Write a program that prints the Limerick above to the screen in five separate lines (Hint: use the print function/statement more than once).<br>
+ In the code editor, write a program that prints the limerick above to the screen in five separate lines (Hint: use the print function more than once).<br>
  Execute your program on the command line.
-</em>
+
 
 ## Any Unique Requirements or Notes?
 
