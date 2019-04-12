@@ -15,9 +15,9 @@ It's time to put into practive everything we have learned in this course!
 (elaborate?)
 
 ## Exercise Instructions
-You will write a program that computes your federal income tax for the year.
+You will write a program that computes a user's federal income tax for the year.
 
-Below is a sample tax table:
+The table below contains the federal income tax rates:
 
 | Tax rate	| Taxable income bracket	| Tax owed
 | ----------|-------------------------| ------------------------------------------------ |
@@ -30,14 +30,28 @@ Below is a sample tax table:
 | 37%	      | $500,001 or more	      | $150,689.50 plus 37% of the amount over $500,000 |
 
 
-## Any Unique Requirements or Notes?
+Your program should use the information contained in this table to compute the tax owed for the different tax brackets (hint: use nested if/else). <b>should i give the formula?  x = 952.50 + 0.12*(income - 9525)?</b>
+  
+  
+The IRS requests that that we round our amounts to the nearest dollar. <br>
+For example, $101.49 rounds to $101, while $101.51 round to $102.
 
+After you have computed the tax owed, round that amount to the nearest dollar.
+
+Your program will ask the user to input his or her yearly income, will compute how much tax is owed, and then output that amount to the user.
+
+<em>Sample output:</em>
+
+'Tax due: $1,250'
+
+
+## Any Unique Requirements or Notes?
+I'm using the tax table from 2018-19. 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+Code editor and terminal
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
