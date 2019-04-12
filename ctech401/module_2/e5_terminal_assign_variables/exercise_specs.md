@@ -2,8 +2,7 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Allow students to play around with assigning variables to both strings (case sensitive) and integers and outputting them on terminal. (Perhaps tell students to record output?)
-</em>
+Understand how to assign values to variables 
 
 ## Exercise Context
 <em> Let's practice creating variables and assigning values to them.  </em>
