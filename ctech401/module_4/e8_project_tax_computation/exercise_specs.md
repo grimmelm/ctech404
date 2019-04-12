@@ -11,7 +11,7 @@ Test the comprehension of most topics covered in this course:
 
 
 ## Exercise Context
-It's time to put into practive everything we have learned in this course!
+It's time to put into practice everything we have learned in this course!
 (elaborate?)
 
 ## Exercise Instructions
@@ -42,7 +42,7 @@ Your program will ask the user to input his or her yearly income, will compute h
 
 <em>Sample output:</em>
 
-'Tax due: $1,250'
+Tax due: $1,250
 
 
 ## Any Unique Requirements or Notes?
