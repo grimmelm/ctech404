@@ -10,9 +10,9 @@ It's good to become comfortable with writing and understanding Python expression
 
 ## Exercise Instructions
 
-Enter the following expressions into the Python interpreter. <b>
-Try modifying some of these expressions and note the difference in output.<b>
-You can also experiment with python expressions and write your own.<b>
+Enter the following expressions into the Python interpreter. <br>
+Try modifying some of these expressions and note the difference in output.<br>
+You can also experiment with python expressions and write your own.<br>
 
 2 * 20 + (7 - 4) * 5
 
