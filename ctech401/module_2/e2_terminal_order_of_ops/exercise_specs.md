@@ -3,16 +3,16 @@
 # Instructional Requirements
 ## Key Technical Outcome
 Become comfortable with practicing order of operations and python expressions on the python interpreter.
-This is a <b>sandbox<b> assignment in which students are using the interpreter as a playground.
+This is a <b>sandbox</b> assignment in which students are using the interpreter as a playground.
 
 ## Exercise Context
-Try your hand at writing some of the expressions you've seen in the Python interpreter and note the results. 
+It's good to become comfortable with writing and understanding Python expressions. Try your hand at writing some of the expressions you've seen in the Python interpreter and note the results. 
 
 ## Exercise Instructions
 
-Enter the following expressions into the Python interpreter. 
-Try modifying some of these expressions and note the difference in output.
-You can also experiment with python expressions and write your own.
+Enter the following expressions into the Python interpreter. <b>
+Try modifying some of these expressions and note the difference in output.<b>
+You can also experiment with python expressions and write your own.<b>
 
 2 * 20 + (7 - 4) * 5
 
