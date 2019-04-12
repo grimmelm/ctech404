@@ -19,10 +19,16 @@ You will write a program that computes your federal income tax for the year.
 
 Below is a sample tax table:
 
-| Tax rate	    |Taxable income bracket	| Tax owed
-| ------------- | -------------------   | ------------- |
-| Content Cell  | Content Cell          | Content Cell  |
-| Content Cell  | Content Cell          | Content Cell  |
+| Tax rate	| Taxable income bracket	| Tax owed
+| ----------|-------------------------| ------------------------------------------------ |
+| 10%       | $0 to $9,525            | 10% of taxable income                            |
+| 12%	      | $9,526 to $38,700	      | $952.50 plus 12% of the amount over $9,525       |
+| 22%	      | $38,701 to $82,500	    | $4,453.50 plus 22% of the amount over $38,700    |
+| 24%	      | $82,501 to $157,500	    | $14,089.50 plus 24% of the amount over $82,500   |
+| 32%	      | $157,501 to $200,000	  | $32,089.50 plus 32% of the amount over $157,500  |
+| 35%	      | $200,001 to $500,000	  | $45,689.50 plus 35% of the amount over $200,000  |
+| 37%	      | $500,001 or more	      | $150,689.50 plus 37% of the amount over $500,000 |
+
 
 ## Any Unique Requirements or Notes?
 
