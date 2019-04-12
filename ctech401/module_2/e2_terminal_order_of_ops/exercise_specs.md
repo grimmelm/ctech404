@@ -2,17 +2,28 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>This exercise will allow students to become comfortable with using the python interpreter to practice order of operations and python expressions</em>
+Become comfortable with practicing order of operations and python expressions on the python interpreter.
+This is a <b>sandbox<b> assignment in which students are using the interpreter as a playground.
 
 ## Exercise Context
-<em>Try your hand at the expressions from the quiz. Use the print function to print the result to the screen. </em>
+Try your hand at writing some of the expressions you've seen in the Python interpreter and note the results. 
 
 ## Exercise Instructions
-<em>[ give students examples to play with and to move parenthesis around the expression, etc
 
+Enter the following expressions into the Python interpreter. 
+Try modifying some of these expressions and note the difference in output.
+You can also experiment with python expressions and write your own.
 
-]
-</em>
+2 * 20 + (7 - 4) * 5
+
+2 * (20 + 7) - 4 * 5
+
+2 * 20 + 7 - 4 * 5
+
+(6 + 9 + 8) * 4 + 5
+
+6 + 9 + 8 * (4 + 5)
+
 
 ## Any Unique Requirements or Notes?
 
@@ -21,7 +32,7 @@
 <em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+terminal
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
