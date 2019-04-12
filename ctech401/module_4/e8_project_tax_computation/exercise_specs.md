@@ -2,13 +2,27 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>What technical capability does this exercise test the ability or provide practice for? This should be a single sentence or short paragraph.</em>
+Test the comprehension of most topics covered in this course:
+1.I/O
+2.Branching with if/else statements and nested if/else statements
+3.comparison operators 
+4.data types and type conversion
+5.expressions
+
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+It's time to put into practive everything we have learned in this course!
+(elaborate?)
 
 ## Exercise Instructions
-<em>This will be student-facing text which tells the student specifically what they are doing, and how they will complete the exercise. Be specific and use simple bullet points for instruction whenever possible. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+You will write a program that computes your federal income tax for the year.
+
+Below is a sample tax table:
+
+| Tax rate	    |Taxable income bracket	| Tax owed
+| ------------- | -------------------   | ------------- |
+| Content Cell  | Content Cell          | Content Cell  |
+| Content Cell  | Content Cell          | Content Cell  |
 
 ## Any Unique Requirements or Notes?
 
