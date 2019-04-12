@@ -2,17 +2,23 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Test students on everything they've learned in this module. Input, output, expressions, variable assignments, type conversion</em>
+Understand everything covred in module. Input, output, expressions, variable assignments, type conversion
 
 ## Exercise Context
-<em>The purpose of this exercise is to practice everything we have learned in this module. We are going to create  interactive Python program...</em>
+It's time to put into pratice everything you've learned thus far!
+You're going to create an interactive program that uses python expressions to calculate how many cartons of eggs you can fill during your next grocery story visit! (kinda lame but ...lol)
 
 ## Exercise Instructions
-<em>One carton of eggs contains 12 eggs. Write a program which takes a number of eggs as input, and then outputs two things:<br>
- 1. How many were filled with eggs.
+One carton of eggs contains 12 eggs. 
+
+In the code editor, write a program that inputs a number of eggs, and then outputs two things:<br>
+
+ 1. How many cartons can be filled with eggs.
  2. How many eggs are left over. /em>
 
-(should we tell students the text that should accompany the numbers?)
+<em>Sample output:</em>
+Cartons: 5
+Left over eggs: 2
 
 ## Any Unique Requirements or Notes?
 
