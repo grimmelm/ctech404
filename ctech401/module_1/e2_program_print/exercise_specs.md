@@ -2,19 +2,19 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>This exercise teaches students to write a fully functioning (albeit rather simple) program in a code editor. Students will learn to execute their program on the terminal. 
-</em>
+This exercise teaches students to write a fully functioning (albeit rather simple) program in a code editor. Students will learn to execute their program on the terminal. 
 
 ## Exercise Context
-<em>This exercise will teach you to write your programs in a code editor and <i>run</i> them from a terminal.</em>
+You've been giving commands to Python's interactive interpreter. Now it's time to put these commands into a protgram
+
+This exercise will teach you to write your programs in a code editor and <i>run</i> them from a terminal.</em>
 
 ## Exercise Instructions
-<em>
-   1. In the code edtior you have a blank program named "exercise.py" <br>
-   2. In the code editor, write a print function containing the text of your choosing. <br>
-   3. Execute your program (exercise.py) in the terminal(command line) [to test out your print statement] <br>
+1. In the code edtior you have a blank file named "exercise.py" <br>
+2. In the code editor, write a print function containing the text of your choosing. <br>
+3. Execute your program (exercise.py) in the command line [to test out your print statement] <br>
    (In the terminal, type <code>python exercise.py</code> at the command line prompt <code>$</code>.)
-</em>
+
 
 ## Any Unique Requirements or Notes?
 
