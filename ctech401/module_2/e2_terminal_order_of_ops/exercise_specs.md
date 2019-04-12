@@ -5,7 +5,7 @@
 Become comfortable with practicing order of operations and python expressions on the python interpreter.
 This is a <b>sandbox</b> assignment in which students are using the interpreter as a playground.
 
-# Exercise Context:
+## Exercise Context:
 This exercise is designed to help you become familiar with writing and understanding arithmetic operaters and operator precedence in Python, as well of grouping these together to build up more complicated expressions. 
 
 In the Python interpreter, try your hand at writing some of the expressions you've seen and note the results.
