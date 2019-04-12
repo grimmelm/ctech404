@@ -24,10 +24,9 @@ Left over eggs: 2<br>
 
 ---
 # Technical Requirements
-<em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+code editor, terminal
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
