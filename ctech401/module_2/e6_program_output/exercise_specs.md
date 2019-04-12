@@ -2,18 +2,21 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Goal is to teach students how to use the print() function in a program.</em>
+Learn how to use the print() function to print a variable in a program
 
 ## Exercise Context
-<em>In interactive mode, Python prints the value of each statement.<br>
+When working in the interactive interpreter, Python prints the value of each statement.
+
       >>>x=5<br>
       >>>x<br>
       5<br>
-  This does not work the same way when you run it from a Python program. In this exercise you will use the print function to print the value of a variable to the screen.
-</em>
+
+However, this does not work the same way when you run it from within a Python program. In this exercise you will use the print function to print the value of a variable to the screen.
 
 ## Exercise Instructions
-<em>You would like to create a program to print the number 5, but the 5 key is broken! Write a program that finds another way to print the number 5. (Hint: use expressions) </em>
+
+You would like to create a program to print the number 5, but the 5 key is broken! 
+Write a program that finds another way to print the number 5. (Hint: use expressions) 
 
 ## Any Unique Requirements or Notes?
 
@@ -22,7 +25,7 @@
 <em><strong></strong></em>
 
 ## Environment/s Used
-<em>Code editor running python, terminal to execute program</em>
+Code editor, terminal
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
