@@ -16,9 +16,9 @@ In the code editor, write a program that inputs a number of eggs, and then outpu
  1. How many cartons can be filled with eggs.
  2. How many eggs are left over. /em>
 
-<em>Sample output:</em>
-Cartons: 5
-Left over eggs: 2
+<em>Sample output:</em><br>
+Cartons: 5<br>
+Left over eggs: 2<br>
 
 ## Any Unique Requirements or Notes?
 
