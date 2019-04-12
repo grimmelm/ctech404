@@ -7,7 +7,7 @@ This exercise will test the student's comprehension of order of operations
 ## Exercise Context
 At it's simplest, Python serves as a calculator.
 
-This exercise uses three of Pythons operators + (additon) * (multiplication) and - (subtraction)
+This exercise uses three of Pythons artithmetic operators: addition ( + ), subtraction ( - ), multiplication ( * )
 
 Take into account the rules of operator precedence and determine the value of the following Python expressions.
 
