@@ -2,34 +2,44 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-<em>Tests student's comrehension of string operators. **Multiple choice?? Prefer if students enter the string response</em>
+Understand string operators. 
 
 ## Exercise Context
-<em>This will be student-facing text which provides a high-level description of what this exercise is and why it's useful and relevant for them. Focus on one key objective for the exercise. You don't need to write a final draft of this on your first pass of the specs, just a starting point.</em>
+Just like numerical data types have operators, strings do as well.
+
+We can concatenate them (+), repeat them (*), and use () parenthesis to group them.
+We can also use string operators on variables.
+
+This exercise will help get you familiar with using string operators.
+
 
 ## Exercise Instructions
-<em>
+
+Question & Answer: enter your answers in the text box 
+
 What is the output?
   
-'hello'+'student'
+1. 'hello'+'student'
 
-'X'*2
+2. 'X'*2
 
-'X'+' '+'Y'
+3. 'X'+' '+'Y'
 
-4* ('A'+'B') (ABABABAB)<br>
-'A'+'B'+5  (invalid)-maybe leave out <br>
-'A'+'B'+'5'<br>
-'A'+'B'*5 (ABABABABAB)<br>
+4. 4* ('A'+'B') (ABABABAB)<br>
 
-#code snippet
+5. 'A'+'B'+5  (invalid)-maybe leave out <br>
+
+6. 'A'+'B'+'5'<br>
+
+7. 'A'+'B'*5 (ABABABABAB)<br>
+
+8. #code snippet
 a='n'<br>
 b='e'<br>
 c='s'<br>
 d= "T"+b+(2*a)+b+(2*c)+(2*b)<br>
-print(d) output <br>
+print(d) (Tennessee) <br>
 
-</em>
 
 ## Any Unique Requirements or Notes?
 
