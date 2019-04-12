@@ -15,13 +15,13 @@ Ask the user to input their score (an integer value between 0 and 100) on the co
 
 Use the following rules to determine the equivalent letter grade and output the letter grade to the user:
 
-A = 90-100
-B = 80-89
-C = 70-79
-D = 60-69
-F =< 60
+A = 90-100<br>
+B = 80-89<br>
+C = 70-79<br>
+D = 60-69<br>
+F =< 60<br>
 
-<em>Sample output:</em>
+<em>Sample output:</em><br>
 "You received an A!"
 
 If the student scored 100%, output the additional message "Perfect Score!"
