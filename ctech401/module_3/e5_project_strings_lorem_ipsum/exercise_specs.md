@@ -8,14 +8,13 @@ Understand everything covered in module. String operators, String functions and 
 It's time to put into practice everything we have learned so far about string operators and functions!
 
 ## Exercise Instructions
+In the code editor, write a program that creates a new word out of existing words.<br>
+Ask a user for a word and for the number of times to repeat it. <br>
+Use the appropriate string operators to output your new word to the screen. <br>
 
-In the code editor, write a program that asks a user for a word and for the number of times to repeat it. 
-Use the appropriate string operators to output the results to the screen. 
+For example: <br>
+Repeating 'cat' three times results in the new word 'catcatcat'  (<b>necessary to give an example?</b>)
 
-For example:
-
-repeat the word 'foo' 5 times:
-output: foofoofoofoofoo
 
 ## Any Unique Requirements or Notes?
 
