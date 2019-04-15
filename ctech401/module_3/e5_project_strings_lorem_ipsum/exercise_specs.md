@@ -2,15 +2,20 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-Understand everything covered in this module. ??
+Understand everything covered in module. String operators, String functions and type conversion
 
 ## Exercise Context
 It's time to put into practice everything we have learned so far about string operators and functions!
 
 ## Exercise Instructions
-Write a program that ask the user for a word and for the number of times to repeat it. Use the appropriate string operators to output the results to the screen. 
 
-(elaborate!!)
+In the code editor, write a program that asks a user for a word and for the number of times to repeat it. 
+Use the appropriate string operators to output the results to the screen. 
+
+For example:
+
+repeat the word 'foo' 5 times:
+output: foofoofoofoofoo
 
 ## Any Unique Requirements or Notes?
 
@@ -19,7 +24,7 @@ Write a program that ask the user for a word and for the number of times to repe
 <em><strong>If these aren't distinct from what is specified in the course and module-level specs, you can leave these blank.</strong></em>
 
 ## Environment/s Used
-<em>Here is where you indicate environments that the student will work in. Such as: code editor with browser preview, command line with virtual desktop for previewing plots, or unique environments such as RStudio, Jupyter Notebooks, etc...</em>
+Code editor, terminal
 
 ## Language/s Used
 <em>Indicate any languages used that are unique to this exercise (this is quite rare).</em>
