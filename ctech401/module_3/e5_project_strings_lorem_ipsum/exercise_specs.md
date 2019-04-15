@@ -10,7 +10,7 @@ It's time to put into practice everything we have learned so far about string op
 ## Exercise Instructions
 In the code editor, write a program that creates a new word out of existing words.<br>
 Ask a user for a word and for the number of times to repeat it. <br>
-Use the appropriate string operators to output your new word to the screen. <br>
+Using the appropriate string operators, create your new word and output it to the screen. <br>
 
 For example: <br>
 Repeating 'cat' three times results in the new word 'catcatcat'  (<b>necessary to give an example?</b>)
