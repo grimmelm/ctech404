@@ -13,14 +13,14 @@ Use your knowledge of Python variables to answer the following questions
 
 #### What is a valid variable name? (Select all that apply)
 
-myVariable <---- <br/>  
-myvariable <---- <br/> 
-MYVARIABLE <---- <br/>  
+myVariable <----<br/>  
+myvariable <----<br/> 
+MYVARIABLE <----<br/>  
 _my_variable1 <--<br/> 
 my variable <br/>
 1myVariable<br/>
 myVariable@Foo<br>
-my1Variable <--- <br>
+my1Variable <---<br>
 
 
 #### What are the correct values?
