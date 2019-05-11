@@ -13,14 +13,14 @@ Use your knowledge of Python variables to answer the following questions
 
 #### What is a valid variable name? (Select all that apply)
 
-myVariable<br/> 
-myvariable<br/>
-MYVARIABLE<br/> 
-_my_variable1<br/>
+myVariable <----<br/>  
+myvariable <----<br/> 
+MYVARIABLE <----<br/>  
+_my_variable1 <--<br/> 
 my variable <br/>
 1myVariable<br/>
 myVariable@Foo<br>
-my1Variable<br>
+my1Variable <---<br>
 
 
 #### What are the correct values?
@@ -29,10 +29,10 @@ my1Variable<br>
 
 x=4<br>
 y=5<br>
-z=x+y<br>
+z=x+y<br> 
 
-What is the value of x?
-What is the value of z?
+What is the value of x?  4
+What is the value of z?  9
 
 <em>Question #2</em>:
 
@@ -41,8 +41,8 @@ y=5<br>
 z=1<br>
 z=x+y<br>
 
-What is the value of y
-What is the value of z
+What is the value of y? 5
+What is the value of z? 9
 
 <em>Question #3</em>:
 
@@ -51,8 +51,8 @@ y=5<br>
 y=1<br>
 z=x+y<br>
 
-What is the value of y
-What is the value of z
+What is the value of y? 1
+What is the value of z? 5
 
 
 <em>Question #4</em>:
@@ -63,15 +63,15 @@ Y=1<br>
 z=x+y<br>
 
 
-What is the value of y
-What is the value of z
+What is the value of y? 5
+What is the value of z? 9
 
 <em>Question #5</em>:
 
 myVariable = "hello!"<br>
 myvariable = "goodbye!"<br>
 
-What is value of myVariable?
+What is value of myVariable? "hello!"
 
 
 ## Any Unique Requirements or Notes?

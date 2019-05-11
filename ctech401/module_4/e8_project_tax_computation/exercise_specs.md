@@ -12,7 +12,7 @@ Test the comprehension of most topics covered in this course:
 
 ## Exercise Context
 It's time to put into practice everything we have learned in this course!
-(elaborate?)
+(elaborate?) **Look at James' on campus course project and use his instructions
 
 ## Exercise Instructions
 You will write a program that computes a user's federal income tax for the year.
