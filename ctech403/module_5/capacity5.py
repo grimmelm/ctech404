@@ -38,7 +38,6 @@ def join(rows1, rows2, field):
                 new_rows.append(new_row)
     return new_rows
 
-
 total_capacity = db_sum(join(where(courses, 'times', 'MW10'), rooms, 'roomid'), 'capacity')
 
 print('The total capacity is ' + str(total_capacity))

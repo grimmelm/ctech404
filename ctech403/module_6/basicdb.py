@@ -107,7 +107,7 @@ def distinct(rows):
 	return new_rows
 
 # Sort a list of rows based on their value in field
-# SQL: ORDER BY field 
+# SQL: ORDERBY field 
 def orderby(rows, field):
     return sorted(rows, key = operator.itemgetter(field))
 
