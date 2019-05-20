@@ -13,5 +13,4 @@ with open('zipcodesnamed.csv') as f:
     zip_codes_table = list(reader)
 
 print('New York: '+ str(count_matches(zip_codes_table, 'State', 'New York')))
-print('New Jersey: '+ str(count_matches(zip_codes_table, 'State', 'New Jersey')))
-print('New Hampshire: '+ str(count_matches(zip_codes_table, 'State', 'New Hampshire')))
+print('Atlanta: '+ str(count_matches(zip_codes_table, 'City', 'Albany')))

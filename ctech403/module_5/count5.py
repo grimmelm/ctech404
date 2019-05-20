@@ -13,5 +13,5 @@ with open('courses.csv') as f:
     courses = list(reader)
 
 print('Meets at MW10: '+ str(count_matches(courses, 'times', 'MW10')))
-print('Room 1002: ' + str(count_matches(courses, 'room_id', '1002')))
+print('Room 1002: ' + str(count_matches(courses, 'roomid', '1002')))
 print('3 credits: ' + str(count_matches(courses, 'credits', '3')))
