@@ -11,6 +11,6 @@ for row in zip_codes_table:
         results.append(row)
 
 # Write only zip codes north of 40 degrees
-with open('zipcodes_out.csv','w') as f_out:
+with open('zipcodes-out.csv','w') as f_out:
     writer = csv.writer(f_out)
     writer.writerows(results)
