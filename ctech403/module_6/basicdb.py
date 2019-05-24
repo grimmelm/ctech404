@@ -68,7 +68,7 @@ def insert(table_name, row):
 
 # Delete specified row from table_name
 # SQL: DELETE FROM table_name ...
-def delete(table_name, delete_row):
+def delete(table_name, row):
     db[table_name].remove(row)
 
 
