@@ -11,12 +11,12 @@ Learn to identify a valid and invalid strings
 
 Is this a valid string? (T/F)
   
-emoji (can we do this?) <br>
-'Good Morning everyone!"<br>
-''<br>
-'I won't go!'<br>
-'I TURN 4 TODAY!!'<br>
-(non roman alphabet)<br>
+emoji (can we do this?) <br> T
+'Good Morning everyone!"<br> F
+''<br> T
+'I won't go!'<br> F
+'I TURN 4 TODAY!!'<br> T
+(non roman alphabet)<br> T
   
 
 ## Any Unique Requirements or Notes?
