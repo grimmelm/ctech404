@@ -19,7 +19,7 @@ Are the following comparisons True or False?
 x=180<br>
 y=175<br>
 x != y<br>
-y < x
+y < x<br>
 y <= x
 
 'lmnop' < 'lmnpq'<br>
