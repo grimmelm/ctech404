@@ -14,12 +14,12 @@ The following exercise will demonstrate how to properly use these functions.
 
 MC Select the output? (maybe add an invalid option?)<br>
   
-str(4) (4, '4', 4.0) <br>
-int(4) (4, '4', 4.0)<br>
-int('56') (56, '56', 56.0)<br>
-str(int('27.0')) (27, '27', 27.0)<br>  #should we introduce this type conversion here?
-int(str('100')) (100, '100', 100.0)<br>
-str('100.0') (100, '100', 100.0)<br>
+str(4) (4, '4', 4.0, error) <br>
+int(4) (4, '4', 4.0, error)<br>
+int('56') (56, '56', 56.0, error)<br>
+str(int('27.0')) (27, '27', 27.0, error) #should we introduce this type conversion here? <br>
+int(str(100)) (100, '100', 100.0, error)<br>
+str('100.0') (100, '100', 100.0, error) <br>
 
 Enter the output into the text box: <br>
 
