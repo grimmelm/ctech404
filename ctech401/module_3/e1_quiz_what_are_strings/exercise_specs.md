@@ -11,12 +11,12 @@ Learn to identify a valid and invalid strings
 
 Is this a valid string? (T/F)
   
-emoji (can we do this?)  T
-'Good Morning everyone!" F (mismatched parenthesis)
-'' T
-'I won't go!  F (we have to escape the single quotation mark before the t)
-'I TURN 4 TODAY!!'  T
-(non roman alphabet) T
+emoji (can we do this?)  T <br>
+'Good Morning everyone!" F (mismatched parenthesis) <br>
+'' T <br>
+'I won't go!  F (we have to escape the single quotation mark before the t) <br>
+'I TURN 4 TODAY!!'  T <br>
+(non roman alphabet) T <br>
   
 
 ## Any Unique Requirements or Notes?
