@@ -10,7 +10,7 @@ We've already used the input() and print() functions to input and output text to
 
 ## Exercise Instructions
 In the code editor, write a program that prompts the user to input the city and state where they live <br>
-and using string operators, combines these inputs to output the string 'Hello! I live in <i>city</i>, <i>state</i>' to the screen.
+and using string operators, combines these inputs to produce the string 'Hello! I live in <i>city</i>, <i>state</i>'. Save string to variable ... and output variable to the screen.
 
 <b>Sample output:</b>
 Hello! I live in Ithaca, New York!
