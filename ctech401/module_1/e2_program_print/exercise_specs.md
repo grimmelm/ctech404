@@ -23,8 +23,11 @@ In this exercise you will write a Python program in a code editor and <i>run</i>
 
 
 ---
+# Environments Used
+Code editor and terminal
+
 # Test Requirements
-<em>Can we assess for syntax errors only?></em>
+Can we assess for syntax errors only?
 
 ## Outcome Tests
 <em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
