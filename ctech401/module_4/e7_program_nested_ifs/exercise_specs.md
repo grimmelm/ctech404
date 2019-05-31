@@ -44,7 +44,11 @@ Code editor and terminal
 
 ---
 # Test Requirements
-<em>I'm leaning toward just testing for syntax errors so we can allow some variability in the implementation</em>
+<em>I'm leaning toward just testing for syntax errors so we can allow some variability in the implementation.<br>
+Maybe add a quiz to accompany this exercise testing students comprehension of preferred style. For example:<br>
+ Which is the best method- show elif as an option
+
+</em>
 
 ## Outcome Tests
 <em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
