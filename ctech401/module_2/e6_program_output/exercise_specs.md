@@ -17,6 +17,7 @@ However, this does not work the same way when you run it from within a Python pr
 
 You would like to create a program to print the number 5, but the 5 key is broken! 
 Write a program that finds another way to print the number 5. (Hint: use expressions) 
+Save your value to variable x and use the print function to print x to the screen.
 
 ## Any Unique Requirements or Notes?
 
@@ -35,7 +36,15 @@ Code editor, terminal
 
 ---
 # Test Requirements
-<em>This is the space to indicate what specifically about the student actions in the exercise needs to be tested. These specifications are the basis of how feedback or grading is given to the student. <strong>Don't worry about the specific method for verifying this initially, just focus on what needs to be checked from the student's actions to validate that they reached the key technical outcome for the exercise. Please also note that not all of these test types need to be specified, only what is necessary to test against the key outcome.</strong></em>
+This this is a one or two line program tops, can we do a file compare here as well?
+x=1+4 
+OR
+x=4+1
+OR
+x=2+3
+OR
+x=3+2
+print(x)
 
 ## Outcome Tests
 <em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
