@@ -7,9 +7,9 @@ Learn how to use the print() function to print a variable in a program
 ## Exercise Context
 When working in the interactive interpreter, Python prints the value of each statement.
 
-      >>>x=5<br>
-      >>>x<br>
-      5<br>
+      >>>x=5
+      >>>x
+      5
 
 However, this does not work the same way when you run it from within a Python program. In this exercise you will use the print function to print the value of a variable to the screen.
 
