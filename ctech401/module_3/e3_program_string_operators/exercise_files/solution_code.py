@@ -1,3 +1,4 @@
 city = input("What is your city?")
 state= input("What is your state?")
-print("I live in " + city + ", " + state)
+my_home = "I live in " + city + ", " + state
+print(my_home)
