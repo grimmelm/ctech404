@@ -11,7 +11,7 @@ If statements are a very basic, yet important tool that allows our programs to m
 Which is a valid if statement (select all that apply)?  
   
 #invalid, missing colon after conditional statement<br>
-if x == 4<br>       
+if x == 4<br>
 &nbsp;&nbsp;&nbsp;&nbsp;print('x is 4!') <br>
 
 #invalid, we have an assignment statement instead of a conditional statement<br>
