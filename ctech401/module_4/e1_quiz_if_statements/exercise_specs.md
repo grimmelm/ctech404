@@ -10,19 +10,24 @@ If statements are a very basic, yet important tool that allows our programs to m
 ## Exercise Instructions
 Which is a valid if statement (select all that apply)?  
   
-if x == 4<br>       #invalid, missing colon after conditional statement
-&nbsp;&nbsp;&nbsp;&nbsp;print('x is 4!')<br>
+#invalid, missing colon after conditional statement<br>
+if x == 4<br>       
+&nbsp;&nbsp;&nbsp;&nbsp;print('x is 4!') <br>
 
-if color = 'red':<br> # invalid, we have an assignment statement instead of a conditional statement
+#invalid, we have an assignment statement instead of a conditional statement<br>
+if color = 'red':<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;print('the color is red')<br>
 
-if the_string=='hello':<br> #valid 
+#valid<br>
+if the_string=='hello':<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;print('HELLO!')<br>
   
-if y==450;<br> #invalid, contains semicolon instead of colon after condiitonal statement
+#invalid, contains semicolon instead of colon after condiitonal statement<br>
+if y==450;<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;print('y is 450')<br>
 
-if x ==4:<br> # valid 
+#valid <br>
+if x ==4:<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;print('x is 4!')<br>
   
 
