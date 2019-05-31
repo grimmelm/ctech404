@@ -33,7 +33,7 @@ Code editor, terminal
 
 ---
 # Test Requirements
-<em>Manually graded</em>
+<em>Manually graded - perhaps auto assess for syntax errors as well? Can we do this for this and all other manually graded projects?</em>
 
 ## Outcome Tests
 <em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
