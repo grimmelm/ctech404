@@ -10,7 +10,7 @@ We've already used the input() and print() functions to input and output text to
 
 ## Exercise Instructions
 In the code editor, write a program that prompts the user to input the city and state where they live <br>
-and using string operators, combines these inputs to produce the string 'Hello! I live in <i>city</i>, <i>state</i>'. Save string to variable ... and output variable to the screen.
+and using string operators, combines these inputs to produce the string 'Hello! I live in <i>city</i>, <i>state</i>'. Save string to variable my_address and output variable to the screen.
 
 <b>Sample output:</b>
 Hello! I live in Ithaca, New York!
@@ -30,7 +30,7 @@ Code editor, terminal
 
 ---
 # Test Requirements
-<em>This is the space to indicate what specifically about the student actions in the exercise needs to be tested. These specifications are the basis of how feedback or grading is given to the student. <strong>Don't worry about the specific method for verifying this initially, just focus on what needs to be checked from the student's actions to validate that they reached the key technical outcome for the exercise. Please also note that not all of these test types need to be specified, only what is necessary to test against the key outcome.</strong></em>
+<em>Auto assess</em>
 
 ## Outcome Tests
 <em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
