@@ -30,7 +30,7 @@ if vehicle == 'truck':<br>
 MC: <br>
 1. I have a truck too/Blue is the best  
 2. I have a truck too/I dont like blue 
-3. I have a truck too/I dont like red 
+3. I have a truck too/I dont like red #Correct
 4. No output
 
 
@@ -55,7 +55,7 @@ MC
 1. I have a car too/I dont like red. 
 2. I dont have a car either
 3. I dont have a car either/I love silver/I love red
-4. I dont have a car either/I love red
+4. I dont have a car either/I love red  #Correct
 
 
 
@@ -74,7 +74,7 @@ MC
 1. I have a car too/I dont like red. 
 2. I have a car too/Blue is the best
 3. I have a car too
-4. No output
+4. No output  #Correct
 
 
 vehicle = input('Enter a vehicle: ')
@@ -90,7 +90,7 @@ else:
 MC
 1. I have a car too 
 2. I wish I had a bike!
-3. Awesome!
+3. Awesome!  #Correct
 4. No output
 	  
  OR T/F this produces no output?
