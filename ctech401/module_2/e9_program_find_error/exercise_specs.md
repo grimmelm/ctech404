@@ -20,7 +20,7 @@ Find the errors and fix them. <br>
 Each time you fix an error, run your code again and notice the output.<br>
 Continue this process until all of the errors are gone!
 
-<em>source code with errors:</em> <br>
+<em>starter code containing errors:</em> <br>
 x=5+&9<br>
 y=x+'4'<br>
 z=x+y<br>
