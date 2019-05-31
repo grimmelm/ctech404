@@ -35,6 +35,10 @@ if x ==4:<br>
 if condition:<br>
    &nbsp;&nbsp;&nbsp;&nbsp;block_of_code <----this is executed if the condition evaluates to True
 
+example:<br>
+if x ==4:<br>  <---- == is the conditional operator
+&nbsp;&nbsp;&nbsp;&nbsp;print('x is 4!')<br>
+
 ## Any Unique Requirements or Notes?
 
 ---
