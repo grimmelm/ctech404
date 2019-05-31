@@ -10,6 +10,7 @@ We've already used if statements to execute a block of code if a condition is Tr
 ## Exercise Instructions
 In the code editor, write a program that determines whether an integer is a multiple of 10.<br>
 Ask the user to input any integer value on the command line.<br>
+Save the input to variable <code>number</code>.<br>
 Using an if/else statement, determine whether the integer is a multiple of 10, and output the results to the user.<br>
 
 <em>Sample output:</em><br>
@@ -35,7 +36,7 @@ Should students run program on terminal? (while terminal is preferred, is this n
 
 ---
 # Test Requirements
-<em>This is the space to indicate what specifically about the student actions in the exercise needs to be tested. These specifications are the basis of how feedback or grading is given to the student. <strong>Don't worry about the specific method for verifying this initially, just focus on what needs to be checked from the student's actions to validate that they reached the key technical outcome for the exercise. Please also note that not all of these test types need to be specified, only what is necessary to test against the key outcome.</strong></em>
+<em>Can this be auto assessed properly?</em>
 
 ## Outcome Tests
 <em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
