@@ -12,21 +12,21 @@ The == comparison operator is one of the most common operators used in an if sta
 
 Are these conditional statements True or False?
 
-x=4<br>
-x == 5<br>
+x=10+7<br>
+x == 17 True (is this too simple?)<br>
    
     
-75 == 75.0<br>
+75 == 75.0 . True<br>
    
     
-75 == '75'<br>
+75 == '75' False <br>
     
 
-'Hello == 'hello'<br>
+'Hello == 'hello' False <br>
     
       
 color='red'<br>
-color == 'red'<br>
+color == 'red' True <br>
  
 
 </em>
