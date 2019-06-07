@@ -11,7 +11,9 @@ Learn to use comparison operator (<, >, >=, <=, !=)
 < less than <br>
 >= greater than or equals<br> 
 <= less than or equals<br>
-!= not equal to. it's the exact opposite of ==<br>
+!= not equal to. <br>
+Equal to ==<br>
+
 
 ## Exercise Instructions
 Are the following comparisons True or False?
