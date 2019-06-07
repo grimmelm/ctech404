@@ -18,15 +18,15 @@ Are the following comparisons True or False?
 
 x=180<br>
 y=175<br>
-x != y<br>
-y < x<br>
-y <= x
+x != y True <br>
+y < x True <br>
+y <= x True
 
-'lmnop' < 'lmnpq'<br>
+'lmnop' < 'lmnpq'  (I think this is true but have to check on the terminal. We should make it false to mix things up <br>
 
 'goodbye' >= 4.0 (trick question, invalid-should we leave this or not?)<br>
  
-'python' <= 'python'
+'python' <= 'python' True
 
 ## Any Unique Requirements or Notes?
 
