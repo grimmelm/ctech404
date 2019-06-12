@@ -8,13 +8,39 @@ Understand everything covered in module. String operators, String functions and 
 It's time to put into practice everything we have learned so far about string operators and functions!
 
 ## Exercise Instructions
-In the code editor, write a program that creates a new word out of existing words.<br>
-Ask a user for a word and for the number of times to repeat it. <br>
-Using the appropriate string operators, create your new word and output it to the screen. <br>
+
+In the code editor, write a program that accomplishes the following three tasks using the appropriate string operators and functions
+.
+# Part #1
+Write a program that repeats a word a given number of times.<br>
+Ask a user for two inputs and save each to a variable: (1) a word  (2) the number of times to repeat it. <br>
+Using the appropriate string operators, create this new string, and print it to the screen. <br>
 
 For example: <br>
 Repeating 'cat' three times results in the new word 'catcatcat'  (<b>necessary to give an example?</b>)
 
+# Part #2
+Write a program that uses variables and string operators to create a new string.
+Use the given variables and appropriate string operators to create an expression that represents the US State 'Mississippi.' Save this expression to a variable and output this variable to the screen.
+
+a='m'
+b='i'
+c='s'
+d='p'
+
+For example, the word 'sips' can be written using the following experession: c+b+d+c
+
+# Part #3
+It's time to play around with string operaters and create your own words! (lame?) (...ideas?)..(Anagram time! lol)
+Using the letters 'l' 'e' 't' and 's', see how many 3, 4, and 5 letter word combinations you can come up with. 
+Create expressions that represent your words using the given variables and string operators of your choosing, and output these expressions to the screen.
+
+a='l' 
+b='e' 
+c='t'
+d='s'
+
+For example, the word 'sell' can be written using the following expression: d+b+(2*a)
 
 ## Any Unique Requirements or Notes?
 
