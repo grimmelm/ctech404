@@ -36,15 +36,8 @@ Code editor, terminal
 
 ---
 # Test Requirements
-This this is a one or two line program tops, can we do a file compare here as well?
-x=1+4 
-OR
-x=4+1
-OR
-x=2+3
-OR
-x=3+2
-print(x)
+This this is a one or two line program tops, can we do a file compare here as well? Rather than testing for all possible options, can we test the first line of code and make sure students do not have 'x=5' or 'x=5.0' in their file? And then check that the value of x is 5. 
+
 
 ## Outcome Tests
 <em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
