@@ -10,7 +10,7 @@ This exercise is designed to help you practice creating variables and assigning 
 ## Exercise Instructions
 In the python interpreter, enter the following commands.<br>
 
-Note the output (should I include errors?)<br>
+Note the output <br>
 
 1. <br>
 x=145<br>
