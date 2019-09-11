@@ -10,11 +10,11 @@ This exercise teaches students to create their first Python program using the in
 
 We want to write a program that describes different sized pets. 
 Examine the code in <code>exercise.py</code> in the code editor.
-It contains two lists, <code>size</code> and <code>animal</code>. 
+It contains two lists, <code>size</code> and <code>pet</code>. 
 One for loop has already been written for you. 
 Fill in the missing code blocks:
-1. write a nested for loop that loops through the <code>animal</code> list.
-2. Fill in the portion of the print statement that accesses an element in the <code>animal</code> list.
+1. write a nested for loop that loops through the <code>pet</code> list.
+2. Fill in the portion of the print statement that accesses an element in the <code>pet</code> list.
 
 
 Sample Output:
