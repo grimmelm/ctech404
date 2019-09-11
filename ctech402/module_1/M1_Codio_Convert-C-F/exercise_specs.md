@@ -20,7 +20,7 @@ You do not have to change list <code>celcius_list</code>, but rather, print each
 <em><strong></strong></em>
 
 ## Environment/s Used
-Terminal. Python interpreter
+Terminal. Python interpreter. Code editor with starter code
 
 ## Language/s Used
 <em></em>
