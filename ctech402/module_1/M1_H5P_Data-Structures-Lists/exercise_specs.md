@@ -10,13 +10,13 @@ Free Text Quiz
 
 What is the length of [insert list]?
 
-[15,3,7,10]
-[]
-['hello']
-['cat', 'dog', 'fish']
-[0]
-['a','b','c','d']
-[2]
+<pre>[15,3,7,10] </pre><br>
+<pre>[]</pre><br>
+<pre>['hello']</pre><br>
+<pre>['cat', 'dog', 'fish']</pre><br>
+<pre>[0]</pre><br>
+<pre>['a','b','c','d']</pre><br>
+<pre>[2]</pre>
 
 ## Any Unique Requirements or Notes?
 
