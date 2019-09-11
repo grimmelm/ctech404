@@ -9,11 +9,18 @@ It's time to write your first program! By tradition, when you learn a new progra
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+Write a program that prints out a sequence of numbers starting from 1 and ending in a number specified by a user.
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+1. Prompt user to enter a number greater than 1 on the command line, and assign the user's input to a variable.
+2. Use a while loop to print out the sequence of numbers starting from 1 and ending in the value entered by the user.
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+Sample output:
+Please enter a number greater than 1: [User enters 5]
+1
+2
+3
+4
+5
 
 
 ## Any Unique Requirements or Notes?
