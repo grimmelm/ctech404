@@ -1,6 +1,6 @@
 size = ["small", "medium", "large"]
-item = ["t-shirt", "sweater", "sweatshirt"]
+pet = ["rabbit", "cat", "dog"]
 
 for s in size:
 	# add for loop here
-		print("I want a " + s + " " + #fill in code here)
+		print("I have a " + s + " " + #fill in code here)
