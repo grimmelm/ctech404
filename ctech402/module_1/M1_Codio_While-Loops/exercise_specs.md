@@ -15,12 +15,12 @@ Write a program that prints out a sequence of numbers starting from 1 and ending
 2. Use a while loop to print out the sequence of numbers starting from 1 and ending in the value entered by the user.
 
 Sample output:
-Please enter a number greater than 1: [User enters 5]
-1
-2
-3
-4
-5
+Please enter a number greater than 1: [User enters 5]<br>
+1<br>
+2<br>
+3<br>
+4<br>
+5<br>
 
 
 ## Any Unique Requirements or Notes?
