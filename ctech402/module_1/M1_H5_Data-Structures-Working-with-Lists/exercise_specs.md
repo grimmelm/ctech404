@@ -5,11 +5,43 @@
 This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+Multiple choice and TF questions
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+ Choose the result of the following expressions:
+ 
+ 1. <pre>['one', 'two'] + ['three', 'four'] + [] + ['one']</pre>
+
+<pre>['one', 'two', 'three', 'four', '', 'one']</pre> 
+<pre>['one', 'two', 'three', 'four', 'one']</pre> # <b> correct </b>
+<pre>['one', 'two', 'three', 'four']</pre>
+
+
+2. <pre>['square', 'circle'] * 3</pre>
+
+<pre>['square', 'square', 'square', 'circle'] </pre>
+<pre>['square', 'circle', 'circle', 'circle']</pre>
+<pre>['square', 'circle', 'square', 'circle', 'square', 'circle']</pre>  #<b> correct </b>
+
+
+3. <pre>['red', 'blue'] + ['orange'] * 3 </pre>
+ 
+<pre>['red', 'blue', 'orange', 'red', 'blue', 'orange', 'red', 'blue', 'orange']</pre>
+<pre>['red', 'blue', 'orange', 'orange', 'orange']</pre> # <b>correct</b>
+<pre>[''red', 'blue', 'red', 'blue', 'red', 'blue', 'orange']</pre>
+ 
+ Do the following experessions evaluate to T or F?:
+ 
+ 1. <pre> ['dog', 'cat', 'mouse' , 'rabbit'] == ['dog' , 'cat', 'rabbit', 'mouse'] </pre>   # <b> False </b>
+ 2. <pre> [10, 45, 15, 5] > [10, 30, 20, 6] </pre> # <b> True</b>
+ 3. <pre> array_one = ['orange', 5, 6, 'green']<pre>
+    <pre> array_two = ['green', 5, 6, 'orange']</pre>
+    <pre> array_one == array_two </pre> # <b>False </b>
+
+ 
+ 
+ Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
 
 <code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
 
