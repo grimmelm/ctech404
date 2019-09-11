@@ -8,12 +8,17 @@ This exercise teaches students to create their first Python program using the in
 
 ## Exercise Instructions
 
-Examine the code in <code>exercise.py</code> in the code editor. It contains two lists, <code>dish</code> and <code>side</code>.
+We want to write a program that describes different sized pets. 
+Examine the code in <code>exercise.py</code> in the code editor.
+It contains two lists, <code>size</code> and <code>animal</code>. 
+One for loop has already been written for you. 
+Fill in the missing code blocks:
+1. write a nested for loop that loops through the <code>animal</code> list.
+2. Fill in the portion of the print statement that accesses an element in the <code>animal</code> list.
 
-Write a program that generates dinner suggestions. Use nested for loops to print out meal suggestions containing one dish and side.
 
 Sample Output:
-You should order salad and baked salmon
+I have a small rabbit
 
 ## Any Unique Requirements or Notes?
 
