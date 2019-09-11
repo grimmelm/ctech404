@@ -5,16 +5,18 @@
 This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
-
+Free Text Quiz
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+What is the length of [insert list]?
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
-
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
-
+[15,3,7,10]
+[]
+['hello']
+['cat', 'dog', 'fish']
+[0]
+['a','b','c','d']
+[2]
 
 ## Any Unique Requirements or Notes?
 
