@@ -5,16 +5,13 @@
 This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
-
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
-
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
-
+Examine exercise.py in the code editor window. A list is defined containing temperatures in Celcius.
+The formula to convert Celcius to Farenheit is: (°C × 9/5) + 32 = °F 
+Write a program that uses a <code>for</code> loop to convert each element in <code>celcius_list</code> to farenheit using the forumla above.
+You do not have to change list <code>celcius_list</code>, but rather, print each element's Farenheit temperature to the screen.
 
 ## Any Unique Requirements or Notes?
 
