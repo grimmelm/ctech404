@@ -8,7 +8,7 @@ This exercise teaches students to create their first Python program using the in
 
 ## Exercise Instructions
 
-Examine the code in <code>exercise.py</code> in the code editor. It contains two lists, <code>sides</code> and <code>dish</code>.
+Examine the code in <code>exercise.py</code> in the code editor. It contains two lists, <code>dish</code> and <code>side</code>.
 
 Write a program that generates dinner suggestions. Use nested for loops to print out meal suggestions containing one dish and side.
 
