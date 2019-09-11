@@ -1,6 +1,6 @@
-dish = ["pasta alfredo", "baked salmon", "chicken parmesan", "sliders"]
-side = ["french fries", "mashed potatoes", "salad"]
+size = ["small", "medium", "large"]
+item = ["t-shirt", "sweater", "sweatshirt"]
 
-for i in dish:
-	for j in side:
-		print("You should order " + i + " and " + j)
+for s in size:
+	for i in item:
+		print("I want a " + s + " " + i)
