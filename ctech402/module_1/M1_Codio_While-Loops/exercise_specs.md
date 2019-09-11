@@ -11,11 +11,11 @@ It's time to write your first program! By tradition, when you learn a new progra
 
 Write a program that prints out a sequence of numbers starting from 1 and ending in a number specified by a user.
 
-1. Prompt user to enter a number greater than 1 on the command line, and assign the user's input to a variable.
+1. Prompt user to enter an integer greater than 1 on the command line, and assign the user's input to a variable.
 2. Use a while loop to print out the sequence of numbers starting from 1 and ending in the value entered by the user.
 
 Sample output:
-Please enter a number greater than 1: [User enters 5]<br>
+Please enter an integer greater than 1: [User enters 5]<br>
 1<br>
 2<br>
 3<br>
