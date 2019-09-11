@@ -14,7 +14,8 @@ Multiple choice and TF questions
  1. <pre>['one', 'two'] + ['three', 'four'] + [] + ['one']</pre>
 
 <pre>['one', 'two', 'three', 'four', '', 'one']</pre> 
-<pre>['one', 'two', 'three', 'four', 'one']</pre> # <b> correct </b>
+# <b> correct: </b>
+<pre>['one', 'two', 'three', 'four', 'one']</pre> 
 <pre>['one', 'two', 'three', 'four']</pre>
 
 
@@ -22,32 +23,29 @@ Multiple choice and TF questions
 
 <pre>['square', 'square', 'square', 'circle'] </pre>
 <pre>['square', 'circle', 'circle', 'circle']</pre>
-<pre>['square', 'circle', 'square', 'circle', 'square', 'circle']</pre>  #<b> correct </b>
+#<b> correct </b>
+<pre>['square', 'circle', 'square', 'circle', 'square', 'circle']</pre>  
 
 
 3. <pre>['red', 'blue'] + ['orange'] * 3 </pre>
  
 <pre>['red', 'blue', 'orange', 'red', 'blue', 'orange', 'red', 'blue', 'orange']</pre>
-<pre>['red', 'blue', 'orange', 'orange', 'orange']</pre> # <b>correct</b>
+# <b>correct</b>
+<pre>['red', 'blue', 'orange', 'orange', 'orange']</pre> 
 <pre>[''red', 'blue', 'red', 'blue', 'red', 'blue', 'orange']</pre>
  
- Do the following experessions evaluate to T or F?:
+ Do the following experessions evaluate to True or False?:
  
- 1. <pre> ['dog', 'cat', 'mouse' , 'rabbit'] == ['dog' , 'cat', 'rabbit', 'mouse'] </pre>   # <b> False </b>
- 2. <pre> [10, 45, 15, 5] > [10, 30, 20, 6] </pre> # <b> True</b>
- 3. <pre> array_one = ['orange', 5, 6, 'green']<pre>
-    <pre> array_two = ['green', 5, 6, 'orange']</pre>
-    <pre> array_one == array_two </pre> # <b>False </b>
+ # <b> False </b>
+ 1. <pre> ['dog', 'cat', 'mouse' , 'rabbit'] == ['dog' , 'cat', 'rabbit', 'mouse'] </pre>   
+ # <b> True</b>
+ 2. <pre> [10, 45, 15, 5] > [10, 30, 20, 6] </pre>
+  # <b>False </b>
+ 3. <pre> array_one = ['orange', 5, 6, 'green']
+    array_two = ['green', 5, 6, 'orange']
+    array_one == array_two </pre>
 
  
- 
- Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
-
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
-
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
-
-
 ## Any Unique Requirements or Notes?
 
 ---
