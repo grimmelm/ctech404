@@ -1,5 +1,5 @@
 size = ["small", "medium", "large"]
-side = ["t-shirt", "sweater", "sweatshirt"]
+item = ["t-shirt", "sweater", "sweatshirt"]
 
 for s in size:
 	# add for loop here
