@@ -2,20 +2,17 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+Examine the code in <code>exercise.py</code> in the code editor. It contains two lists, <code>dish</code> and <code>side</code>.
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+Write a program that generates dinner suggestions. Use nested for loops to print out meal suggestions containing one dish and side.
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
-
-
+Sample Output:
+You should order salad and baked salmon
 ## Any Unique Requirements or Notes?
 
 ---
@@ -23,7 +20,7 @@ It's time to write your first program! By tradition, when you learn a new progra
 <em><strong></strong></em>
 
 ## Environment/s Used
-Terminal. Python interpreter
+Terminal. Python interpreter. Code editor
 
 ## Language/s Used
 <em></em>
