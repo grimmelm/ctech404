@@ -30,7 +30,7 @@ Please enter an integer greater than 1: [User enters 5]<br>
 <em><strong></strong></em>
 
 ## Environment/s Used
-Terminal. Python interpreter
+Terminal. Python interpreter. Code editor.
 
 ## Language/s Used
 <em></em>
