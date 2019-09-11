@@ -37,10 +37,13 @@ Multiple choice and TF questions
  Do the following experessions evaluate to True or False?:
  
  #<b>False: </b>
+ 
  1. <pre> ['dog', 'cat', 'mouse' , 'rabbit'] == ['dog' , 'cat', 'rabbit', 'mouse'] </pre>   
  #<b>True:</b>
+ 
  2. <pre> [10, 45, 15, 5] > [10, 30, 20, 6] </pre>
   #<b>False:</b>
+  
  3. <pre>array_one = ['orange', 5, 6, 'green']
     array_two = ['green', 5, 6, 'orange']
     array_one == array_two </pre>
