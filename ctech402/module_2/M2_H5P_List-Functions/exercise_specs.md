@@ -32,29 +32,29 @@ What is the result of the following:
 
 1. <pre>list(reversed(['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear']))</pre>
 
-<pre>['bear', 'zebra', 'lion', 'mouse', 'cat', 'dog']</pre> # <b>correct</b><br>
-<pre>['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra']</pre><br>
+['bear', 'zebra', 'lion', 'mouse', 'cat', 'dog']# <b>correct</b><br>
+['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra']<br>
 'bear'<br>
 ERROR<br>
 
 2. <pre>sorted(['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear'])</pre>
 
-<pre>['bear', 'zebra', 'lion', 'mouse', 'cat', 'dog']</pre> <br>
-'dog'
-<pre>['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra']</pre> # <b>correct</b>br>
+['bear', 'zebra', 'lion', 'mouse', 'cat', 'dog'] <br>
+'dog'<br>
+['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra'] # <b>correct</b>br>
 ERROR<br>
 
 3. <pre>min(['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear'])</pre>
 
 'dog' <br>
 'bear' # <b>correct</b> <br>
-<pre>['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra']</pre> <br>
+['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra']<br>
 ERROR<br>
 
 4. <pre>sum(['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear'])</pre>
 
-<pre>['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear']</pre><br>
-<pre>['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra']</pre> <br>
+['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear']<br>
+['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra'] <br>
 'dog'<br>
 ERROR<br>
 
