@@ -2,19 +2,59 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
-
+List indexing and list membership (in / not in)
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+List indexing:
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+<pre>my_list = ['Chicago', 'New York', 'Nashville', 'San Fransisco', 'Miami']</pre>
+ 
+ 1. What is the value of the <pre>my_list[3]</pre>?
+ 'Nashville'<br>
+ 'Miami' <br>
+ 'San Fransisco' # <b>correct</b> <br>
+ IndexError
+ 
+ 2. 
+ <pre>l = 2+2</pre>
+  What is the value of <pre>my_list[l]</pre>?
+ 'Nashville'<br>
+ 'Miami' # <b>correct</b><br>
+ 'San Fransisco'  <br>
+ IndexError
+ 
+ 3. How would you access the element 'New York'?  _____
+# <b> Answer: my_list[1]</b>
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+List Membership:
 
+Examine the list below and answer whether the following expressions evaluate to True or False:
+<pre> a_list = ['toyota', 'chevrolet', 'lexus', 'ford', 'tesla', 'subaru']
+
+1. 'toyota' in a_list # <b>True</b>
+2. 'volvo' not in a_list # <b> True </b> 
+3. a_car = 'jeep'<br>
+   a_car in a_list # <b>False </b>
+   
+What will the following code output?
+
+my_car = 'honda'
+if my_car in a_list:
+ 'I have the same car!'
+Else:
+ 'I don't have the same car.'
+ 
+ a. 'I have the same car!' <br>
+ b. 'I don't have the same car' # <b> correct</b> <br>
+ c. None of the above
+ 
+ 
+ 
+ 
+ 
+ 
 
 ## Any Unique Requirements or Notes?
 
