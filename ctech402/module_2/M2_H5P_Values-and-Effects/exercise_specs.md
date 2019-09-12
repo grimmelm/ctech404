@@ -2,18 +2,39 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+
+List methods vs functions
+
+reversed() vs .reverse()
+
+one changes value of list (method) and one does not (function)
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+1. 
+a_list = ['Paul', 'George', 'Ringo', 'John']
+What is the value of a_list after list(reversed(a_list)):
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+a_list = ['Paul', 'George', 'Ringo', 'John'] # <b>correct</b><br>
+a_list = ['John', 'Ringo', 'George', 'Paul']<br>
+a_list = ['George', 'John', 'Paul', 'Ringo'] <br>
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+2. a_list = [2, 10, 7, 35, 6]
+What is the value of a_list after a_list.reverse()?
+
+a_list = [2, 10, 7, 35, 6] <br>
+a_list = [6, 35, 7, 10, 2] # <b> correct </b> <br>
+a_list = [2, 6, 7, 10, 35]<br>
+
+3. a_list = [1, 2, 3, 4 ,5]
+
+If you want to change the value of a_list to be equal to [5,4,3,2,1], which function should you use?
+
+list(reversed(a_list)) <br>
+a_list.reversed() # <b> correct </b> <br>
+sorted(a_list)<br>
 
 
 ## Any Unique Requirements or Notes?
