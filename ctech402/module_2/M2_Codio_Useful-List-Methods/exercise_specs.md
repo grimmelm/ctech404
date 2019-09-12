@@ -2,19 +2,28 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+Give a list of unsorted numbers and ask students to remove the largest number from the list.
+
+Two ways to accomplish this:
+
+1. Use max() to get the largest value and remove() to remove that value 
+
+2. Use sort() to sort the list and pop() to remove last element()
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+#  initial list = [97, 85, 45, 67, 2, 101, 9, 36, 4]
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+ Examine the code in <code>exercise.py</code> in the code editor. It contains a list of unsorted integers <code>int_list</code>.
+ 
+Using some of the list methods and functions you have seen, find a way to remove the largest integer from the list. 
 
+Note: At the end of your program, <code>int_list</code> should have the value of [97, 85, 45, 67, 2, 9, 36, 4].
+ 
+ 
 
 ## Any Unique Requirements or Notes?
 
