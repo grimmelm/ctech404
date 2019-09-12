@@ -25,8 +25,7 @@ List indexing:
  'San Fransisco'  <br>
  IndexError
  
- 3. How would you access the element 'New York'?  _____
-# <b> Answer: my_list[1]</b>
+ 3. How would you access the element 'New York'?  _____  # <b> Answer: my_list[1]</b>
 
 List Membership:
 
