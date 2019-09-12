@@ -21,7 +21,7 @@ min() <br>
 max() <br>
 sum()
 
-<pre>2<pre>
+<pre>2</pre>
 list(reverse()) <br>
 sorted()  <br>
 min() # <b> correct </b><br>
@@ -37,7 +37,7 @@ What is the result of the following:
 'bear'<br>
 ERROR<br>
 
-2. <pre>sorted(['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear'])
+2. <pre>sorted(['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear'])</pre>
 
 <pre>['bear', 'zebra', 'lion', 'mouse', 'cat', 'dog']</pre> <br>
 'dog'
