@@ -30,7 +30,7 @@ List indexing:
 List Membership:
 
 Examine the list below and answer whether the following expressions evaluate to True or False:
-<pre> a_list = ['toyota', 'chevrolet', 'lexus', 'ford', 'tesla', 'subaru']
+<pre> a_list = ['toyota', 'chevrolet', 'lexus', 'ford', 'tesla', 'subaru']</pre>
 
 1. 'toyota' in a_list # <b>True</b>
 2. 'volvo' not in a_list # <b> True </b> 
