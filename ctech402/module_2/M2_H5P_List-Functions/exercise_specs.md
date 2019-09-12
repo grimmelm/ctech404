@@ -10,7 +10,7 @@ sum()
 
 ## Exercise Instructions
 
-<pre>a_list = [3, 29, 45, 2, 101, 14]</sorted>
+<pre>a_list = [3, 29, 45, 2, 101, 14]</pre>
 
 Which functions produce the following results?
 
