@@ -27,7 +27,7 @@ What is the value of b_list?
 
 None <br>
 [1,2,3,4,5] <br>
-[5,4,3,2,1] # <b>correct</br><br>
+[5,4,3,2,1] # <b>correct</b><br>
 
 What is the value of a_list?
 
@@ -44,7 +44,7 @@ list(reversed(a_list))
 What is the value of b_list?
 
 None <br>
-[1,2,3,4,5] # <b>correct</br> <br>
+[1,2,3,4,5] # <b>correct</b> <br>
 [5,4,3,2,1] <br>
 
 What is the value of a_list?
@@ -61,7 +61,7 @@ What is the value of b_list?
 
 None <br>
 [1,2,3,4,5]  <br>
-[5,4,3,2,1] # <b>correct</br> <br>
+[5,4,3,2,1] # <b>correct</b> <br>
 
 What is the value of a_list?
 
@@ -75,7 +75,7 @@ b_list = a_list.reverse()
 
 What is the value of b_list?
 
-None # <b>correct</br><br>
+None # <b>correct</b><br>
 [1,2,3,4,5]  <br>
 [5,4,3,2,1]  <br>
 
