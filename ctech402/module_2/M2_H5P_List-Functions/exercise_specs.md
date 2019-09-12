@@ -2,19 +2,69 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
-
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+sorted(), 
+reversed(), 
+max(), min(), 
+sum()
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+<pre>a_list = [3, 29, 45, 2, 101, 14]</sorted>
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+Which functions produce the following results?
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+<pre>a_list = [2, 3, 14, 29, 45, 101]</pre>
+list(reverse()) <br>
+sorted() # <b> correct </b> <br>
+min() <br>
+max() <br>
+sum()
 
+<pre>2<pre>
+list(reverse()) <br>
+sorted()  <br>
+min() # <b> correct </b><br>
+max() <br>
+sum()
+
+What is the result of the following:
+
+1. <pre>list(reversed(['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear']))</pre>
+
+<pre>['bear', 'zebra', 'lion', 'mouse', 'cat', 'dog']</pre> # <b>correct</b><br>
+<pre>['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra']</pre><br>
+'bear'<br>
+ERROR<br>
+
+2. <pre>sorted(['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear'])
+
+<pre>['bear', 'zebra', 'lion', 'mouse', 'cat', 'dog']</pre> <br>
+'dog'
+<pre>['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra']</pre> # <b>correct</b>br>
+ERROR<br>
+
+3. <pre>min(['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear'])</pre>
+
+'dog' <br>
+'bear' # <b>correct</b> <br>
+<pre>['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra']</pre> <br>
+ERROR<br>
+
+4. <pre>sum(['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear'])</pre>
+
+<pre>['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear']</pre><br>
+<pre>['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra']</pre> <br>
+'dog'<br>
+ERROR<br>
+
+5. <pre>a_list = [3, 29, 45, 2, 101, 14]</pre>
+
+sum(a_list)/len(a_list)
+6 <br>
+194 <br>
+32 # <b>correct</b> <br>
+ERROR
 
 ## Any Unique Requirements or Notes?
 
