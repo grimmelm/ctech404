@@ -13,10 +13,10 @@ We have seen the differencde between methods and functions and the effects they 
 
 1. We have a list a_list = [12,20,18,14,20]. We want to sort a_list but do not want to change the value of a_list. Rather, we want the sorted result to be saved to variable sorted_a_list. How do we accomplish this?
 
-a_list.sort()
-b_list.sort()
-b_list = a_list.sort()
-b_list = sorted(a_list)
+a_list.sort() <br>
+b_list.sort() <br>
+b_list = a_list.sort() <br>
+b_list = sorted(a_list) <br>
 
 2. Examine the following operations:
 a_list = [1,2,3,4,5]
