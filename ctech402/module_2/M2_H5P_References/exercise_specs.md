@@ -2,18 +2,88 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+We have seen the differencde between methods and functions and the effects they can have on the values of variables.
+
+[Comment on how a method returns None]
+[Comment on how this applies to all methods() including reverse() sort() etc
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+1. We have a list a_list = [12,20,18,14,20]. We want to sort a_list but do not want to change the value of a_list. Rather, we want the sorted result to be saved to variable sorted_a_list. How do we accomplish this?
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+a_list.sort()
+b_list.sort()
+b_list = a_list.sort()
+b_list = sorted(a_list)
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+2. Examine the following operations:
+a_list = [1,2,3,4,5]
+b_list = a_list
+a_list.reverse()
+
+What is the value of b_list?
+
+None <br>
+[1,2,3,4,5] <br>
+[5,4,3,2,1] # <b>correct</br><br>
+
+What is the value of a_list?
+
+None <br>
+[1,2,3,4,5]<br>
+[5,4,3,2,1] # <b>correct</b><br>
+
+
+3. Examine the following operations:
+a_list = [1,2,3,4,5]
+b_list = a_list
+list(reversed(a_list))
+
+What is the value of b_list?
+
+None <br>
+[1,2,3,4,5] # <b>correct</br> <br>
+[5,4,3,2,1] <br>
+
+What is the value of a_list?
+
+None <br>
+[1,2,3,4,5] # <b>correct</b><br>
+[5,4,3,2,1] <br>
+
+4. Examine the following operations:
+a_list = [1,2,3,4,5]
+b_list = list(reversed(a_list))
+
+What is the value of b_list?
+
+None <br>
+[1,2,3,4,5]  <br>
+[5,4,3,2,1] # <b>correct</br> <br>
+
+What is the value of a_list?
+
+None <br>
+[1,2,3,4,5] # <b>correct</b><br>
+[5,4,3,2,1] <br>
+
+5. Examine the following operations:
+a_list = [1,2,3,4,5]
+b_list = a_list.reverse()
+
+What is the value of b_list?
+
+None # <b>correct</br><br>
+[1,2,3,4,5]  <br>
+[5,4,3,2,1]  <br>
+
+What is the value of a_list?
+
+None <br>
+[1,2,3,4,5] <br>
+[5,4,3,2,1] # <b>correct</b><br>
 
 
 ## Any Unique Requirements or Notes?
