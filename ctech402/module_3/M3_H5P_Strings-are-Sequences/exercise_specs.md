@@ -2,19 +2,105 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
+
+CHOOSE WHICH ONES TO USE
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+my_string = 'I am a string!'
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+What is the value of the following:
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+len(my_string)
 
+1 <br>
+14 # <b> correct </b> <br>
+10 <br>
+11 <br>
+
+my_string[5]
+
+' '  <br>
+'a' # <b> correct </b>
+'!' <br>
+None of the above
+
+What is the index of the 't' in my_list?
+
+5 <br>
+6 <br>
+7 <br>
+8 # <b> correct </b>
+
+my_string = 'Good evening'
+my_list = ['Good', 'evening']
+
+Is the following true or false:
+
+len(my_string) == len(my_list) # <b> False ...display correct length and explanaion for both upon revealing answer <b>
+ 
+ 
+ What is the result of the following string operations?
+ 
+ my_string = 'cheese' * 5
+ 
+  ['cheesecheesecheesecheesecheese'] <br>
+  ['cheese', 'cheese', 'cheese', 'cheese', 'cheese'] <br>
+  'cheesecheesecheesecheesecheese' # <b> correct </b> <br>
+   'cheese cheese cheese cheese cheese' <br>
+   
+
+ my_string = 'cheese' + 'and + 'crackers'
+ 
+   
+  ['cheese', 'and', 'crackers'] <br>
+  ['cheeseandcrackers'] <br>
+  'cheese and crackers'  <br>
+   'cheeseandcrackers # <b> correct </b> <br>
+   
+   
+ Which of the following operations can be used on lists AND strings? (answer: all of the above)
+ 
+ in <br>
+ * <br>
+ + <br>
+ 
+ Examine the following code snippet and choose the proper output:
+ 
+ 
+ my_string = 'cat'
+ my_list = ['cat']
+  
+ if 'c' in my_string:
+    print('c is found in the string!')
+ 
+ if 'c' in my_list:
+   print('c is found in the list!')
+ 
+
+'c is found in the string!'<br>
+'c is found in the list!<br>
+
+'c is found in the list! <br>
+
+'c is found in the string!' # <b> correct </b><br>
+
+None of the above <br>
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
 
 ## Any Unique Requirements or Notes?
 
