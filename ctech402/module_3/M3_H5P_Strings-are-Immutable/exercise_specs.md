@@ -4,17 +4,13 @@
 ## Key Technical Outcome
 
 ## Exercise Context
-Lists are mutable - list methods change the list
-Strings are immutable - string methods do NOT change the string.
-What we can do is create a new string with the appropriate changes
+Lists are mutable - list methods change the list<br>
+Strings are immutable - string methods do NOT change the string.<br>
+For this reasons, methods we have used on lists, such as .append(), cannot be used on a string. If you attempt to use such a method, you will receive an error. 
+What we can do is create a new string continaing the desired changes.<br>
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
-
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
-
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
 
 
 ## Any Unique Requirements or Notes?
