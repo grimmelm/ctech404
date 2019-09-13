@@ -2,18 +2,37 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+free text quiz
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+free text quiz:
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+What is the result of the following:
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+a_list = ['orange', 'banana', 'grape', 'watermelon', 'peach']
+
+a_list.index('bananana') # <b> 1 </b> <br>
+
+a_list.index('peach') # <b> 4 </b> <br>
+
+a_list.index('kiwi') # <b> error  </b> <br>
+
+How do you change 'grape' to equal 'kiwi'? # <b> a[2]='kiwi'
+
+MC 
+What is the result of a_list after we perform the following operations?(reword)
+
+a[2] = 'kiwi'
+a[0] = 'kiwi'
+
+a_list = ['orange', 'banana', 'grape', 'watermelon', 'peach']
+a_list = ['kiwi', 'banana', 'grape', 'watermelon', 'peach']
+a_list = ['orange', 'banana', 'kiwi', 'watermelon', 'peach']
+a_list = ['kiwi', 'banana', 'kiwi', 'watermelon', 'peach']
+
 
 
 ## Any Unique Requirements or Notes?
