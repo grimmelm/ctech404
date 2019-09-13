@@ -9,8 +9,61 @@ Strings are immutable - string methods do NOT change the string.<br>
 For this reasons, methods we have used on lists, such as .append(), cannot be used on a string. If you attempt to use such a method, you will receive an error. 
 What we can do is create a new string continaing the desired changes.<br>
 
+(note: replace() doesnt change the original string. this is not stated in the video and can be confusing to students)
+
+
+Instructions in doc:
+
+MC for lists <br>
+"What is the value of this?" <br>
+You can’t change a string- students should learn to call multiple methods in a row by doing  <br>
+value.method.method etc.  
+1 MC mutable/immutable “which of these will work?” <br>
+Give students a desired output after an operation is performed and say which will this work on ( a list or a string). A list will be the correct answer since it is mutable <br>
+
 ## Exercise Instructions
 
+my_string = 'Yellow Submarine.'<br>
+s = my_string.replace('Y', 'F')
+
+
+What is the value of my_string?<br>
+'Yellow Submarine.' # <b> correct </b> <br>
+'Fellow Submarine.' <br>
+None of the above <br>
+
+What is the value of s?
+'Yellow Submarine.' <br>
+'Fellow Submarine.' # <b> correct </b> <br>
+None of the above <br>
+
+
+my_string = 'Flood'<br>
+s = my_string.replace('F', 'G').replace('l', '') + ' ' + 'Bye!'<br>
+What is the value of s? # <b> Free text: 'Goodbye!'
+  
+
+which will this work on? <br>
+
+variable_name.append('s') 
+
+list #<b> correct </b> <br>
+string
+  
+We want to add on to string <code>s = 'Hello</code> to form the phrase 'Hello there!'<br>
+Which one of these will work ? (select all that apply)
+
+s = s + ' there!'  # <b> correct </b><br> 
+
+s.append(' there!') <br>
+
+s= s + ' ' + 'there!' # <b> correct </b> <br>
+
+r = ' there!' <br>
+s.extend(r) <br>
+
+r = ' there!' <br>
+s.append(r)
 
 
 ## Any Unique Requirements or Notes?
