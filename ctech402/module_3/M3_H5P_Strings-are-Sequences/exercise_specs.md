@@ -39,7 +39,7 @@ my_list = ['Good', 'evening']
 
 Is the following true or false:
 
-len(my_string) == len(my_list) # <b> False ...display correct length and explanaion for both upon revealing answer <b>
+len(my_string) == len(my_list) # <b> False ...display correct length and explanaion for both upon revealing answer </b>
  
  
  What is the result of the following string operations?
