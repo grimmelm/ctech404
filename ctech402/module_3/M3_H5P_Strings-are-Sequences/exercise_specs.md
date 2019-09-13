@@ -63,9 +63,9 @@ len(my_string) == len(my_list) # <b> False ...display correct length and explana
    
  Which of the following operations can be used on lists AND strings? (answer: all of the above)
  
- in <br>
- * <br>
- + <br>
+ <code>in</code> <br>
+ <code>*</code> <br>
+<code> +</code> <br>
  
  Examine the following code snippet and choose the proper output:
  
