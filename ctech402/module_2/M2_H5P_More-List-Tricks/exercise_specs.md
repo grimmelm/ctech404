@@ -12,15 +12,17 @@ free text quiz:
 
 What is the result of the following:
 
-a_list = ['orange', 'banana', 'grape', 'watermelon', 'peach']
+fruit_list = ['orange', 'banana', 'grape', 'watermelon', 'peach']
 
-a_list.index('bananana') # <b> 1 </b> <br>
+fruit_list.index('bananana') # <b> 1 </b> <br>
 
-a_list.index('peach') # <b> 4 </b> <br>
+fruit_list.index('peach') # <b> 4 </b> <br>
 
-a_list.index('kiwi') # <b> error  </b> <br>
+fruit_list.index('kiwi') # <b> error  </b> <br>
 
-How do you change 'grape' to equal 'kiwi'? # <b> a[2]='kiwi'
+How do you change 'grape' to equal 'kiwi'? # <b> a[2]='kiwi' </b>
+
+How do you assign the array element 'watermelon' to the variable <code>my_fruit</code> using indexing notation?  # <b> my_fruit = fruit_list[3] </b> 
 
 MC 
 What is the result of a_list after we perform the following operations?(reword)
