@@ -2,10 +2,11 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+Lists are mutable - list methods change the list
+Strings are immutable - string methods do NOT change the string.
+What we can do is create a new string with the appropriate changes
 
 ## Exercise Instructions
 
