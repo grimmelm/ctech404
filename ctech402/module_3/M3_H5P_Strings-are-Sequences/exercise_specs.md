@@ -34,7 +34,7 @@ What is the index of the 't' in my_list?
 7 <br>
 8 # <b> correct </b>
 
-my_string = 'Good evening'
+my_string = 'Good evening'<br>
 my_list = ['Good', 'evening']
 
 Is the following true or false:
@@ -69,7 +69,7 @@ len(my_string) == len(my_list) # <b> False ...display correct length and explana
  
  Examine the following code snippet and choose the proper output:
  
- 
+ <pre>
  my_string = 'cat'
  my_list = ['cat']
   
@@ -78,7 +78,7 @@ len(my_string) == len(my_list) # <b> False ...display correct length and explana
  
  if 'c' in my_list:
    print('c is found in the list!')
- 
+ </pre>
 
 'c is found in the string!'<br>
 'c is found in the list!<br>
