@@ -2,18 +2,25 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+
+# Needs more work
+This is a sandbox-like activity where students will be asked to experiment with list functions
+reversed(), sorted(), max(), min(), sum()
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+It's time to experiment using reversed(), sorted(), max(), min(), sum()
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+The code editor contains three lists: one containing all integers, one containg all strings, and one containing values of different data types (recall that lists can contain different data types) [provide more context, such as not all will work, like sum, perhaps include a list of floats as well].
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+Experiement applying the four functions to these lists.
+
+You can also experiment combining some of these functions, such as sorted() and reversed().
+
+
+
 
 
 ## Any Unique Requirements or Notes?
