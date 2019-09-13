@@ -40,7 +40,7 @@ None of the above <br>
 
 my_string = 'Flood'<br>
 s = my_string.replace('F', 'G').replace('l', '') + ' ' + 'Bye!'<br>
-What is the value of s? # <b> Free text: 'Goodbye!'
+What is the value of s? # <b> Free text Quiz: 'Goodbye!' </b>
   
 
 which will this work on? <br>
