@@ -10,6 +10,11 @@ join(), split()
 
 ## Exercise Instructions
 
+The code editor contains a list of your favorite foods. We want to output a sentence that states: 'My favorite foods:' followed by your favorite foods, each separated by a comma. 
+
+Use join() and other string functions and operators that you have learned to accomplish this task.
+
+
 ## Any Unique Requirements or Notes?
 
 ---
