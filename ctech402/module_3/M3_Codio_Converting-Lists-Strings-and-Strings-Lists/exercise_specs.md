@@ -22,7 +22,7 @@ Use join() and other string functions and operators that you have learned to acc
 <em><strong></strong></em>
 
 ## Environment/s Used
-Terminal. Python interpreter
+Terminal. Python interpreter. Code editor
 
 ## Language/s Used
 <em></em>
