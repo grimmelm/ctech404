@@ -2,20 +2,40 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+1. 
+Below is a dictionary containing flight numbers and the IATA codes for the international airports in which they depart.
+Drag and drop the proper values into the missing portions of the code block to output the following sentence "Flight [flight number] departs from [airport]:
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+<pre>
+flights = { 124 : 'LAX',  156: 'JFK',  87: 'MIA', 35: 'IAD', 78: 'HNL' }
+ 
+for f in flights:
+ 	print("Flight " + str(_) + " departs from " + _ ) # <b> f and flights[f] </b>
+ </pre>
+ 
+[ options for drag and drop:  f, f[flightd], flights, flights[f]] 
+  
+ 2. We would like to print the names of the airports instead of IATA codes. We added an additional dictionary who's keys are IATA codes and values are the airport names. 
+ 
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+<pre>
+flights = { 124 : 'LAX',  156: 'JFK',  87: 'MIA', 35: 'IAD', 78: 'HNL' }
+airport_names = { 'LAX': 'Los Angeles', 'JFK': 'John F Kennedy', 'MIA': 'Miami', 'IAD': 'Washington Dulles', 'HNL': 'Daniel K. Inouye'}
+
+for f in flights:
+	 IATA = _______ # <b> flights[f] </b>
+ 	print("Flight " + str( _ ) + " departs from " + ____)  #  <b>f and airport_names[IATA]</b>
+</pre>
+ 	
+[options for drag and drop : flights[f], airport_names[IATA], airport_names[f], f]
 
 
+ 
 ## Any Unique Requirements or Notes?
 
 ---
