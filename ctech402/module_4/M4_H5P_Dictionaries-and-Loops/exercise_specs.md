@@ -34,12 +34,14 @@ for f in flights:
  	
 [options for drag and drop : flights[f], airport_names[IATA], airport_names[f], f]
 
-3. What is the value of d:
+3. What is the value of d after the for loop:
 
+<pre>
 d = { 'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
 for key in d:
  d[key] = d[key]*2
+</pre>
 
 d = {'a': 1, 'b': 2, 'c': 3, 'd': 4} <br>
 d = {'a': 2, 'b': 4, 'c': 6, 'd': 8} # <b>correct </b> <br>
