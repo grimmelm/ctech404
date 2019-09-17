@@ -2,18 +2,86 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
+list(range) and slicing## Exercise Context
 
-## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+MC quiz on list(range) and slicing
+Questions regarding how you use them
+
+MC: Show students list(range(x,x,x)) and sample list results to choose from # example: [0,1,2] 
+Show students some slicing and choose result
+“Pick which of these this expression results in”
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+Choose the correct result:
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+list(range(7))
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+[1,2,3,4,5,6,7]<br>
+[0,1,2,3,4,5,6,7]<br>
+[1,2,3,4,5,6] <b># correct </b><br>
+[1,2,3,4,5,6,7,8] <br>
+
+list(range(0,5))
+
+[1,2,3,4,5] <br>
+[0,1,2,3,4,5]<br>
+[1,2,3,4] <br>
+[0,1,2,3,4] <b># correct </b><br>
+
+list(range(2,10,3))
+
+[2,3,4,5,6,7,8,9]<br>
+[2,5,8] <b># correct </b> <br>
+[2,3,4,5,6,7,8,9,10]<br>
+[3,5,7,9]<br>
+
+Choose the correct result:
+
+s = 'Good Morning Everyone!'
+
+s[5:9]
+
+' Morn' <br>
+'Morn' <b># correct </b><br>
+'Morni' <br>
+' Mor' <br>
+
+
+s[15:]
+
+'e' <br>
+'eryone!' <b># correct</b><br>
+'Good Morning Ev'<br>
+'veryone!<br>
+
+s[3:8:2]
+
+'d Mor' <br>
+'od Mor'<br>
+'dMr'<b># correct </b><br>
+'o o' <br>
+
+s[::5]
+
+'G n re' <br>
+'Good ' <br>
+'GMnee'<b># correct </b><br>
+'Morning Everyone!' <br>
+
+s[-6]
+
+'r' <b># correct </b><br>
+'o'<br>
+'e'<br>
+'!eid' <br>
+
+
+
+
+
+
+
 
 
 ## Any Unique Requirements or Notes?
@@ -23,7 +91,7 @@ It's time to write your first program! By tradition, when you learn a new progra
 <em><strong></strong></em>
 
 ## Environment/s Used
-Terminal. Python interpreter
+Terminal. Python interpreter. code editor.
 
 ## Language/s Used
 <em></em>
