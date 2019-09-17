@@ -39,13 +39,21 @@ for f in flights:
 <pre>
 d = { 'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
-for key in d:
+for key in dictionary:
  d[key] = d[key]*2
 </pre>
 
 d = {'a': 1, 'b': 2, 'c': 3, 'd': 4} <br>
 d = {'a': 2, 'b': 4, 'c': 6, 'd': 8} # <b>correct </b> <br>
 d = {'aa': 1, 'bb': 2, 'cc': 3, 'dd': 4} <br>
+
+4. Is the following T/F?
+
+cars = {'Camry': 'Toyota', 'Malibu': 'Chevrolet', 'Mustang': 'Ford', 'M-Class': 'Mercedes-Benz'}
+
+'Camry' in cars.values() F <br>
+'Chevrolet' in dcars.keys() F <br>
+'Ford' in cars.values() T <br>
 
 
 
