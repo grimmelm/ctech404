@@ -15,7 +15,7 @@ Option One:
 Examine the code in the code editor. It contains a dictionary <code>office_numbers</code> of employees and their office numbers.<br>
 Everyone who currently has an office on the second floor will be moving to a new office on the third floor. </br>
 Currently, every office number begins with the floor number followed by two numbers (e.g. 204). <br>
-To make it easier for employees to remember their new office numbers, the office numbers will remain the same with the exception of the first number (floor number). For example, Frank's offie will change from 204 to 304 once he moves to the third floor.
+To make it easier for employees to remember their new office numbers, the office numbers will remain the same with the exception of the first number (floor number). For example, Frank's offie will change from 204 to 304 once he moves to the third floor. Print the updated office list at the end of your program.
 
 Putting into practive everything you have learned about dictionaries,  find all office numbers on the second floor and update their values to the new office numbers on the third floor.
 
@@ -25,7 +25,7 @@ Examine the code in the code editor. It contains two dictionaries: <code>office_
 <code>office_numbers</code> is a dictionary containg information about employees and their office numbers.<br>
 Everyone who currently has an office on the second floor will be moving to a new office on the third floor. </br>
 Currently, every office number begins with the floor number followed by two numbers (e.g. 204). <br>
-<code>office_updates</code> contains the office numbers on the second floor and their corresponding offices on the third floor.
+<code>office_updates</code> contains the office numbers on the second floor and their corresponding offices on the third floor. Print the updated office list at the end of your program.
 
 Putting into practive everything you have learned about dictionaries, find all office numbers on the second floor and update their values to the new office numbers on the third floor.
 
