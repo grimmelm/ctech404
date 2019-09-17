@@ -2,14 +2,12 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-list(range) and slicing## Exercise Context
+list(range) and slicing strings
+
+## Exercise Context
 
 MC quiz on list(range) and slicing
 Questions regarding how you use them
-
-MC: Show students list(range(x,x,x)) and sample list results to choose from # example: [0,1,2] 
-Show students some slicing and choose result
-“Pick which of these this expression results in”
 
 ## Exercise Instructions
 
