@@ -20,7 +20,7 @@ for f in flights:
  
 [ options for drag and drop:  f, f[flightd], flights, flights[f]] 
   
- 2. We would like to print the names of the airports instead of IATA codes. We added an additional dictionary who's keys are IATA codes and values are the airport names. 
+ 2. We would like to modify our output to print the names of the airports instead of their IATA codes. We added an additional dictionary who's keys are IATA codes and values are the airport names. 
  
 
 <pre>
@@ -33,6 +33,19 @@ for f in flights:
 </pre>
  	
 [options for drag and drop : flights[f], airport_names[IATA], airport_names[f], f]
+
+3. What is the value of d:
+
+d = { 'a': 1, 'b': 2, 'c': 3, 'd': 4}
+
+for key in d:
+ d[key] = d[key]*2
+
+d = {'a': 1, 'b': 2, 'c': 3, 'd': 4} <br>
+d = {'a': 2, 'b': 4, 'c': 6, 'd': 8} # <b>correct </b> <br>
+d = {'aa': 1, 'bb': 2, 'cc': 3, 'dd': 4} <br>
+
+
 
 
  
