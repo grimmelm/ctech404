@@ -2,18 +2,14 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
+len(), in, not in, update, clear, keys(), values(), pop()
+
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+Examine the code in the code editor. It contains your itinerary from a few exercises ago (with the additon of a few entries). You are just too busy and would like to have Monday and Wednesday as rest days. Using what you have learned about dictionary functions, check to see if Monday and/or Friday is in your planner, and if so, remove them from your itinerary.
+
 
 ## Exercise Instructions
-
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
-
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
-
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
 
 
 ## Any Unique Requirements or Notes?
