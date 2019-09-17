@@ -2,18 +2,18 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+Schedule example, dictionary has list of office #s, everyone who is on 2nd floor is moving to 3rd floor, the program has to find all names for which the value starts with (2) and change that key’s value to (3) instead. Requires extracting list and testing each key if it meets given condition and correcting with new value
 
 ## Exercise Instructions
+ 
+Examine the code in the code editor. It contains a dictionary <code>office_numbers</code> of employees and their office numbers.<br>
+Everyone who currently has an office on the second floor will be moving to a new office on the third floor. </br>
+Currently, every office number begins with the floor number followed by two numbers (e.g. 204). <br>
+To make it easier for employees to remember their new office numbers, the office numbers will remain the same with the exception of the first number (floor number). For example, Frank's offie will change from 204 to 304 once he moves to the third floor.
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
-
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
-
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+Putting into practive everything you have learned about about dictionaries, and convering dictionary keys to lists, and dictionary values to lists, and find all office numbers on the second floor and update their values to the new office numbers on the third floor.
 
 
 ## Any Unique Requirements or Notes?
