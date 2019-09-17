@@ -2,18 +2,47 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+Syntax, making, looking up elements, assignment
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+1. Below is a dictionary that contains a simple itinerary with one main task or appointment to do per day.
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+weekly_planner = { 'Monday': 'hair appointment'  , 'Tuesday': 'pick up groceries', 'Wednesday': 'baseball practice'}
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+a. How do you access Monday's itinerary?
+
+weekly_planner[1] <br>
+weekly_planner['hair appointment'] <br>
+weekly_planner[0] <br>
+weekly_planner['Monday'] <b># correct </b>
+
+b. What will the following statement result in?
+
+weekly_planner[2] 
+
+'Tuesday' <br>
+error <b># correct </b> # perhaps give explanation again as to why this is a problem<br>  
+'Wednesday' <br>
+'baseball practice' <br>
+
+c. You would like to have dinner with friends on Friday. Your entry will be 'dinner with friends.' How would you create a new key/value pair in the itinerary dictionary? (free text, answer is itinerary['Friday'] = 'dinner with friends')
+
+2. Examine the dictionary and list below. Which of the following operations result in an error (select all that apply):
+
+d = {45:2, 'x': 12, 'Frank': 'f345P', 'cat': 'not dog'}
+l = ['cat', 'Frank', 67]
+
+d[45] <br>
+d[0] <b> # error </b><br>
+d['Frank'] = 15 <br>
+l['Frank'] <b> # error </b><br>
+d['not dog'] = 'dog' <b> # error </b><br>
+d['pizza'] = 'mushrooms' <br>
+l[2] = 3 <br>
+
 
 
 ## Any Unique Requirements or Notes?
