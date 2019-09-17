@@ -9,7 +9,7 @@ Schedule example, dictionary has list of office #s, everyone who is on 2nd floor
 ## Exercise Instructions
 
 <b>[I came up with two possibilities for this. See solution code for a better idea of how students will approach these]</b>
-
+<b> We can also use strings for office numbers instead of ints </b>
 Option One:
 
 Examine the code in the code editor. It contains a dictionary <code>office_numbers</code> of employees and their office numbers.<br>
@@ -27,7 +27,7 @@ Everyone who currently has an office on the second floor will be moving to a new
 Currently, every office number begins with the floor number followed by two numbers (e.g. 204). <br>
 <code>office_updates</code> contains the office numbers on the second floor and their corresponding offices on the third floor.
 
-Putting into practive everything you have learned about dictionaries, and converting keys to lists and values to lists, find all office numbers on the second floor and update their values to the new office numbers on the third floor.
+Putting into practive everything you have learned about dictionaries, find all office numbers on the second floor and update their values to the new office numbers on the third floor.
 
 ## Any Unique Requirements or Notes?
 
