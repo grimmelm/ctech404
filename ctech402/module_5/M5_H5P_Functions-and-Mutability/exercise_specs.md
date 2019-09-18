@@ -74,6 +74,7 @@ d. ERROR
 
 Should we have an open ended question?
 Explain why the last didnt work?
+Also, perhaps show two code snippets and ask which will result in the following...
 
 What is the result of a after the program finishes executing?
 
