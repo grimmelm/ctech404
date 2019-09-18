@@ -2,19 +2,105 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
-
+global vs local
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+1.
+Identify the global and local variables (maybe drag and drop?): 
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+<pre>
+x =  5
+y = 7
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+def add_numbers(a, b):
+    r = a + y + b
+    return r
 
+print(add_numbers(1,2))
+
+</pre>
+
+Answer:
+local = a, b, r <br>
+global = x, y
+
+
+2. What is the value of x and y after this program finishes executing (fill in blank)?
+
+<pre>
+x =  5
+y = 7
+
+def add_values(a, b):
+    m = a + b + y
+    return m
+
+print(add_values(x, y))
+</pre>
+
+Answer:
+y = 7, x = 5
+
+
+3. What is the value of m after this program finishes executing?
+
+<pre>
+x =  2
+y = 3
+
+def add_values(a, b):
+    return a + b + y
+
+m = add_values(x, y))
+</pre>
+
+a. 8 # <b>correct answer</b><br>
+b. 5 <br>
+c. Error <br>
+d. None of the above
+
+
+4. Whar is the value of y after this program finishes executing?
+
+<pre>
+x =  2
+y = 3
+
+def add_values(a, b):
+    y = 5 
+    return(a + b + y)
+
+m = add_values(x, y)
+y = m+y+x
+</pre>
+
+a. 3 <br>
+b. 5 <br>
+c. 15 # <b> correcr</b> <br>
+4. None of the above
+
+5. What is the output of this program?
+
+<pre>
+x =  2
+y = 3
+
+def add_values(a, b):
+    r = 5 
+    return(a + b + r)
+
+m = add_values(10, 12)
+print(m)
+print(r)
+
+</pre>
+
+a.  27 and 5 <br>
+b. 27 <br>
+c. Error <b> # correct </b><br>
+d. 22 and 5 <br>
 
 ## Any Unique Requirements or Notes?
 
