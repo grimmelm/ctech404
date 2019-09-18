@@ -2,18 +2,119 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+What is the output of each program?
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+1.
+<pre>
+def a_function():
+    print('I am in the function.')
+    
+a_function()
+a_function()
+</pre>
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+
+a. 'I am in the function'
+b.  Error
+c. 'I am in the function' #<b>correct</b>
+   'I am in the function'
+   
+2. 
+<pre>
+def a_function():
+    print('I am in the function.')
+
+the_function()
+</pre>
+
+a. No output 
+b. 'I am in the function'
+c.  Error #<b> correct </b>
+
+3. 
+<pre>
+def c_function():
+    print('I am in c_function.')
+
+def b_function():
+    c_function()
+    print('I am in b_function.')    
+
+def a_function():
+    print('I am in a_function.')
+    b_function()
+
+a_function()
+</pre>
+ 
+a. 'I am in a_function'
+
+b. I am in a_function'<br>
+   I am in b_function'<br>
+   I am in c_function'<br>
+
+c. I am in a_function.<br> # <b>correct</b>
+I am in c_function.<br>
+I am in b_function.<br>
+
+d. I am in a_function.<br> 
+I am in c_function.<br>
+
+
+4. <pre>
+def c_function():
+    print('I am in c_function.')
+
+def b_function():
+    c_function()
+    print('I am in b_function.')    
+
+def a_function():
+    print('I am in a_function.')
+    b_function()
+
+b_function()
+</pre>
+
+
+a. I am in a_function.<br> # <b>correct</b>
+I am in c_function.<br>
+I am in b_function.<br>
+
+b. I am in b_function.<br> 
+I am in c_function.<br>
+
+c. I am in c_function.<b>#bcorrect </b><br>
+I am in b_function.<br> 
+
+d. No output
+
+5. <pre>
+def c_function():
+    print('I am in c_function.')
+
+def b_function():
+    print('I am in b_function.') 
+    c_function()
+
+def a_function():
+    print('I am in a_function.')
+    b_function()
+</pre>
+
+a. 'I am in a_function'
+
+b. I am in a_function'<br>
+   I am in b_function'<br>
+   I am in c_function'<br>
+
+c. No output # <b> correct<br>
+d. Error
 
 
 ## Any Unique Requirements or Notes?
