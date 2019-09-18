@@ -19,9 +19,9 @@ a_function()
 </pre>
 
 
-a. 'I am in the function'
-b.  Error
-c. 'I am in the function' #<b>correct</b>
+a. 'I am in the function'<br>
+b.  Error <br>
+c. 'I am in the function' # <b>correct</b> <br>
    'I am in the function'
    
 2. 
@@ -32,9 +32,9 @@ def a_function():
 the_function()
 </pre>
 
-a. No output 
-b. 'I am in the function'
-c.  Error #<b> correct </b>
+a. No output  <br>
+b. 'I am in the function' <br>
+c.  Error # <b> correct </b> <br>
 
 3. 
 <pre>
@@ -52,13 +52,13 @@ def a_function():
 a_function()
 </pre>
  
-a. 'I am in a_function'
+a. 'I am in a_function' <br>
 
 b. I am in a_function'<br>
    I am in b_function'<br>
    I am in c_function'<br>
 
-c. I am in a_function.<br> # <b>correct</b>
+c. I am in a_function.  <b>correct</b> <br>
 I am in c_function.<br>
 I am in b_function.<br>
 
@@ -82,7 +82,7 @@ b_function()
 </pre>
 
 
-a. I am in a_function.<br> # <b>correct</b>
+a. I am in a_function. # <b>correct</b><br>
 I am in c_function.<br>
 I am in b_function.<br>
 
@@ -107,7 +107,7 @@ def a_function():
     b_function()
 </pre>
 
-a. 'I am in a_function'
+a. 'I am in a_function' <br>
 
 b. I am in a_function'<br>
    I am in b_function'<br>
