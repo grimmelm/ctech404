@@ -58,7 +58,7 @@ b. I am in a_function'<br>
    I am in b_function'<br>
    I am in c_function'<br>
 
-c. I am in a_function.  <b>correct</b> <br>
+c. I am in a_function. # <b>correct</b> <br>
 I am in c_function.<br>
 I am in b_function.<br>
 
@@ -89,7 +89,7 @@ I am in b_function.<br>
 b. I am in b_function.<br> 
 I am in c_function.<br>
 
-c. I am in c_function.<b>#bcorrect </b><br>
+c. I am in c_function.<b> #correct </b><br>
 I am in b_function.<br> 
 
 d. No output
@@ -113,7 +113,7 @@ b. I am in a_function'<br>
    I am in b_function'<br>
    I am in c_function'<br>
 
-c. No output # <b> correct<br>
+c. No output # <b> correct</b><br>
 d. Error
 
 
