@@ -26,10 +26,11 @@ The function is being called with one argument. By enclosing the function call i
 
 Try calling your function multiple times with the following values to test whether your function is working properly:
  
-1. -5 # absolute value = 5 <br> 
-2. -12.7 # absolute value = 12.7 <br>
-3. 46 # absolute value = 46 <br>
-4. 5*2-17 # absolute value = 7 <br>
+a. -5 # absolute value = 5 <br> 
+b. -12.7 # absolute value = 12.7 <br>
+c. 46 # absolute value = 46 <br>
+d. 5*2-17 # absolute value = 7 <br>
+
 
  2. 
  Write a function that multiples two numbers. <br>
