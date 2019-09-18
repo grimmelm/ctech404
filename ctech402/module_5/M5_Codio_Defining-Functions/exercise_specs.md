@@ -8,6 +8,7 @@ It's time to write your first function...
 
 ## Exercise Instructions
 
+1. 
 The absolute value of a number is how far a number is from zero. <br>
 5 is 5 away from 0 so the absolute value of 5 is 5. <br>
 -5 is also 5 away from 0 so the absolute value of -5 is 5.<br>
@@ -30,6 +31,16 @@ Try calling your function multiple times with the following values to test wheth
 3. 46 # absolute value = 46 <br>
 4. 5*2-17 # absolute value = 7 <br>
 
+ 2. 
+ Write a function that multiples two numbers. <br>
+ The function has two arguments. Both arguments must be an integer or floating point number. <br>
+ The body of the function will multiply both arguments and return the result. <br>
+ Call your functions with any two numerical values of your choosing to test out your function. <br>
+ Use the same method as demonstrated above to print the returned value of your function.
+ 
+ 
+
+ 
  
  
 ## Any Unique Requirements or Notes?
