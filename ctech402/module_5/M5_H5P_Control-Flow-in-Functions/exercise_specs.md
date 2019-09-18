@@ -66,7 +66,8 @@ d. I am in a_function.<br>
 I am in c_function.<br>
 
 
-4. <pre>
+4. 
+<pre>
 def c_function():
     print('I am in c_function.')
 
@@ -94,7 +95,8 @@ I am in b_function.<br>
 
 d. No output
 
-5. <pre>
+5. 
+<pre>
 def c_function():
     print('I am in c_function.')
 
