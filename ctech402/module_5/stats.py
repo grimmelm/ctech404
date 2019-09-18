@@ -23,4 +23,4 @@ def median(numbers):
 def range(numbers):
     return max(numbers) - min(numbers)
 
-# Calculate the mode (the value that occurs the most)
+# Calculate the sum of all numbers
