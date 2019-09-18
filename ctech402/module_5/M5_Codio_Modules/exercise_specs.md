@@ -10,6 +10,7 @@
 Examine the code in the code editor. It is using the stats module to find the mean, medium, range and total sum of a list of numbers.
 You'll notice that stats.py does not contain a sum function.
 Implement a sum function within stats.py so that exercise.py can run. <re-word>
+(Don't make changes to exercise.py)
 
 ## Any Unique Requirements or Notes?
 
@@ -18,7 +19,8 @@ Implement a sum function within stats.py so that exercise.py can run. <re-word>
 <em><strong></strong></em>
 
 ## Environment/s Used
-Terminal. Python interpreter
+Terminal. Python interpreter. Code editor.
+** Pre-load starter code AND stats.py
 
 ## Language/s Used
 <em></em>
