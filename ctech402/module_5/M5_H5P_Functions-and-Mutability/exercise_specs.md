@@ -2,18 +2,95 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
-
+mutability and immutability
+strings vs lists.
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+[perhaps explain immutable vs mutable and references here]
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+What is the result of a after the program finishes executing [fill in blank]?
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+<pre>
+def multiple_strings(s):
+    s = s*5
+    return s
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+a =  'foo'
+b = multiple_strings(a)
+
+Answer: 'foo'
+</pre>
+
+What is the result of a after the program finishes executing?
+
+<pre>
+def multiply_lists(l):
+    l = l*5
+    return l
+
+a =  [1,2,3]
+b = multiply_lists(a)
+</pre>
+
+a. [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]<br>
+b. [1, 2, 3] <b> # correct </b>
+c. [5, 10, 15] <br>
+d. ERROR
+
+
+What is the result of a after the program finishes executing?
+
+<pre>
+def add_to_list(l):
+    l.append(5)
+    return l
+
+a =  [4,5,6]
+b = add_to_list(a)
+</pre>
+
+a. [4,5,6]<br>
+b. [5,4,5,6] <br> 
+c. [4,5,6,5]<b> # correct </b> <br>
+d. ERROR
+
+What is the result of a after the program finishes executing?
+
+<pre>
+def add_to_list(l):
+    m = l
+    m.append(5)
+    return m
+
+a =  [1,2,3]
+b = add_to_list(a)
+</pre>
+
+a. [1,2,3]<br>
+b. [5,1,2,3] <br> 
+c. [1,2,3,5]<b> # correct </b> <br>
+d. ERROR
+
+Should we have an open ended question?
+Explain why the last didnt work?
+
+What is the result of a after the program finishes executing?
+
+<pre>
+def add_to_list(l):
+    m = [1,2,3]
+    m.extend(l)
+    return m
+
+a =  [1,2,3]
+b = add_to_list(a)
+</pre>
+
+a. [1,2,3, 1,2,3]<br>
+b. [1,2,3] <b> # correct </b> <br> 
+c. None of the above<br>
+d. ERROR
 
 
 ## Any Unique Requirements or Notes?
