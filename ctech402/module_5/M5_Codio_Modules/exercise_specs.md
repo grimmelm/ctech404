@@ -7,9 +7,9 @@
 
 ## Exercise Instructions
 
-Examine the code in the code editor. It is using the stats module to find the mean, medium, range and mode of a list of numbers.
-You'll notice that stats.py does not contain a mode function.
-Implement a mode function within stats.py so that exercise.py can run. <re-word>
+Examine the code in the code editor. It is using the stats module to find the mean, medium, range and total sum of a list of numbers.
+You'll notice that stats.py does not contain a sum function.
+Implement a sum function within stats.py so that exercise.py can run. <re-word>
 
 ## Any Unique Requirements or Notes?
 
