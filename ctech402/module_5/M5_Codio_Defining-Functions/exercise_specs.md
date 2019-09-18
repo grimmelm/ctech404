@@ -2,20 +2,36 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+It's time to write your first function...
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+The absolute value of a number is how far a number is from zero. <br>
+5 is 5 away from 0 so the absolute value of 5 is 5. <br>
+-5 is also 5 away from 0 so the absolute value of -5 is 5.<br>
+Essentially, the absolute value of a negative number is the same number without the negative sign. <br>
+An absolute value can only be a 0 or positive number.
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+Write a function that finds the absolute value of a number. <br>
+The function has one argument. The argument must be an integer or floating point value. Therefore, you must supply the function with a positive integer or floating point number when calling it. <br> 
+The body of the function will compute the absolute value of that argument and then return the absolute value.
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+Print the absolute value that was returned from the function.<br>
+You can do so by using the following syntax:  <br>
+<code>print(function_name(numerical_argument)) </code> <br>
+The function is being called with one argument. By enclosing the function call inside a print() function, the value returned by the absolute value function will be printed.
 
+Try calling your function multiple times with the following values to test whether your function is working properly:
+ 
+1. -5 # absolute value = 5 <br> 
+2. -12.7 # absolute value = 12.7 <br>
+3. 46 # absolute value = 46 <br>
+4. 5*2-17 # absolute value = 7 <br>
 
+ 
+ 
 ## Any Unique Requirements or Notes?
 
 ---
