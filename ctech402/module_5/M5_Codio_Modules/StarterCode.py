@@ -12,5 +12,5 @@ print('The median is: ' +  str(median))
 range = stats.range(my_list)
 print('The range is: ' +  str(range))
 
-sum = stats.range(my_list)
+sum = stats.sum(my_list)
 print('The sum of all numbers is: ' + str(sum))
