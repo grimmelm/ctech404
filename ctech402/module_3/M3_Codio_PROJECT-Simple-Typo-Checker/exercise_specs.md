@@ -8,11 +8,26 @@
 ## Exercise Instructions
 
 Examine the code in the code editor.
-It contains:
+It contains string <code>fairy_tale</code> which is composed of exerpt from the popular children's story Goldilocks and the Three Bears. <br>
+However, this story contains a number of spelling errors and typos. Note these errors below: </b>
 
-1. An exerpt from the popular children's story Goldilocks and the three bears contained in string <code>[name]</code.
+<pre>
+Next Goldilocks went upstairs, <b>wear</b> she found <b>tre</b> beds. There was a great big <b>bord</b>, a middle-sized <b>bord</b> and a tiny little <code>bord</code>. By now she was feeling rather tired. so she climbed into the big <b>burd</b> and lay down. The big <b>bord</b> was very hard and far too <b>biig</b>. 
+Then she tried the middle-sized <b>bord</b>, but that was far too soft. so she climbed into the tiny little <b>burd</b>. 
+It was neither <b>two</b> hard nor too soft. In fact, it felt just <b>write</b>, all <b>crazy</b> and warm. and in no <b>tine</b> at all Goldilocks fell fast asleep.'
+</pre>
+
+The code editor also contains two lists, one containing a list of the errors and the other containing corrections. 
+
+Notice that the list indices of the errors correspond to the indicies of the correct spelling. For example, in <
 2. List <code>[]</code> with spelling errors contained in the story
 3. List with the correct spelling.
+
+'wear' , 'tre', 'bord', 'burd',  'biig', 'two', 'write', 'crazy', 'tine'
+
+'where' , 'three', 'bed', 'bed',  'big', 'too', 'right', 'cozy', 'time'
+
+
 
 Notice that the list indices of the errors correspond to the indicies of the correct spelling.
 
