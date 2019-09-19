@@ -10,5 +10,18 @@ for i in prime_numbers:
 for r in remove:
 	if r in prime_numbers:
 		prime_numbers.remove(r)
+------------------
+# Remove all odd numbers:
+	
+numbers = [ 2, 10, 25, 11, 5, 3, 97, 93, 100]
+items_to_remove = []
 
-print(prime_numbers)
+for i in numbers:
+	if i % 2 == 1:
+		items_to_remove.append(i)
+			
+
+for r in items_to_remove:
+	numbers.remove(r)
+
+print(numbers)
