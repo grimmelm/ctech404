@@ -2,19 +2,18 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
+Loops and list functions
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+A prime number is a whole number which is only divisble than 1 and itself.
+The code editor contains a list of integer values.
+Write a program that removes any value from the list that is NOT a prime number.
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
-
+ 
 
 ## Any Unique Requirements or Notes?
 
