@@ -10,6 +10,7 @@
 input a string,
 find the number of values in string
 use function....supply string to function
+Remind them what vowels are and to account for upper and lower - using string functions
 
 ## Any Unique Requirements or Notes?
 
