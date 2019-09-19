@@ -17,22 +17,15 @@ Then she tried the middle-sized <b>bord</b>, but that was far too soft. so she c
 It was neither <b>two</b> hard nor too soft. In fact, it felt just <b>write</b>, all <b>crazy</b> and warm. and in no <b>tine</b> at all Goldilocks fell fast asleep.'
 </pre>
 
-The code editor also contains two lists, one containing a list of the errors and the other containing corrections. 
+The code editor also contains two lists:
 
-Notice that the list indices of the errors correspond to the indicies of the correct spelling. For example, in <
-2. List <code>[]</code> with spelling errors contained in the story
-3. List with the correct spelling.
+1. <code>spelling_errors</code>, which contains the spelling errors
+2. <code>corrections</code> which contains the correct spelling
 
-'wear' , 'tre', 'bord', 'burd',  'biig', 'two', 'write', 'crazy', 'tine'
-
-'where' , 'three', 'bed', 'bed',  'big', 'too', 'right', 'cozy', 'time'
-
-
-
-Notice that the list indices of the errors correspond to the indicies of the correct spelling.
+You'll notice that the list indices of the errors correspond to the indicies of the correct spelling. For example, element one in <code>spelling_errors</code> is 'wear', while element one in <code>corrections</code> is the corrected form 'where'
 
 Using what we have learned in this module, correct the spelling errors in the story.
-At the end of your program print <code>[name]</code> to the screen.
+At the end of your program print <code>fairy_tale</code> to the screen.
 
 ## Any Unique Requirements or Notes?
 
