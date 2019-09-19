@@ -12,7 +12,9 @@ A prime number is a whole number which is only divisble than 1 and itself.
 The code editor contains a list of integer values.
 Write a program that removes any value from the list that is NOT a prime number.
 
-#This may be too complicated. perhaps remove even elements or odd elements instead!!
+#Option # 2:
+This may be too complicated. 
+Write program to remove odd elements instead
  
 
 ## Any Unique Requirements or Notes?
