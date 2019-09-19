@@ -2,19 +2,22 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+Examine the code in the code editor.
+It contains:
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+1. An exerpt from the popular children's story Goldilocks and the three bears contained in string <code>[name]</code.
+2. List <code>[]</code> with spelling errors contained in the story
+3. List with the correct spelling.
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+Notice that the list indices of the errors correspond to the indicies of the correct spelling.
 
+Using what we have learned in this module, correct the spelling errors in the story.
+At the end of your program print <code>[name]</code> to the screen.
 
 ## Any Unique Requirements or Notes?
 
