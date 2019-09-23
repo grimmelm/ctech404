@@ -14,8 +14,11 @@ Write a program that removes any value from the list that is NOT a prime number.
 
 #Option # 2:
 This may be too complicated. 
-Write program to remove odd elements instead
- 
+Write program to remove odd elements instead:
+
+The code editor contains a list of integer values.
+Write a program that removes all odd numbers from the list using list methods.
+Print the list to the screen.
 
 ## Any Unique Requirements or Notes?
 
