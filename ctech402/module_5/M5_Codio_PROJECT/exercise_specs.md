@@ -7,10 +7,20 @@
 
 ## Exercise Instructions
 
-input a string,
-find the number of values in string
-use function....supply string to function
-Remind them what vowels are and to account for upper and lower - using string functions
+In English, the following letters are vowels: A, E, I, O, U, and sometimes Y. <br>
+Write a program that counts the number of vowels in a string and outputs that value to the screen. <br>
+Prompt a user to enter a string on the command line. <br>
+Write a function that takes that string as an argument, counts the number of vowels in the string, and returns that integer value. Print the number of vowels in the string. <br>
+
+For this program, only consider  A, E, I, O and U as vowels. <br>
+
+<b>Keep this or leave this out:</b> Also take into account that the string may be input as upper or lower case. It is important to keep in mind upper and lower case characters when doing string operations (*hint: use string functions to convert your string to uppercase or lowercase)
+
+Sample Output: <br>
+
+Enter a string: [User inputs string <code>broccoli</code>]
+There are 3 vowels in string broccoli
+
 
 ## Any Unique Requirements or Notes?
 
