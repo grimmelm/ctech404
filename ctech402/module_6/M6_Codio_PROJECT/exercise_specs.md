@@ -2,18 +2,39 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
+Yahtzee-like game: user vs computer
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+Idea #1:
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+It's time to create your own game.<br>
+Make a simple dice game where a user and a computer each roll 5 dice and compete to get the highest score.<br>
+Create the option for the user to re-roll one die:<br>
+After the computer and user roll all 5 dice, ask the user if s/he wishes to re-roll one die.  <br>
+If the user would like to re-roll, prompt the user to specify which die to roll. <br>
+Both user and computer should re-roll. <br>
+Tally up the score.<br>
+The highest score at the end wins.<br>
+Display the final score and who wins. <br>
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+Hint: To generate a die roll, you should use the <code>random.randint()</code> function to generate a random integer value between 1 and 6 
+
+Idea #2
+It's time to create your own game.<br>
+Make a simple dice game where a user and a computer each roll 5 dice compete to get the highest score.<br>
+The game should have three rounds: the user and computer both roll 5 dices THREE times. <br>
+Create the option for the user to re-roll:<br>
+After each round, the user has the option to re-roll his/her dice for a different score.
+Ask the user if s/he wishes to re-roll  <br>
+If the user would like to re-roll, both user and computer should re-roll all 5 dice. <br>
+Tally up the score from all rounds.<br>
+The highest score at the end wins.<br>
+Display the final score and who wins. <br>
+
+Hint: To generate a die roll, you should use the <code>random.randint()</code> function to generate a random integer value between 1 and 6 
 
 
 ## Any Unique Requirements or Notes?
