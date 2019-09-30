@@ -13,7 +13,8 @@ Idea #1:
 It's time to create your own game.<br>
 Make a simple dice game where a user and a computer each roll 5 dice and compete to get the highest score.<br>
 Create the option for the user to re-roll one die:<br>
-After the computer and user roll all 5 dice, ask the user if s/he wishes to re-roll one die.  <br>
+After the computer and user roll all 5 dice, display both the user's and computer's (hand?) to the user.
+Ask the user if s/he wishes to re-roll one die.  <br>
 If the user would like to re-roll, prompt the user to specify which die to roll. <br>
 Both user and computer should re-roll. <br>
 Tally up the score.<br>
