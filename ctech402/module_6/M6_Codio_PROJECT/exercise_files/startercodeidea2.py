@@ -25,7 +25,7 @@ computer_hand  = []
 def roll():
 
 
-# Both computer and player below:
+# Both computer and player roll below:
 
 
 # Final score reported to user:
