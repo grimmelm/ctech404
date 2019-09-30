@@ -22,6 +22,8 @@ Display the final score and who wins. <br>
 
 Hint: To generate a die roll, you should use the <code>random.randint()</code> function to generate a random integer value between 1 and 6 
 
+Additional functionality: Make the game more interesting by adding additional rounds. In other words, the user and computer can each role 5 dice multiple times, and the final score will take into account all rounds.
+
 Idea #2
 It's time to create your own game.<br>
 Make a simple dice game where a user and a computer each roll 5 dice compete to get the highest score.<br>
@@ -35,6 +37,8 @@ The highest score at the end wins.<br>
 Display the final score and who wins. <br>
 
 Hint: To generate a die roll, you should use the <code>random.randint()</code> function to generate a random integer value between 1 and 6 
+
+Additional functionality: Make the game more interesting by allowing the user to input how many rounds he/she would like to play at the beginning of the game.
 
 
 ## Any Unique Requirements or Notes?
