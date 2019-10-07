@@ -12,28 +12,34 @@ free text quiz:
 
 What is the result of the following:
 
-fruit_list = ['orange', 'banana', 'grape', 'watermelon', 'peach']
+<pre>fruit_list = ['orange', 'banana', 'grape', 'watermelon', 'peach']</pre>
 
-fruit_list.index('bananana') # <b> 1 </b> <br>
+fruit_list.index('banana') <br>
+Answer: <b> 1 </b> <br>
 
-fruit_list.index('peach') # <b> 4 </b> <br>
+fruit_list.index('peach') <br>
+Answer: <b> 4 </b> <br>
 
-fruit_list.index('kiwi') # <b> error  </b> <br>
+fruit_list.index('kiwi') <br>
+Answer: <b> error  </b> <br>
 
-How do you change 'grape' to equal 'kiwi'? # <b> a[2]='kiwi' </b>
+How do you change 'grape' to equal 'kiwi'? <br>
+Answer <b> a[2]='kiwi' </b>
 
-How do you assign the array element 'watermelon' to the variable <code>my_fruit</code> using indexing notation?  # <b> my_fruit = fruit_list[3] </b> 
+How do you assign the array element 'watermelon' to the variable <code>my_fruit</code> using indexing notation?  <br>
+#Answer: <b> my_fruit = fruit_list[3] </b> 
 
 MC 
-What is the result of a_list after we perform the following operations?(reword)
+What is the result of a_list after we perform the following operations?
 
-a[2] = 'kiwi'
-a[0] = 'kiwi'
+<pre>a_list = ['orange', 'banana', 'grape', 'watermelon', 'peach']</pre>
+<pre>a[2] = 'kiwi'</pre>
+<pre>a[0] = 'kiwi'</pre><br>
 
-a_list = ['orange', 'banana', 'grape', 'watermelon', 'peach']
-a_list = ['kiwi', 'banana', 'grape', 'watermelon', 'peach']
-a_list = ['orange', 'banana', 'kiwi', 'watermelon', 'peach']
-a_list = ['kiwi', 'banana', 'kiwi', 'watermelon', 'peach']
+a_list = ['orange', 'banana', 'grape', 'watermelon', 'peach'] <br>
+a_list = ['kiwi', 'banana', 'grape', 'watermelon', 'peach']<br>
+a_list = ['orange', 'banana', 'kiwi', 'watermelon', 'peach']<br>
+<b>a_list = ['kiwi', 'banana', 'kiwi', 'watermelon', 'peach']</b>
 
 
 
