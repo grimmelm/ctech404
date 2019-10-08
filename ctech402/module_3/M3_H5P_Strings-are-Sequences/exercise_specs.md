@@ -9,10 +9,9 @@ CHOOSE WHICH ONES TO USE
 
 ## Exercise Instructions
 
-my_string = 'I am a string!'
-
-What is the value of the following:
-
+Q1:<br>
+What is the value of the following:<br>
+my_string = 'I am a string!'<br>
 len(my_string)
 
 1 <br>
@@ -20,13 +19,18 @@ len(my_string)
 10 <br>
 11 <br>
 
+Q2:<br>
+What is the value of the following:<br>
+my_string = 'I am a string!'<br>
 my_string[5]
 
 ' '  <br>
-'a' # <b> correct </b>
+'a' # <b> correct </b> <br>
 '!' <br>
 None of the above
 
+Q3:<br>
+my_string = 'I am a string!'<br>
 What is the index of the 't' in my_list?
 
 5 <br>
@@ -34,40 +38,43 @@ What is the index of the 't' in my_list?
 7 <br>
 8 # <b> correct </b>
 
+Q4:<br>
 my_string = 'Good evening'<br>
 my_list = ['Good', 'evening']
 
-Is the following true or false:
+Is the following true or false?:
 
 len(my_string) == len(my_list) # <b> False ...display correct length and explanaion for both upon revealing answer </b>
  
- 
- What is the result of the following string operations?
- 
- my_string = 'cheese' * 5
+Q5:<br>
+What is the result of the following string operations?<br>
+my_string = 'cheese' * 5<br>
+print(my_string)
  
   ['cheesecheesecheesecheesecheese'] <br>
   ['cheese', 'cheese', 'cheese', 'cheese', 'cheese'] <br>
   'cheesecheesecheesecheesecheese' # <b> correct </b> <br>
-   'cheese cheese cheese cheese cheese' <br>
+  'cheese cheese cheese cheese cheese' <br>
    
+Q6:<br>
+What is the result of the following string operations?<br>
+my_string = 'cheese' + 'and + 'crackers'
 
- my_string = 'cheese' + 'and + 'crackers'
- 
+['cheese', 'and', 'crackers'] <br>
+['cheeseandcrackers'] <br>
+'cheese and crackers'  <br>
+'cheeseandcrackers # <b> correct </b> <br>
    
-  ['cheese', 'and', 'crackers'] <br>
-  ['cheeseandcrackers'] <br>
-  'cheese and crackers'  <br>
-   'cheeseandcrackers # <b> correct </b> <br>
-   
-   
- Which of the following operations can be used on lists AND strings? (answer: all of the above)
+Q7:<br>   
+Which of the following operations can be used on lists AND strings? (answer: all of the above)
  
- <code>in</code> <br>
- <code>*</code> <br>
-<code> +</code> <br>
- 
- Examine the following code snippet and choose the proper output:
+<code>in</code><br>
+<code>*</code> <br>
+<code>+</code> <br>
+<code>All of the above</code>
+
+Q8:<br>
+Examine the following code snippet and choose the proper output:
  
  <pre>
  my_string = 'cat'
@@ -82,11 +89,8 @@ len(my_string) == len(my_list) # <b> False ...display correct length and explana
 
 'c is found in the string!'<br>
 'c is found in the list!<br>
-
 'c is found in the list! <br>
-
 'c is found in the string!' # <b> correct </b><br>
-
 None of the above <br>
 
 
