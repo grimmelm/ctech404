@@ -21,7 +21,7 @@ Putting into practive everything you have learned about dictionaries,  find all 
 
 Second option:
 
-Examine the code in the code editor. It contains two dictionaries: <code>office_numbers</code> and <code>office_updates</code.
+Examine the code in the code editor. It contains two dictionaries: <code>office_numbers</code> and <code>office_updates</code>.
 <code>office_numbers</code> is a dictionary containg information about employees and their office numbers.<br>
 Everyone who currently has an office on the second floor will be moving to a new office on the third floor. </br>
 Currently, every office number begins with the floor number followed by two numbers (e.g. 204). <br>
