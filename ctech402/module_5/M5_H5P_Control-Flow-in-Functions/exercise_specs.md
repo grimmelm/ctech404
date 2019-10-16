@@ -83,7 +83,7 @@ b_function()
 </pre>
 
 
-a. I am in a_function. # <b>correct</b><br>
+a. I am in a_function. <br>
 I am in c_function.<br>
 I am in b_function.<br>
 
