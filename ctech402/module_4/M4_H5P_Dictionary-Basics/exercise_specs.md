@@ -39,7 +39,7 @@ d[45] <br>
 d[0] <b> # error </b><br>
 d['Frank'] = 15 <br>
 l['Frank'] <b> # error </b><br>
-d['not dog']<b> # error </b><br>
+x = d['not dog']<b> # error </b><br>
 d['pizza'] = 'mushrooms' <br>
 l[2] = 3 <br>
 
