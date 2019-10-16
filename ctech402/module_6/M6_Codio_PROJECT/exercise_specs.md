@@ -4,11 +4,26 @@
 ## Key Technical Outcome
 Yahtzee-like game: user vs computer
 
-## Exercise Context
+## Interpretive Option:
+<b>Exercise Context</b>
+For this final course project, you will create a game similar to the card game professor Grimmelmann created in this module. Instead of cards, you will write a program in which you roll and reroll three or more dice to try to score higher values than the computer.
 
-## Exercise Instructions
+<b>Exercise Instructions</b>
+To successfully complete this task, your program must include each of the following:
+  1. Printed statements that clearly narrate the events of the game to the conclusion.
+  2. A reusable function for rolling (and rerolling) the dice (with possible values 1-6), implemented for both the player and and computer.
+  3. The opportunity for strategy: Both the computer and player should have a chance to reroll at least one die value of their selection
+  4. Once all rolls are complete, whoever had the highest total score OR 3 matching die rolls wins.
+  5. Comment the sections of your code explaining your development process and the rules/events that depict the narrative of the game.
+  6. Your code must include at least one for or while loop.
 
-Idea #1:
+To complete this project, you will need to utilize the <code>random</code> module package that contains the function <code>randint</code> that will help you create your dice rolling feature. Use the randint function to generate a random integer value between 1-6.
+
+We will include some basic initial code and variables to get you started. You may modify or rename these variables for your own style or purposes.
+
+
+## <b>Instructed Options:</b>
+<b>Idea #1:</b>
 
 It's time to create your own game.<br>
 Make a simple dice game where a user and a computer each roll 5 dice and compete to get the highest score.<br>
@@ -25,7 +40,7 @@ Hint: To generate a die roll, you should use the <code>random.randint()</code> f
 
 Additional functionality: Make the game more interesting by adding additional rounds. In other words, the user and computer can each role 5 dice multiple times, and the final score will take into account all rounds.
 
-Idea #2
+<b>Idea #2</b>
 It's time to create your own game.<br>
 Make a simple dice game where a user and a computer each roll 5 dice compete to get the highest score.<br>
 The game should have three rounds: the user and computer both roll 5 dices THREE times. <br>
