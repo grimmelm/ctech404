@@ -8,7 +8,7 @@
 ## Exercise Instructions
 
 Examine the code in the code editor.
-It contains string <code>fairy_tale</code> which is composed of exerpt from the popular children's story Goldilocks and the Three Bears. <br>
+It contains string <code>fairy_tale</code> which is composed of an exerpt from the popular children's story Goldilocks and the Three Bears. <br>
 However, this story contains a number of spelling errors and typos. Note these errors below: </b>
 
 <pre>
@@ -27,9 +27,7 @@ The code editor also contains two lists:
 
 You'll notice that the list indices of the errors correspond to the indicies of the correct spelling. For example, element one in <code>spelling_errors</code> is 'wear', while element one in <code>corrections</code> is the corrected form 'where'
 
-You will notice that some spelling errors appear are recurring.
-
-Using what we have learned in this module, correct the spelling errors in the story.
+Using what we have learned in this module, correct the spelling errors in the story using the two lists provided.
 At the end of your program print <code>fairy_tale</code> to the screen.
 
 ## Any Unique Requirements or Notes?
