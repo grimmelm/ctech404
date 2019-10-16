@@ -34,7 +34,7 @@ b = multiply_lists(a)
 </pre>
 
 a. [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]<br>
-b. [1, 2, 3] <b> # correct </b>
+b. [1, 2, 3] <b> # correct </br>
 c. [5, 10, 15] <br>
 d. ERROR
 
