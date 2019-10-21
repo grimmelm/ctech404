@@ -59,7 +59,7 @@ Q6: What is the result of the following:<br>
 a. ['dog', 'cat', 'mouse', 'lion', 'zebra', 'bear']<br>
 b. ['bear', 'cat', 'dog', 'lion', 'mouse', 'zebra'] <br>
 c. 'dog'<br>
-d. Error<br>
+d. Error <b>correct</b> <br>
 
 Q7: What is the result of the following:<br> 
 <pre>a_list = [3, 29, 45, 2, 101, 14]
