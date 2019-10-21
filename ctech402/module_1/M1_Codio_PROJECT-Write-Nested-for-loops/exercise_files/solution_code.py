@@ -1,5 +1,5 @@
-entree = ["Hamburger", "Pasta", "Salmon"]
-side = ["French fries", "Mashed potatoes", "Salad"]
+entree = ["hamburger", "pasta", "salmon"]
+side = ["french fries", "mashed potatoes", "salad"]
 
 for i in entree:
 	for j in side:
