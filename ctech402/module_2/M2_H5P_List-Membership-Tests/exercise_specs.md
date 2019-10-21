@@ -36,7 +36,7 @@ Answer: my_list[1]
 Examine the list below and answer whether the following expressions evaluate to True or False:
 <pre>a_list = ['toyota', 'chevrolet', 'lexus', 'ford', 'tesla', 'subaru']</pre>
 
-Q4. 'toyota' in a_list #<b>True</b>
-Q5. 'volvo' not in a_list #<b>True</b> 
+Q4. 'toyota' in a_list #<b>True</b><br>
+Q5. 'volvo' not in a_list #<b>True</b> <br>
 Q6. a_car = 'jeep'<br>
     a_car in a_list #<b>False</b>
