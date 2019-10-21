@@ -1,18 +1,33 @@
-# Exercise Title:
+# Exercise Title: Module 1 Project: Write Nested for Loops
 ---
-# Instructional Requirements
 ## Key Technical Outcome
+Write a Program that has a Nested “for” Loop inside of another loop
 
 ## Exercise Context
+Examine the code in <code>exercise.py</code> in the code editor. It contains two lists, <code>entree</code> and <code>side</code>.
+
+Write a program that generates dinner suggestions based on these two lists. Use nested for loops to print out meal suggestions containing one dish and side from each list. 
 
 ## Exercise Instructions
+  1. Add <b>one new element</b> either the <code>entree</code> or <code>side</code> lists. You should have a total of 7 options between both lists.
+  2. In <code>exercise.py</code>, starting on line 4, write your outer loop that selects an entree from the corresponding list.
+  3. On line 5, write your inner loop that selects a side from the corresponding list.
+  4. On line 6, write a print statement that prints all (12) entree and side combination options as recommendations.
 
-Examine the code in <code>exercise.py</code> in the code editor. It contains two lists, <code>dish</code> and <code>side</code>.
 
-Write a program that generates dinner suggestions. Use nested for loops to print out meal suggestions containing one dish and side.
-
-Sample Output:
-You should order salad and baked salmon
+<pre>Sample Output:
+You should order Hamburger and French fries
+You should order Hamburger and Mashed potatoes
+You should order Hamburger and Salad
+You should order Pasta and French fries
+You should order Pasta and Mashed potatoes
+You should order Pasta and Salad
+You should order Salmon and French fries
+You should order Salmon and Mashed potatoes
+You should order Salmon and Salad
+You should order Soup and French fries
+You should order Soup and Mashed potatoes
+You should order Soup and Salad</pre>
 ## Any Unique Requirements or Notes?
 
 ---
