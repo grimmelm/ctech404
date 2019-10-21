@@ -1,6 +1,6 @@
-dish = ["pasta alfredo", "baked salmon", "chicken parmesan", "sliders"]
-side = ["french fries", "mashed potatoes", "salad"]
+entree = ["Hamburger", "Pasta", "Salmon"]
+side = ["French fries", "Mashed potatoes", "Salad"]
 
-for i in dish:
+for i in entree:
 	for j in side:
 		print("You should order " + i + " and " + j)
