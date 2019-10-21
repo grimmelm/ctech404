@@ -1,2 +1,2 @@
-dish = ["pasta alfredo", "baked salmon", "chicken parmesan", "sliders"]
-side = ["french fries", "mashed potatoes", "salad"]
+entree = ["Hamburger", "Pasta", "Salmon"]
+side = ["French fries", "Mashed potatoes", "Salad"]
