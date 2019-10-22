@@ -8,7 +8,8 @@ Schedule example, dictionary has list of office #s, everyone who is on 2nd floor
 
 ## Exercise Instructions
 <b>[I came up with two possibilities for this. See solution code for a better idea of how students will approach these]</b>
-<b> We can also use strings for office numbers instead of ints </b>
+<b> We can also use strings for office numbers instead of ints </b><br>
+
 <b>Option One:</b>
 
 Examine the code in the code editor. It contains a dictionary <code>office_numbers</code> of employees and their office numbers.<br>
@@ -18,7 +19,7 @@ To make it easier for employees to remember their new office numbers, the office
 
 Putting into practive everything you have learned about dictionaries,  find all office numbers on the second floor and update their values to the new office numbers on the third floor.
 
-<b>Second option:</b>
+<b>Option Two:</b>
 
 Examine the code in the code editor. It contains two dictionaries: <code>office_numbers</code> and <code>office_updates</code>.
 <code>office_numbers</code> is a dictionary containg information about employees and their office numbers.<br>
