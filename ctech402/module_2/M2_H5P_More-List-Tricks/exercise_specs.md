@@ -9,10 +9,10 @@ free text quiz
 
 ## Open text Entry Qs:
 
-<code>fruit_list = ['orange', 'banana', 'grape', 'watermelon', 'peach']</code>
+<code>fruit_list = ['orange', 'banana', 'grape', 'watermelon', 'peach']</code><br>
 Referring to the list above, what is the result of the following:
 
-Q1. fruit_list.index('bananana') # <b> 1 </b> <br>
+Q1. fruit_list.index('banana') # <b> 1 </b> <br>
 Q2. fruit_list.index('peach') # <b> 4 </b> <br>
 Q3. fruit_list.index('kiwi') # <b> error  </b> <br>
 
