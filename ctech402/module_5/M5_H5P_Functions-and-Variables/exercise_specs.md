@@ -62,7 +62,7 @@ c. Error <br>
 d. None of the above
 
 
-4. Whar is the value of y after this program finishes executing?
+4. What is the value of y after this program finishes executing?
 
 <pre>
 x =  2
