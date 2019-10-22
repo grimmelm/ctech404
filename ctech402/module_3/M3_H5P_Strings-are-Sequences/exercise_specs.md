@@ -90,6 +90,6 @@ Examine the following code snippet and choose the proper output:
 a. 'c is found in the string!'<br>
 b. 'c is found in the list!<br>
 c. 'c is found in the list! <br>
-d. 'c is found in the string!' # <b> correct </b><br>
-e. None of the above <br>
+   'c is found in the string!' # <b> correct </b><br>
+d. None of the above <br>
 
