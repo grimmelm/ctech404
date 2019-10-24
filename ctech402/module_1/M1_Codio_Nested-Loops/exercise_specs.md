@@ -26,4 +26,20 @@ I have a large rabbit
 I have a large cat
 I have a large dog</pre>
 
+## Any Unique Requirements or Notes?
+
+---
+# Technical Requirements
+<em><strong></strong></em>
+
+## Environment/s Used
+Terminal. Python interpreter. Code editor with starter code
+
+## Language/s Used
+<em></em>
+
+## Package/s Required
+<em>Python 3</em>
+
+---
 ## Note: This one can be auto-assessed for correct output
