@@ -26,7 +26,7 @@ Print the list to the screen.
 <em><strong></strong></em>
 
 ## Environment/s Used
-Terminal. Python interpreter
+Terminal. Python interpreter. Code editor.
 
 ## Language/s Used
 <em></em>
