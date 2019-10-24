@@ -16,9 +16,9 @@ We want to sort a_list but do not want to change the value of a_list. Rather, we
 <code>a_list = [12,20,18,14,20]</code> 
 
 a. a_list.sort() <br>
-b. b_list.sort() <br>
-c. b_list = a_list.sort() <br>
-d. b_list = sorted(a_list) <br>
+b. sorted_list.sort() <br>
+c. sorted_list = a_list.sort() <br>
+d. sorted_list = sorted(a_list) <b>#code</b><br>
 
 Question 2: 
 Examine the following operations:
