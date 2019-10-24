@@ -10,21 +10,21 @@ Examine the code in <code>exercise.py</code> in the code editor. It contains two
 Write a program that generates dinner suggestions based on these two lists. Use a nested for loop to print out meal suggestions containing one entree and one side from each list. 
 
 ## Exercise Instructions
-  1. Write an outer loop that selects an entree from the corresponding list.
-  2. Write an inner loop that selects a side from the corresponding list.
-  3. Write a print statement that prints all (12) entree and side combination options as recommendations. 
+  1. Write an outer loop that loops through the entree list
+  2. Write an inner loop that loops through the side list.
+  3. Print each entree and side combination as recommendations. 
 
 
 <b>Sample Output:</b>
-<pre>You should try the hamburger and french fries
-You should try the hamburger and mashed potatoes
-You should try the hamburger and salad
-You should try the pasta and french fries
-You should try the pasta and mashed potatoes
-You should try the pasta and salad
-You should try the salmon and french fries
-You should try the salmon and mashed potatoes
-You should try the salmon and salad
-You should try the soup and french fries
-You should try the soup and mashed potatoes
-You should try the soup and salad</pre>
+<pre>You should try pasta alfredo and french fries
+You should try pasta alfredo and mashed potatoes
+You should try pasta alfredo and salad
+You should try baked salmon and french fries
+You should try baked salmon and mashed potatoes
+You should try baked salmon and salad
+You should try chicken parmesan and french fries
+You should try chicken parmesan and mashed potatoes
+You should try chicken parmesan and salad
+You should try sliders and french fries
+You should try sliders and mashed potatoes
+You should try sliders and salad</pre>
