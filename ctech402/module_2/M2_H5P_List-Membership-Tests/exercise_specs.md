@@ -40,3 +40,20 @@ Q4. 'toyota' in a_list #<b>True</b><br>
 Q5. 'volvo' not in a_list #<b>True</b> <br>
 Q6. a_car = 'jeep'<br>
     a_car in a_list #<b>False</b>
+
+
+What will the following code output?<br>
+
+<pre>
+my_car = 'honda'
+if my_car in a_list:
+ 'I have the same car!'
+else:
+ 'I don't have the same car.'
+ </pre>
+ 
+ a. 'I have the same car!' <br>
+ b. 'I don't have the same car' # <b> correct</b> <br>
+ c. None of the above
+ 
+ 
