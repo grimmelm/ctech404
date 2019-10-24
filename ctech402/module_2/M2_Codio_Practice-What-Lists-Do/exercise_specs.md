@@ -18,3 +18,20 @@ If you're not sure where to start, try adding these to <code>exercise.py</code> 
 1. sum(int_list)
 2. sorted(int_list)
 3. sorted(str_list)
+
+## Any Unique Requirements or Notes?
+
+---
+# Technical Requirements
+<em><strong></strong></em>
+
+## Environment/s Used
+Terminal. Python interpreter. Code editor
+
+## Language/s Used
+<em></em>
+
+## Package/s Required
+<em>Python 3</em>
+
+---
