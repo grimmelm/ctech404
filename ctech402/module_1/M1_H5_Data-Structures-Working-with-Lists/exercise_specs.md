@@ -18,16 +18,16 @@ Multiple choice and TF questions
 
 2. <pre>['square', 'circle'] * 3</pre>
 
-['square', 'square', 'square', 'circle']
-['square', 'circle', 'circle', 'circle'] #<b>correct: </b>
-['square', 'circle', 'square', 'circle', 'square', 'circle']  
+['square', 'square', 'square', 'circle'] <br>
+['square', 'circle', 'circle', 'circle'] #<b>correct: </b><br>
+['square', 'circle', 'square', 'circle', 'square', 'circle']  <br>
 
 
 3. <pre>['red', 'blue'] + ['orange'] * 3 </pre>
  
-['red', 'blue', 'orange', 'red', 'blue', 'orange', 'red', 'blue', 'orange'] #<b>correct:</b>
-['red', 'blue', 'orange', 'orange', 'orange'] 
-[''red', 'blue', 'red', 'blue', 'red', 'blue', 'orange']
+['red', 'blue', 'orange', 'red', 'blue', 'orange', 'red', 'blue', 'orange'] #<b>correct:</b><br>
+['red', 'blue', 'orange', 'orange', 'orange'] <br>
+[''red', 'blue', 'red', 'blue', 'red', 'blue', 'orange'] <br>
  
  
  Do the following experessions evaluate to True or False?:
