@@ -11,10 +11,9 @@ Multiple choice and TF questions
  
  1. <pre>['one', 'two'] + ['three', 'four'] + [] + ['one']</pre>
 
-<pre>['one', 'two', 'three', 'four', '', 'one']</pre> 
-#<b> correct: </b>
-<pre>['one', 'two', 'three', 'four', 'one']</pre> 
-<pre>['one', 'two', 'three', 'four']</pre>
+['one', 'two', 'three', 'four', '', 'one'] #<b> correct: </b><br>
+<pre>['one', 'two', 'three', 'four', 'one']<br> 
+<pre>['one', 'two', 'three', 'four']<br>
 
 
 2. <pre>['square', 'circle'] * 3</pre>
