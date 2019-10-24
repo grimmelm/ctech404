@@ -5,15 +5,15 @@ Write a Program that has a Nested “for” Loop
 
 ## Exercise Context
 
+## Exercise Instructions
 Examine the code in <code>exercise.py</code> in the code editor. It contains two lists, <code>entree</code> and <code>side</code>.
 
-Write a program that generates dinner suggestions based on these two lists. Use a nested for loop to print out meal suggestions containing one entree and one side from each list. 
+Write a program that generates dinner suggestions based on these two lists.<br>
+Use a nested for loop to print each entree and side combination as recommendations. 
 
-## Exercise Instructions
-  1. Write an outer loop that loops through the entree list
-  2. Write an inner loop that loops through the side list.
-  3. Print each entree and side combination as recommendations. 
-
+Hint:
+  1. One loop should loops through the entree list
+  2. One loop should loop through the side list.
 
 <b>Sample Output:</b>
 <pre>You should try pasta alfredo and french fries
