@@ -6,6 +6,7 @@ Loops and list functions
 ## Exercise Context
 
 ## Exercise Instructions
+
 #Option 1:
 A prime number is a whole number which is only divisble than 1 and itself.
 The code editor contains a list of integer values.
