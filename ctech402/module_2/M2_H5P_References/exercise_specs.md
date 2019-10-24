@@ -18,7 +18,7 @@ We want to sort a_list but do not want to change the value of a_list. Rather, we
 a. a_list.sort() <br>
 b. sorted_list.sort() <br>
 c. sorted_list = a_list.sort() <br>
-d. sorted_list = sorted(a_list) <b>#code</b><br>
+d. sorted_list = sorted(a_list) <b>#correct</b><br>
 
 Question 2: 
 Examine the following operations:
