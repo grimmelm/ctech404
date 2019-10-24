@@ -28,3 +28,18 @@ You should try chicken parmesan and salad
 You should try sliders and french fries
 You should try sliders and mashed potatoes
 You should try sliders and salad</pre>
+
+## Any Unique Requirements or Notes?
+
+---
+# Technical Requirements
+<em><strong></strong></em>
+
+## Environment/s Used
+Terminal. Python interpreter. Code editor
+
+## Language/s Used
+<em></em>
+
+## Package/s Required
+<em>Python 3</em>
