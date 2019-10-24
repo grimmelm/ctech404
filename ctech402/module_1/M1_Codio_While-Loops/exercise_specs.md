@@ -17,3 +17,18 @@ Write a program that prints out a sequence of numbers starting from 1 and ending
 3
 4
 5</pre>
+
+## Any Unique Requirements or Notes?
+
+---
+# Technical Requirements
+<em><strong></strong></em>
+
+## Environment/s Used
+Terminal. Python interpreter. Code editor.
+
+## Language/s Used
+<em></em>
+
+## Package/s Required
+<em>Python 3</em>
