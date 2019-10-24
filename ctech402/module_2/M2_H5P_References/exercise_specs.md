@@ -3,11 +3,7 @@
 ## Key Technical Outcome
 
 ## Exercise Context
-We have seen the difference between methods and functions and the effects they can have on the values of variables.
-
-[Comment on how a method returns None]
-[Comment on how this applies to all methods() including reverse() sort() etc
-<b>Connor Note: What are these above 2 lines? Please complete the context.</b>
+Th exercise below will test your comprehension of the difference between methods and functions and the effects they can have on the values of variables.
 
 ## Exercise Instructions
 
@@ -33,12 +29,6 @@ b. [1,2,3,4,5] <br>
 c. [5,4,3,2,1] # <b>correct</b><br>
 d. [5,2,3,4,1]
 
-Question 3:
-Examine the following operations:
-<pre>a_list = [1,2,3,4,5]
-b_list = a_list
-a_list.reverse()</pre>
-
 What is the value of a_list?
 
 a. None <br>
@@ -46,7 +36,7 @@ b. [1,2,3,4,5]<br>
 c. [5,4,3,2,1] # <b>correct</b><br>
 d. [5,2,3,4,1]
 
-Question 4: <br>
+Question 3: <br>
 Examine the following operations:<br>
 <pre>a_list = [1,2,3,4,5]
 b_list = a_list
@@ -58,11 +48,6 @@ b. [1,2,3,4,5] # <b>correct</b> <br>
 c. [5,4,3,2,1] <br>
 d. [5,2,3,4,1]
 
-Question 5:<br>
-Examine the following operations:<br>
-<pre>a_list = [1,2,3,4,5]
-b_list = a_list
-list(reversed(a_list))</pre>
 What is the value of a_list?
 
 a. None <br>
@@ -70,7 +55,7 @@ b. [1,2,3,4,5] # <b>correct</b><br>
 c. [5,4,3,2,1] <br>
 d. [5,2,3,4,1]
 
-Question 6: <br>
+Question 4: <br>
 Examine the following operations:
 <pre>a_list = [1,2,3,4,5]
 b_list = list(reversed(a_list))</pre>
@@ -81,10 +66,6 @@ b. [1,2,3,4,5]  <br>
 c. [5,4,3,2,1] # <b>correct</b> <br>
 d. [5,2,3,4,1]
 
-Question 7:<br>
-Examine the following operations:
-<pre>a_list = [1,2,3,4,5]
-b_list = list(reversed(a_list))</pre>
 What is the value of a_list?
 
 a. None <br>
@@ -92,7 +73,7 @@ b. [1,2,3,4,5] # <b>correct</b><br>
 c. [5,4,3,2,1] <br>
 d. [5,2,3,4,1]
 
-Question 8:<br>
+Question 5:<br>
 Examine the following operations:
 <pre>a_list = [1,2,3,4,5]
 b_list = a_list.reverse()</pre>
@@ -104,10 +85,6 @@ b. [1,2,3,4,5]  <br>
 c. [5,4,3,2,1]  <br>
 d. [5,2,3,4,1]
 
-Question 9:<br>
-Examine the following operations:
-<pre>a_list = [1,2,3,4,5]
-b_list = a_list.reverse()</pre>
 What is the value of a_list?
 
 a. None <br>
