@@ -4,6 +4,7 @@
 ## Key Technical Outcome
 
 ## Exercise Context
+CAN CHOOSE WHICH ONES TO USE AND WHICH TO OMMIT
 
 ## Exercise Instructions
 
