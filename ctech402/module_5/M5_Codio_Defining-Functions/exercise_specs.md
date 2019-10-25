@@ -36,7 +36,7 @@ d. 5*2-17 # absolute value = 7 <br>
 Part 2:
 
  Write a function that multiples two numbers. <br>
- The function has two arguments. Both arguments must be an integer or floating point number. <br>
+ The function has two arguments. Each argument must be an integer or floating point number. <br>
  The body of the function will multiply both arguments and return the result. <br>
  Call your functions with any two numerical values of your choosing to test out your function. <br>
  Use the same method as demonstrated above to print the returned value of your function.
