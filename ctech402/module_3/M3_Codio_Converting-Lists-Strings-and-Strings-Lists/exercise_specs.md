@@ -3,15 +3,16 @@
 # Instructional Requirements
 ## Key Technical Outcome
 join(), split()
-*example: have students use join to convert a list to a string and then perform some operation on the string
 
 ## Exercise Context
-Create a program that outputs a list as printed statements of your top 5 favorite foods.
+Create a program that takes a list of your favorite foods and prints them in a nicely formatted string.
 
 ## Exercise Instructions
-1. The code editor contains an empty array with some placeholder text. 
-2. Modify this provided list to include 5 string elements of your top 5 favorite foods. 
-3. Print your list of favorite foods using <code>join()</code>.
+
+<code>exercise.py</code> contains an empty list <code>my_foods</code>
+* Add 5 string elements containing your favorite foods to <code>my_foods</code>. (list <code>my_foods</code> should have a length of 5)
+* Output a sentence that states: 'My favorite foods:' followed by the foods contained in list <code>my_foods</code>, each separated by a comma.
+* Use join() and other string operators that you have learned to accomplish this task
 
 ## Environment/s Used
 Terminal. Python interpreter. Code editor.
