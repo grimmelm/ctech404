@@ -15,3 +15,4 @@ Implement the <code>sum</code> function within <code>stats.py</code> so that <co
 ## Environment/s Used
 Terminal. Python interpreter. Code editor.
 ** Pre-load starter code AND stats.py
+** starter code is exercise.py and stats.py
