@@ -5,8 +5,8 @@
 ## Exercise Context
 Lists are mutable - list methods change the orignal list<br>
 Strings are immutable - string methods do NOT change the orignal string.<br>
-Therefore, some of the methods we have used on lists, such as .append(), cannot be used on strings. 
-If you attempt to use such a method, you will receive an error. 
+Therefore, some of the methods we have used on lists, such as .append(), cannot be used on strings. <br>
+If you attempt to use such a method, you will receive an error. <br>
 One way to make a change to a string is to create a new string that contains the desired change.<br>
 
 
