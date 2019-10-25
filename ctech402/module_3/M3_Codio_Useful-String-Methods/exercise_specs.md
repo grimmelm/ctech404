@@ -20,7 +20,7 @@ Feel free to create your own strings and experiment with them.
 <em><strong></strong></em>
 
 ## Environment/s Used
-Terminal. Python interpreter
+Terminal. Python interpreter. code editor
 
 ## Language/s Used
 <em></em>
