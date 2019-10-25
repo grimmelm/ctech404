@@ -9,7 +9,7 @@
 
 In English, the following letters are vowels: A, E, I, O, U, and sometimes Y. <br>
 
-Write a program that counts the number of vowels in a string and outputs that value to the screen. <br>
+Write a program that counts the number of vowels in a string and outputs that number to the screen. <br>
 
 1. Prompt a user to enter a string on the command line. <br>
 2. Write a function that takes that string as an argument, counts the number of vowels in the string, and returns that integer value.
