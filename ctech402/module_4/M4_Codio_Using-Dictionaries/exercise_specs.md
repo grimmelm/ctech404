@@ -13,14 +13,7 @@ You are just too busy and would like to have Monday and Wednesday off as rest da
 Using what you have learned about dictionary functions, check to see if Monday and/or Friday is in your planner, and if so, remove them from your itinerary. <br>
 Print your planner at the end of your program to check your updated itinerary. <br>
 
-## Exercise Instructions
-
-
-## Any Unique Requirements or Notes?
-
 ---
-# Technical Requirements
-<em><strong></strong></em>
 
 ## Environment/s Used
 Terminal. Python interpreter. Code editor
