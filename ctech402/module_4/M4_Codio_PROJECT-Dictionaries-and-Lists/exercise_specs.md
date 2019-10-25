@@ -4,7 +4,7 @@
 ## Key Technical Outcome
 
 ## Exercise Context
-Schedule example, dictionary has list of office #s, everyone who is on 2nd floor is moving to 3rd floor, the program has to find all names for which the value starts with (2) and change that key’s value to (3) instead. Requires extracting list and testing each key if it meets given condition and correcting with new value
+(not student facing, context for us: Schedule example, dictionary has list of office #s, everyone who is on 2nd floor is moving to 3rd floor, the program has to find all names for which the value starts with (2) and change that key’s value to (3) instead. Requires extracting list and testing each key if it meets given condition and correcting with new value)
 
 ## Exercise Instructions
 <b>[I came up with two possibilities for this. See solution code for a better idea of how students will approach these]</b>
