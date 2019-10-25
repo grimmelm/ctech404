@@ -5,8 +5,6 @@ list(range) and slicing strings
 
 ## Exercise Context
 
-MC quiz on list(range) and slicing
-Questions regarding how you use them
 
 ## Exercise Instructions
 
