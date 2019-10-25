@@ -3,44 +3,49 @@
 # Instructional Requirements
 ## Key Technical Outcome
 
-CHOOSE WHICH ONES TO USE
-
 ## Exercise Context
 
 ## Exercise Instructions
 
 Q1:<br>
-What is the value of the following:<br>
-my_string = 'I am a string!'<br>
-len(my_string)
 
+<pre>
+my_string = 'I am a string!'<br>
+</pre>
+What is the value of the following:<br>
+
+<code>len(my_string)</code>
 a. 1 <br>
 b. 14 # <b> correct </b> <br>
 c. 10 <br>
 d. 11 <br>
 
-Q2:<br>
-What is the value of the following:<br>
-my_string = 'I am a string!'<br>
-my_string[5]
+
+<code>my_string[5]</code>
 
 a. ' '  <br>
 b. 'a' # <b> correct </b> <br>
 c. '!' <br>
 d. None of the above
 
-Q3:<br>
-my_string = 'I am a string!'<br>
-What is the index of the 't' in my_list?
+Q2:<br>
+
+<pre>
+my_string = 'I am a string!'
+</pre>
+<br>
+What is the index of the 't' in <code>my_string</code>?
 
 a. 5 <br>
 b. 6 <br>
 c. 7 <br>
 d. 8 # <b> correct </b>
 
-Q4:<br>
+Q3:<br>
+<pre>
 my_string = 'Good evening'<br>
 my_list = ['Good', 'evening']
+</pre>
 
 Is the following true or false?:
 
@@ -48,9 +53,12 @@ len(my_string) == len(my_list) # <b> False ...display correct length and explana
  
 Q5:<br>
 What is the result of the following string operations?<br>
-my_string = 'cheese' * 5<br>
+
+<pre>
+my_string = 'cheese' * 5
 print(my_string)
- 
+</pre>
+
 a. ['cheesecheesecheesecheesecheese'] <br>
 b. ['cheese', 'cheese', 'cheese', 'cheese', 'cheese'] <br>
 c. 'cheesecheesecheesecheesecheese' # <b> correct </b> <br>
@@ -58,7 +66,11 @@ d. 'cheese cheese cheese cheese cheese' <br>
    
 Q6:<br>
 What is the result of the following string operations?<br>
+
+<pre>
 my_string = 'cheese' + 'and + 'crackers'
+print(my_string)
+</pre>
 
 a. ['cheese', 'and', 'crackers'] <br>
 b. ['cheeseandcrackers'] <br>
