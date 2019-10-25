@@ -12,7 +12,7 @@ Q1:<br>
 <pre>
 my_string = 'I am a string!'<br>
 </pre>
-<br>
+
 What is the value of the following:<br>
 
 <code>len(my_string)</code><br>
@@ -29,7 +29,6 @@ c. '!' <br>
 d. None of the above
 
 Q2:<br>
-
 <pre>
 my_string = 'I am a string!'
 </pre>
