@@ -34,7 +34,6 @@ my_string = 'I am a string!'
 </pre>
 <br>
 What is the index of the 't' in <code>my_string</code>?
-
 a. 5 <br>
 b. 6 <br>
 c. 7 <br>
