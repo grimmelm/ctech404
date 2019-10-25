@@ -3,71 +3,89 @@
 # Instructional Requirements
 ## Key Technical Outcome
 
-CHOOSE WHICH ONES TO USE
-
 ## Exercise Context
+CAN CHOOSE WHICH ONES TO USE AND WHICH TO OMMIT
 
 ## Exercise Instructions
 
+Q1:<br>
+
+<pre>
+my_string = 'I am a string!'<br>
+</pre>
+
+What is the value of the following:<br>
+
+<code>len(my_string)</code><br>
+a. 1 <br>
+b. 14 # <b> correct </b> <br>
+c. 10 <br>
+d. 11 <br>
+
+
+<code>my_string[5]</code><br>
+a. ' '  <br>
+b. 'a' # <b> correct </b> <br>
+c. '!' <br>
+d. None of the above
+
+Q2:<br>
+<pre>
 my_string = 'I am a string!'
+</pre>
+What is the index of the 't' in <code>my_string</code>?
+a. 5 <br>
+b. 6 <br>
+c. 7 <br>
+d. 8 # <b> correct </b>
 
-What is the value of the following:
-
-len(my_string)
-
-1 <br>
-14 # <b> correct </b> <br>
-10 <br>
-11 <br>
-
-my_string[5]
-
-' '  <br>
-'a' # <b> correct </b>
-'!' <br>
-None of the above
-
-What is the index of the 't' in my_list?
-
-5 <br>
-6 <br>
-7 <br>
-8 # <b> correct </b>
-
+<br>
+Q3:<br>
+<pre>
 my_string = 'Good evening'<br>
 my_list = ['Good', 'evening']
+</pre>
 
-Is the following true or false:
+Is the following true or false?:
 
 len(my_string) == len(my_list) # <b> False ...display correct length and explanaion for both upon revealing answer </b>
  
- 
- What is the result of the following string operations?
- 
- my_string = 'cheese' * 5
- 
-  ['cheesecheesecheesecheesecheese'] <br>
-  ['cheese', 'cheese', 'cheese', 'cheese', 'cheese'] <br>
-  'cheesecheesecheesecheesecheese' # <b> correct </b> <br>
-   'cheese cheese cheese cheese cheese' <br>
-   
+Q4:<br>
+What is the result of the following string operations?<br>
 
- my_string = 'cheese' + 'and + 'crackers'
- 
+<pre>
+my_string = 'cheese' * 5
+print(my_string)
+</pre>
+
+a. ['cheesecheesecheesecheesecheese'] <br>
+b. ['cheese', 'cheese', 'cheese', 'cheese', 'cheese'] <br>
+c. 'cheesecheesecheesecheesecheese' # <b> correct </b> <br>
+d. 'cheese cheese cheese cheese cheese' <br>
    
-  ['cheese', 'and', 'crackers'] <br>
-  ['cheeseandcrackers'] <br>
-  'cheese and crackers'  <br>
-   'cheeseandcrackers # <b> correct </b> <br>
+Q5:<br>
+What is the result of the following string operations?<br>
+
+<pre>
+my_string = 'cheese' + 'and + 'crackers'
+print(my_string)
+</pre>
+
+a. ['cheese', 'and', 'crackers'] <br>
+b. ['cheeseandcrackers'] <br>
+c. 'cheese and crackers'  <br>
+d. 'cheeseandcrackers # <b> correct </b> <br>
    
-   
- Which of the following operations can be used on lists AND strings? (answer: all of the above)
+Q6:<br>   
+Which of the following operations can be used on lists AND strings? (answer: all of the above)
  
- <code>in</code> <br>
- <code>*</code> <br>
-<code> +</code> <br>
- 
- Examine the following code snippet and choose the proper output:
+a. <code>in</code><br>
+b. <code>*</code> <br>
+c. <code>+</code> <br>
+d. <code>All of the above</code>
+
+Q7:<br>
+Examine the following code snippet and choose the proper output:
  
  <pre>
  my_string = 'cat'
@@ -80,76 +98,12 @@ len(my_string) == len(my_list) # <b> False ...display correct length and explana
    print('c is found in the list!')
  </pre>
 
-'c is found in the string!'<br>
-'c is found in the list!<br>
+a. 'c is found in the string!'<br>
 
-'c is found in the list! <br>
+b. 'c is found in the list!<br>
 
-'c is found in the string!' # <b> correct </b><br>
+c. 'c is found in the list! <br>
+   'c is found in the string!' # <b> correct </b><br>
+   
+d. None of the above <br>
 
-None of the above <br>
-
-
-
-
-
- 
-
-
-
-
-
-
- 
-
-## Any Unique Requirements or Notes?
-
----
-# Technical Requirements
-<em><strong></strong></em>
-
-## Environment/s Used
-Terminal. Python interpreter
-
-## Language/s Used
-<em></em>
-
-## Package/s Required
-<em>Python 3</em>
-
----
-# Test Requirements
-<em>This is the space to indicate what specifically about the student actions in the exercise needs to be tested. These specifications are the basis of how feedback or grading is given to the student. <strong>Don't worry about the specific method for verifying this initially, just focus on what needs to be checked from the student's actions to validate that they reached the key technical outcome for the exercise. Please also note that not all of these test types need to be specified, only what is necessary to test against the key outcome.</strong></em>
-
-## Outcome Tests
-<em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
-
-## Student Code Tests
-<em>This relates to specific aspects of the student's code which need to be assessed. The best way to indicate these requirements is with comments in your solution code file, indicating the parts of the code which need to be verified. This helps make the requirements less abstract. However, if you have any requirements that are better explained long form, please do so below.</em>
-
-## Process Tests
-<em>Indicate here criteria that should be tested relating to the process by which the student reached their outcomes in the exercise.</em>
-
----
-#  Implementation Decisions
-
-## Graded or Ungraded:
-<em>This is easily adjusted in future iterations, but this is a place to indicate whether this exercise will pass a grade to the Canvas gradebook, just provide smart feedback to the student without a grade, or simply serve as a sandbox environment with no evaluation.</em>
-
-## Exercise Type:
-<em>This will always be determined in collaboration with the developers, designers, and authors based on the requirements above, what is most feasible and meets the key objectives.</em>
-
-## Success Message
-<em>This is the message the student will see when they complete the exercise, in the case that this is an exercise which provides automatic feedback. This should be written after the implementation decisions are made.</em>
-
-## Test Case Failure Messages
-<em>These should be written later in development, and only apply to automatically tested programming exercises. These will be written in accordance with the test cases developed for the exercise, which will also need to be specified here.</em>
-
-## Environment Layout:
-<em>This is how the environment components will be presented to students. This will usuall relate to Codio panes and what they contain.</em>
-
-## Custom Codio Menu Items:
-<em>This is a space to indicate any buttons that will need to be present in the Codio menu beyond the default items in the template.</em>
-
-## New Integrations Required:
-<em>We will indicate here if this exercise requires any new and unestablished integrations with Codio or Canvas.</em>

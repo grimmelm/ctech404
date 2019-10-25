@@ -1,4 +1,4 @@
-num =  int(input("Please enter an integer greater than 1:"))
+num =  int(input("Enter an integer between 1 and 100:"))
 
 i = 1
 while i <= num:

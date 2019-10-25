@@ -11,32 +11,34 @@ Multiple choice and TF questions
  
  1. <pre>['one', 'two'] + ['three', 'four'] + [] + ['one']</pre>
 
-<pre>['one', 'two', 'three', 'four', '', 'one']</pre> 
-#<b> correct: </b>
-<pre>['one', 'two', 'three', 'four', 'one']</pre> 
-<pre>['one', 'two', 'three', 'four']</pre>
+['one', 'two', 'three', 'four', '', 'one'] <br>
+#<b> correct: </b><br>
+['one', 'two', 'three', 'four', 'one']<br> 
+['one', 'two', 'three', 'four']<br>
 
 
 2. <pre>['square', 'circle'] * 3</pre>
 
-<pre>['square', 'square', 'square', 'circle'] </pre>
-<pre>['square', 'circle', 'circle', 'circle']</pre>
-#<b>correct: </b>
-<pre>['square', 'circle', 'square', 'circle', 'square', 'circle']</pre>  
+['square', 'square', 'square', 'circle'] <br>
+['square', 'circle', 'circle', 'circle']<br>
+#<b>correct: </b><br>
+['square', 'circle', 'square', 'circle', 'square', 'circle']  <br>
 
 
 3. <pre>['red', 'blue'] + ['orange'] * 3 </pre>
  
-<pre>['red', 'blue', 'orange', 'red', 'blue', 'orange', 'red', 'blue', 'orange']</pre>
-#<b>correct:</b>
-<pre>['red', 'blue', 'orange', 'orange', 'orange']</pre> 
-<pre>[''red', 'blue', 'red', 'blue', 'red', 'blue', 'orange']</pre>
+['red', 'blue', 'orange', 'red', 'blue', 'orange', 'red', 'blue', 'orange'] <br>
+#<b>correct:</b><br>
+['red', 'blue', 'orange', 'orange', 'orange'] <br>
+[''red', 'blue', 'red', 'blue', 'red', 'blue', 'orange'] <br>
+ 
  
  Do the following experessions evaluate to True or False?:
  
  #<b>False: </b>
  
  1. <pre> ['dog', 'cat', 'mouse' , 'rabbit'] == ['dog' , 'cat', 'rabbit', 'mouse'] </pre>   
+ 
  #<b>True:</b>
  
  2. <pre> [10, 45, 15, 5] > [10, 30, 20, 6] </pre>

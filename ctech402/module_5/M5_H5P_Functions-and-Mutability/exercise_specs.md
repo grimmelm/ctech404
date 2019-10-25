@@ -5,11 +5,11 @@
 mutability and immutability
 strings vs lists.
 ## Exercise Context
-[perhaps explain immutable vs mutable and references here]
+[perhaps explain immutable vs mutable and references here OR add explanations to each MC question to further explain mutability and scope]
 
 ## Exercise Instructions
 
-What is the result of a after the program finishes executing [fill in blank]?
+What is the result of <code>a</code> after the program finishes executing? (free text answer)
 
 <pre>
 def multiple_strings(s):
@@ -18,11 +18,10 @@ def multiple_strings(s):
 
 a =  'foo'
 b = multiple_strings(a)
-
-Answer: 'foo'
 </pre>
+Answer: 'foo'
 
-What is the result of a after the program finishes executing?
+What is the result of <code>a</code> after the program finishes executing?
 
 <pre>
 def multiply_lists(l):
@@ -34,12 +33,12 @@ b = multiply_lists(a)
 </pre>
 
 a. [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]<br>
-b. [1, 2, 3] <b> # correct </b>
+b. [1, 2, 3] <b> # correct </b></br>
 c. [5, 10, 15] <br>
 d. ERROR
 
 
-What is the result of a after the program finishes executing?
+What is the result of <code>a</code> after the program finishes executing?
 
 <pre>
 def add_to_list(l):
@@ -55,7 +54,7 @@ b. [5,4,5,6] <br>
 c. [4,5,6,5]<b> # correct </b> <br>
 d. ERROR
 
-What is the result of a after the program finishes executing?
+What is the result of <code>a</code> after the program finishes executing?
 
 <pre>
 def add_to_list(l):
@@ -76,7 +75,7 @@ Should we have an open ended question?
 Explain why the last didnt work?
 Also, perhaps show two code snippets and ask which will result in the following...
 
-What is the result of a after the program finishes executing?
+What is the result of <code>a</code> after the program finishes executing?
 
 <pre>
 def add_to_list(l):
