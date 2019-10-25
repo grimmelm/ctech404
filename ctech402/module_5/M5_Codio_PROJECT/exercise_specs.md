@@ -17,13 +17,11 @@ Write a program that counts the number of vowels in a string and outputs that nu
 
 For this the purposes of this exercise, we will only consider A, E, I, O and U as vowels. 
 
-Keep in mind that the string may be input as an upper or lower case string. Use string methods to properly convert your string to uppercase or lowercase to correctly find all vowels in the entered string.
+Keep in mind that the string may be input as an uppercase or lowercase string. Use string methods to properly convert your string to uppercase or lowercase to correctly find all vowels in the entered string.
 
 Sample Output: <br>
-
 Enter a string: [User inputs string <code>broccoli</code>]
 There are 3 vowels in string broccoli
-
 
 <b>[Another option as seen in the solution code is to allow students to enter which vowel they want to count. For example: there are 3 As]</b>
 
