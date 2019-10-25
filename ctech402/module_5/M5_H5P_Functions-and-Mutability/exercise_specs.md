@@ -5,7 +5,7 @@
 mutability and immutability
 strings vs lists.
 ## Exercise Context
-[perhaps explain immutable vs mutable and references here]
+[perhaps explain immutable vs mutable and references here OR add explanations to each MC question to further explain mutability]
 
 ## Exercise Instructions
 
