@@ -25,7 +25,7 @@ The code editor also contains two lists:
 1. <code>spelling_errors</code>, which contains the spelling errors
 2. <code>corrections</code> which contains the correct spelling
 
-You'll notice that the list indices of the errors correspond to the indicies of the correct spelling. For example, element one in <code>spelling_errors</code> is 'wear', while element one in <code>corrections</code> is the corrected form 'where'
+You'll notice that the list indices of the errors correspond to the indicies of the correct spelling. For example, element 1 in <code>spelling_errors</code> is 'wear', while element 1 in <code>corrections</code> is the corrected form 'where'
 
-Using what we have learned in this module, correct the spelling errors in the story using the two lists provided.
+Using what you have learned in this module, correct the spelling errors in the story using the two lists provided.
 At the end of your program print <code>fairy_tale</code> to the screen.
