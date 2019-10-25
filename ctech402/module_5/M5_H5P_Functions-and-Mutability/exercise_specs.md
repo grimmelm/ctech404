@@ -18,9 +18,8 @@ def multiple_strings(s):
 
 a =  'foo'
 b = multiple_strings(a)
-
-Answer: 'foo'
 </pre>
+Answer: 'foo'
 
 What is the result of <code>a</code> after the program finishes executing?
 
