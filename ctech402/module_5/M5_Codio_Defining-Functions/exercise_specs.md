@@ -23,7 +23,7 @@ The body of the function will compute the absolute value of that argument and th
 Print the absolute value that was returned from the function.<br>
 You can do so by using the following syntax:  <br>
 <code>print(function_name(numerical_argument)) </code> <br>
-The function is being called with one argument. By enclosing the function call inside a print() function, the value returned by the absolute value function will be printed.
+By enclosing the function call inside a print() function, the value returned by the absolute value function will be printed.
 
 Try calling your function multiple times with the following values to test whether your function is working properly:
  
