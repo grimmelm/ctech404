@@ -38,7 +38,7 @@ c. [5, 10, 15] <br>
 d. ERROR
 
 
-What is the result of a after the program finishes executing?
+What is the result of <code>a</code> after the program finishes executing?
 
 <pre>
 def add_to_list(l):
@@ -54,7 +54,7 @@ b. [5,4,5,6] <br>
 c. [4,5,6,5]<b> # correct </b> <br>
 d. ERROR
 
-What is the result of a after the program finishes executing?
+What is the result of <code>a</code> after the program finishes executing?
 
 <pre>
 def add_to_list(l):
