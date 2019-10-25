@@ -39,4 +39,4 @@ Part 2:
  The function has two arguments. Each argument must be an integer or floating point number. <br>
  The body of the function will multiply both arguments and return the result. <br>
  To test your function, call it with any two numerical values of your choosing. <br>
- Use the same method as demonstrated above to print the returned value of your function.
+ Use the same method demonstrated above to print the returned value of your function.
