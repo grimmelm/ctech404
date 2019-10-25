@@ -16,15 +16,13 @@ my_string = 'I am a string!'<br>
 What is the value of the following:<br>
 
 <code>len(my_string)</code><br>
-
 a. 1 <br>
 b. 14 # <b> correct </b> <br>
 c. 10 <br>
 d. 11 <br>
 
 
-<code>my_string[5]</code>
-
+<code>my_string[5]</code><br>
 a. ' '  <br>
 b. 'a' # <b> correct </b> <br>
 c. '!' <br>
