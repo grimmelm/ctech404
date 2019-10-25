@@ -29,3 +29,15 @@ Currently, every office number begins with the floor number followed by two numb
 <code>office_updates</code> contains the office numbers on the second floor and their corresponding offices on the third floor. 
 
 Putting into practive everything you have learned about dictionaries, find all office numbers on the second floor and update their values to the new office numbers on the third floor. Print the updated office list at the end of your program.
+
+## Exercise Instructions
+
+
+## Any Unique Requirements or Notes?
+
+---
+# Technical Requirements
+<em><strong></strong></em>
+
+## Environment/s Used
+Terminal. Python interpreter. code editor
