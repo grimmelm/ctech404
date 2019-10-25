@@ -9,7 +9,7 @@ strings vs lists.
 
 ## Exercise Instructions
 
-What is the result of <code>a</code> after the program finishes executing [fill in blank]?
+What is the result of <code>a</code> after the program finishes executing? (free text answer)
 
 <pre>
 def multiple_strings(s):
