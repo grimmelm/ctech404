@@ -32,13 +32,13 @@ Q2:<br>
 <pre>
 my_string = 'I am a string!'
 </pre>
-<br>
 What is the index of the 't' in <code>my_string</code>?
 a. 5 <br>
 b. 6 <br>
 c. 7 <br>
 d. 8 # <b> correct </b>
 
+<br>
 Q3:<br>
 <pre>
 my_string = 'Good evening'<br>
