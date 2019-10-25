@@ -13,3 +13,17 @@ Feel free to create your own strings and experiment with them.
 
 ## Exercise Instructions
 
+## Any Unique Requirements or Notes?
+
+---
+# Technical Requirements
+<em><strong></strong></em>
+
+## Environment/s Used
+Terminal. Python interpreter
+
+## Language/s Used
+<em></em>
+
+## Package/s Required
+<em>Python 3</em>
