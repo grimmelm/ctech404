@@ -33,4 +33,12 @@ fruit_list = ['orange', 'banana', 'kiwi', 'watermelon', 'peach']<br>
 fruit_list = ['kiwi', 'banana', 'kiwi', 'watermelon', 'peach'] <b>#correct</b>
 
 
+## Environment/s Used
+Terminal. Python interpreter
+
+## Language/s Used
+<em></em>
+
+## Package/s Required
+<em>Python 3</em>
 
