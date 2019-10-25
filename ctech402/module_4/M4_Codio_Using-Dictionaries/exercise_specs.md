@@ -6,7 +6,7 @@ len(), in, not in, update, clear, keys(), values(), pop()
 
 
 ## Exercise Context
-Examine the code in the code editor. It contains your weekly planner from a few exercises ago (with the additon of a few entries). <br>
+Examine the code in the code editor. It contains your weekly planner from [page name] (with the additon of a few entries). <br>
 You are just too busy and would like to have Monday and Wednesday off as rest days. <br> 
 
 ## Exercise Instructions
