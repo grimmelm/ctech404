@@ -9,7 +9,7 @@ strings vs lists.
 
 ## Exercise Instructions
 
-What is the result of a after the program finishes executing [fill in blank]?
+What is the result of <code>a</code> after the program finishes executing [fill in blank]?
 
 <pre>
 def multiple_strings(s):
@@ -22,7 +22,7 @@ b = multiple_strings(a)
 Answer: 'foo'
 </pre>
 
-What is the result of a after the program finishes executing?
+What is the result of <code>a</code> after the program finishes executing?
 
 <pre>
 def multiply_lists(l):
