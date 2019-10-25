@@ -25,7 +25,7 @@ Enter a string: [User inputs string <code>broccoli</code>]
 There are 3 vowels in string broccoli
 
 
-<b>[Another option as seen in the solution code is to allow students to enter which vowel they want to find. For example: there are 3 As]</b>
+<b>[Another option as seen in the solution code is to allow students to enter which vowel they want to count. For example: there are 3 As]</b>
 
 ## Any Unique Requirements or Notes?
 
