@@ -12,26 +12,27 @@ One way to make a change to a string is to create a new string that contains the
 
 ## Exercise Instructions
 
+<pre>
 my_string = 'Yellow Submarine.'<br>
 s = my_string.replace('Y', 'F')
+</pre>
 
-
-What is the value of my_string?<br>
+What is the value of <code>my_string</code>?<br>
 'Yellow Submarine.' # <b> correct </b> <br>
 'Fellow Submarine.' <br>
 None of the above <br>
 
-What is the value of s?
+What is the value of <code>s</code>?
 'Yellow Submarine.' <br>
 'Fellow Submarine.' # <b> correct </b> <br>
 None of the above <br>
 
-
+<pre>
 my_string = 'Flood'<br>
 s = my_string.replace('F', 'G').replace('l', '') + ' ' + 'Bye!'<br>
+</pre>
 What is the value of s? # <b> Free text Quiz: 'Goodbye!' </b>
   
-
 which will this work on? <br>
 
 variable_name.append('s') 
