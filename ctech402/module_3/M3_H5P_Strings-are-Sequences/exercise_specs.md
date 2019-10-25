@@ -12,9 +12,11 @@ Q1:<br>
 <pre>
 my_string = 'I am a string!'<br>
 </pre>
+<br>
 What is the value of the following:<br>
 
-<code>len(my_string)</code>
+<code>len(my_string)</code><br>
+
 a. 1 <br>
 b. 14 # <b> correct </b> <br>
 c. 10 <br>
@@ -51,7 +53,7 @@ Is the following true or false?:
 
 len(my_string) == len(my_list) # <b> False ...display correct length and explanaion for both upon revealing answer </b>
  
-Q5:<br>
+Q4:<br>
 What is the result of the following string operations?<br>
 
 <pre>
@@ -64,7 +66,7 @@ b. ['cheese', 'cheese', 'cheese', 'cheese', 'cheese'] <br>
 c. 'cheesecheesecheesecheesecheese' # <b> correct </b> <br>
 d. 'cheese cheese cheese cheese cheese' <br>
    
-Q6:<br>
+Q5:<br>
 What is the result of the following string operations?<br>
 
 <pre>
@@ -77,7 +79,7 @@ b. ['cheeseandcrackers'] <br>
 c. 'cheese and crackers'  <br>
 d. 'cheeseandcrackers # <b> correct </b> <br>
    
-Q7:<br>   
+Q6:<br>   
 Which of the following operations can be used on lists AND strings? (answer: all of the above)
  
 a. <code>in</code><br>
@@ -85,7 +87,7 @@ b. <code>*</code> <br>
 c. <code>+</code> <br>
 d. <code>All of the above</code>
 
-Q8:<br>
+Q7:<br>
 Examine the following code snippet and choose the proper output:
  
  <pre>
