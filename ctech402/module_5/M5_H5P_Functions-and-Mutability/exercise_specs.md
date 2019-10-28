@@ -54,7 +54,26 @@ b. [5,4,5,6] <br>
 c. [4,5,6,5]<b> # correct </b> <br>
 d. ERROR
 
+Display after answer is revealed: Lists are mutable. A list's value can change. Variables store references to lists. Therefore, a local variable inside a function and a global variable outside the function can refer to the same list. An operation (such as method append()) that modifies a list that is applied to the local variable in a function will therefore cause a change to the global variable as well. 
+
 What is the result of <code>a</code> after the program finishes executing?
+
+<pre>
+def uppercase_string(s):
+    s = s.upper()
+    return s
+
+a = ‘indeed'
+b = uppercase_string(a)
+</pre>
+
+a. INDEED<br>
+b. indeed <b># correct </b> <br> 
+c. Indeed <br>
+d. ERROR
+
+Display after answer is revealed: Strings are immutable. As we have seem, a method applied to a string does not change the original string. Therefore, the function does not change the value of the original string.
+
 
 <pre>
 def add_to_list(l):
@@ -71,9 +90,8 @@ b. [5,1,2,3] <br>
 c. [1,2,3,5]<b> # correct </b> <br>
 d. ERROR
 
-Should we have an open ended question?
-Explain why the last didnt work?
-Also, perhaps show two code snippets and ask which will result in the following...
+
+Should we have an open ended question? Explain why this worked as it did?
 
 What is the result of <code>a</code> after the program finishes executing?
 
@@ -92,6 +110,7 @@ b. [1,2,3] <b> # correct </b> <br>
 c. None of the above<br>
 d. ERROR
 
+Display after answer is revealed: In this example, a new list <code>m</code> is created inside the function. An operation is performed on <code>m</code>, not on the list <code>l</code>. Therefore, the function does not change list <code>l</code>, and list <code>a</code> also retains its original value.
 
 ## Any Unique Requirements or Notes?
 
