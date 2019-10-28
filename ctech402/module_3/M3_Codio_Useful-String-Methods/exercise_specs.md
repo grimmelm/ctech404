@@ -5,9 +5,11 @@
 ## Exercise Context
 It's time to experiment with string methods .upper(), .lower(), .find(), and .replace()
 
-The code editor contains the string 'Don't worry, be happy!' 
+The code editor contains the string <code>phrase = 'Don\'t worry, be happy!' </code>
 
 Experiment with the string methods you have just learned on this string.
+
+For example, <code>phrase.replace('w', 'm')</code> returns 'Don't morry be happy'
 
 Feel free to create your own strings and experiment with them.
 
