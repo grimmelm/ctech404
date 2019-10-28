@@ -9,7 +9,7 @@ The code editor contains the string <code>phrase = 'Don\'t worry, be happy!' </c
 
 Experiment with the string methods you have just learned on this string.
 
-For example, <code>phrase.replace('w', 'm')</code> returns 'Don't morry be happy'
+For example, <code>phrase.replace('w', 'm')</code> returns the value 'Don't morry be happy'
 
 Feel free to create your own strings and experiment with them.
 
