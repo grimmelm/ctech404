@@ -27,6 +27,8 @@ b. error <b># correct </b> # perhaps give explanation again as to why this is a 
 c. 'Wednesday' <br>
 d. 'baseball practice' <br>
 
+Display when answer is revealed:  Dictionaries use keys instead of integer indices to look up values. <code>weekly_planner </code> does not contain a key of 2 and so <code> weekly_planner[2]</code> will result in an error,
+
 Q3: You would like to have dinner with friends on Friday. Your entry will be 'dinner with friends.' How would you create a new key/value pair in the itinerary dictionary? <br>
 <b>(free text, answer is itinerary['Friday'] = 'dinner with friends')</b>
 
