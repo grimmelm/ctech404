@@ -13,7 +13,7 @@ Examine the code in <code>exercise.py</code> in the code editor. It contains a l
 int_list = [97, 85, 45, 67, 2, 101, 9, 36, 4]
 
 ## Exercise Instructions
-Using some of the list methods and functions you have seen, find a way to remove the largest integer from the list.
+Using some of the list methods and functions you have learn (such as max(), sort(), pop()), find a way to remove the largest integer from the list.
 
 Note: At the end of your program, <code>int_list</code> should have the value of [97, 85, 45, 67, 2, 9, 36, 4].
  
