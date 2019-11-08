@@ -2,18 +2,59 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
+Yahtzee-like game: user vs computer
 
-## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+## Interpretive Option:
+<b>Exercise Context</b>
+For this final course project, you will create a game similar to the card game professor Grimmelmann created in this module. Instead of cards, you will write a program in which you roll and reroll three or more dice to try to score higher values than the computer.
 
-## Exercise Instructions
+<b>Exercise Instructions</b>
+To successfully complete this task, your program must include each of the following:
+  1. Printed statements that clearly narrate the events of the game to the conclusion.
+  2. A reusable function for rolling (and rerolling) the dice (with possible values 1-6), implemented for both the player and and computer.
+  3. The opportunity for strategy: Both the computer and player should have a chance to reroll at least one die value of their selection
+  4. Once all rolls are complete, whoever had the highest total score OR 3 matching die rolls wins.
+  5. Comment the sections of your code explaining your development process and the rules/events that depict the narrative of the game.
+  6. Your code must include at least one for or while loop.
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+To complete this project, you will need to utilize the <code>random</code> module package that contains the function <code>randint</code> that will help you create your dice rolling feature. Use the randint function to generate a random integer value between 1-6.
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+We will include some basic initial code and variables to get you started. You may modify or rename these variables for your own style or purposes.
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+
+## <b>Instructed Options:</b>
+<b>Idea #1:</b>
+
+It's time to create your own game.<br>
+Make a simple dice game where a user and a computer each roll 5 dice and compete to get the highest score.<br>
+Create the option for the user to re-roll one die:<br>
+After the computer and user roll all 5 dice, display both the user's and computer's (hand?) to the user.
+Ask the user if s/he wishes to re-roll one die.  <br>
+If the user would like to re-roll, prompt the user to specify which die to roll. <br>
+Both user and computer should re-roll. <br>
+Tally up the score.<br>
+The highest score at the end wins.<br>
+Display the final score and who wins. <br>
+
+Hint: To generate a die roll, you should use the <code>random.randint()</code> function to generate a random integer value between 1 and 6 
+
+Additional functionality: Make the game more interesting by adding additional rounds. In other words, the user and computer can each role 5 dice multiple times, and the final score will take into account all rounds.
+
+<b>Idea #2</b>
+It's time to create your own game.<br>
+Make a simple dice game where a user and a computer each roll 5 dice compete to get the highest score.<br>
+The game should have three rounds: the user and computer both roll 5 dices THREE times. <br>
+Create the option for the user to re-roll:<br>
+After each round, the user has the option to re-roll his/her dice for a different score.
+Ask the user if s/he wishes to re-roll  <br>
+If the user would like to re-roll, both user and computer should re-roll all 5 dice. <br>
+Tally up the score from all rounds.<br>
+The highest score at the end wins.<br>
+Display the final score and who wins. <br>
+
+Hint: To generate a die roll, you should use the <code>random.randint()</code> function to generate a random integer value between 1 and 6 
+
+Additional functionality: Make the game more interesting by allowing the user to input how many rounds he/she would like to play at the beginning of the game.
 
 
 ## Any Unique Requirements or Notes?

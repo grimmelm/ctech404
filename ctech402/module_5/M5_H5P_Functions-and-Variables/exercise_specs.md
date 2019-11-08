@@ -1,69 +1,103 @@
-# Exercise Title:
+# Exercise Title: H5P Functions and Variables
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
-
+global vs local
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+1.
+Identify the global and local variables (maybe drag and drop?): 
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+<pre>
+x =  5
+y = 7
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+def add_numbers(a, b):
+    r = a + y + b
+    return r
+
+print(add_numbers(1,2))
+
+</pre>
+
+Answer:
+local = a, b, r <br>
+global = x, y
 
 
-## Any Unique Requirements or Notes?
+2. What is the value of x and y after this program finishes executing (fill in blank)?
 
----
-# Technical Requirements
-<em><strong></strong></em>
+<pre>
+x =  5
+y = 7
 
-## Environment/s Used
-Terminal. Python interpreter
+def add_values(a, b):
+    m = a + b + y
+    return m
 
-## Language/s Used
-<em></em>
+print(add_values(x, y))
+</pre>
 
-## Package/s Required
-<em>Python 3</em>
+Answer:
+y = 7, x = 5
 
----
-# Test Requirements
-<em>This is the space to indicate what specifically about the student actions in the exercise needs to be tested. These specifications are the basis of how feedback or grading is given to the student. <strong>Don't worry about the specific method for verifying this initially, just focus on what needs to be checked from the student's actions to validate that they reached the key technical outcome for the exercise. Please also note that not all of these test types need to be specified, only what is necessary to test against the key outcome.</strong></em>
 
-## Outcome Tests
-<em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
+3. What is the value of m after this program finishes executing?
 
-## Student Code Tests
-<em>This relates to specific aspects of the student's code which need to be assessed. The best way to indicate these requirements is with comments in your solution code file, indicating the parts of the code which need to be verified. This helps make the requirements less abstract. However, if you have any requirements that are better explained long form, please do so below.</em>
+<pre>
+x =  2
+y = 3
 
-## Process Tests
-<em>Indicate here criteria that should be tested relating to the process by which the student reached their outcomes in the exercise.</em>
+def add_values(a, b):
+    return a + b + y
 
----
-#  Implementation Decisions
+m = add_values(x, y))
+</pre>
 
-## Graded or Ungraded:
-<em>This is easily adjusted in future iterations, but this is a place to indicate whether this exercise will pass a grade to the Canvas gradebook, just provide smart feedback to the student without a grade, or simply serve as a sandbox environment with no evaluation.</em>
+a. 8 # <b>correct answer</b><br>
+b. 5 <br>
+c. Error <br>
+d. None of the above
 
-## Exercise Type:
-<em>This will always be determined in collaboration with the developers, designers, and authors based on the requirements above, what is most feasible and meets the key objectives.</em>
 
-## Success Message
-<em>This is the message the student will see when they complete the exercise, in the case that this is an exercise which provides automatic feedback. This should be written after the implementation decisions are made.</em>
+4. What is the value of y after this program finishes executing?
 
-## Test Case Failure Messages
-<em>These should be written later in development, and only apply to automatically tested programming exercises. These will be written in accordance with the test cases developed for the exercise, which will also need to be specified here.</em>
+<pre>
+x =  2
+y = 3
 
-## Environment Layout:
-<em>This is how the environment components will be presented to students. This will usuall relate to Codio panes and what they contain.</em>
+def add_values(a, b):
+    y = 5 
+    return(a + b + y)
 
-## Custom Codio Menu Items:
-<em>This is a space to indicate any buttons that will need to be present in the Codio menu beyond the default items in the template.</em>
+m = add_values(x, y)
+y = m+y+x
+</pre>
 
-## New Integrations Required:
-<em>We will indicate here if this exercise requires any new and unestablished integrations with Codio or Canvas.</em>
+a. 3 <br>
+b. 5 <br>
+c. 15 # <b> correcr</b> <br>
+4. None of the above
+
+5. What is the output of this program?
+
+<pre>
+x =  2
+y = 3
+
+def add_values(a, b):
+    r = 5 
+    return(a + b + r)
+
+m = add_values(10, 12)
+print(m)
+print(r)
+
+</pre>
+
+a.  27 and 5 <br>
+b. 27 <br>
+c. Error <b> # correct </b><br>
+d. 22 and 5 <br>

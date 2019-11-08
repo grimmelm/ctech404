@@ -2,19 +2,28 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+In English, the following letters are vowels: A, E, I, O, U, and sometimes Y. <br>
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+Write a program that counts the number of vowels in a string and outputs that number to the screen. <br>
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+1. Prompt a user to enter a string on the command line. <br>
+2. Write a function that takes that string as an argument, counts the number of vowels in the string, and returns that integer value.
+3. Print the number of vowels in the string. <br>
 
+For this the purposes of this exercise, we will only consider A, E, I, O and U as vowels. 
+
+Keep in mind that the string may be input as an uppercase or lowercase string. Use string methods to properly convert the user's string to uppercase or lowercase to correctly find all vowels in the string.
+
+Sample Output: <br>
+Enter a string: [User inputs string <code>broccoli</code>]
+There are 3 vowels in string broccoli
+
+<b>[Another option as seen in the solution code is to allow students to enter which vowel they want to count. For example: there are 3 As]</b>
 
 ## Any Unique Requirements or Notes?
 

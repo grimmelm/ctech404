@@ -1,69 +1,119 @@
-# Exercise Title:
+# Exercise Title: H5P Control Flow in Functions
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+What is the output of each program?
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+Q1:
+<pre>
+def a_function():
+    print('I am in the function.')
+    
+a_function()
+a_function()
+</pre>
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+
+a. 'I am in the function'<br>
+b.  Error <br>
+c. 'I am in the function' # <b>correct</b> <br>
+   'I am in the function'
+   
+Q2: 
+<pre>
+def a_function():
+    print('I am in the function.')
+
+the_function()
+</pre>
+
+a. No output  <br>
+b. 'I am in the function' <br>
+c.  Error # <b> correct </b> <br>
+
+Q3: 
+<pre>
+def c_function():
+    print('I am in c_function.')
+
+def b_function():
+    c_function()
+    print('I am in b_function.')    
+
+def a_function():
+    print('I am in a_function.')
+    b_function()
+
+a_function()
+</pre>
+ 
+a. 'I am in a_function' <br>
+
+b. I am in a_function'<br>
+   I am in b_function'<br>
+   I am in c_function'<br>
+
+c. I am in a_function. # <b>correct</b> <br>
+I am in c_function.<br>
+I am in b_function.<br>
+
+d. I am in a_function.<br> 
+I am in c_function.<br>
 
 
-## Any Unique Requirements or Notes?
+Q4: 
+<pre>
+def c_function():
+    print('I am in c_function.')
 
----
-# Technical Requirements
-<em><strong></strong></em>
+def b_function():
+    c_function()
+    print('I am in b_function.')    
 
-## Environment/s Used
-Terminal. Python interpreter
+def a_function():
+    print('I am in a_function.')
+    b_function()
 
-## Language/s Used
-<em></em>
+b_function()
+</pre>
 
-## Package/s Required
-<em>Python 3</em>
 
----
-# Test Requirements
-<em>This is the space to indicate what specifically about the student actions in the exercise needs to be tested. These specifications are the basis of how feedback or grading is given to the student. <strong>Don't worry about the specific method for verifying this initially, just focus on what needs to be checked from the student's actions to validate that they reached the key technical outcome for the exercise. Please also note that not all of these test types need to be specified, only what is necessary to test against the key outcome.</strong></em>
+a. I am in a_function. <br>
+I am in c_function.<br>
+I am in b_function.<br>
 
-## Outcome Tests
-<em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
+b. I am in b_function.<br> 
+I am in c_function.<br>
 
-## Student Code Tests
-<em>This relates to specific aspects of the student's code which need to be assessed. The best way to indicate these requirements is with comments in your solution code file, indicating the parts of the code which need to be verified. This helps make the requirements less abstract. However, if you have any requirements that are better explained long form, please do so below.</em>
+c. I am in c_function.<b> #correct </b><br>
+I am in b_function.<br> 
 
-## Process Tests
-<em>Indicate here criteria that should be tested relating to the process by which the student reached their outcomes in the exercise.</em>
+d. No output
 
----
-#  Implementation Decisions
+Q5: 
+<pre>
+def c_function():
+    print('I am in c_function.')
 
-## Graded or Ungraded:
-<em>This is easily adjusted in future iterations, but this is a place to indicate whether this exercise will pass a grade to the Canvas gradebook, just provide smart feedback to the student without a grade, or simply serve as a sandbox environment with no evaluation.</em>
+def b_function():
+    print('I am in b_function.') 
+    c_function()
 
-## Exercise Type:
-<em>This will always be determined in collaboration with the developers, designers, and authors based on the requirements above, what is most feasible and meets the key objectives.</em>
+def a_function():
+    print('I am in a_function.')
+    b_function()
+</pre>
 
-## Success Message
-<em>This is the message the student will see when they complete the exercise, in the case that this is an exercise which provides automatic feedback. This should be written after the implementation decisions are made.</em>
+a. 'I am in a_function' <br>
 
-## Test Case Failure Messages
-<em>These should be written later in development, and only apply to automatically tested programming exercises. These will be written in accordance with the test cases developed for the exercise, which will also need to be specified here.</em>
+b. I am in a_function'<br>
+   I am in b_function'<br>
+   I am in c_function'<br>
 
-## Environment Layout:
-<em>This is how the environment components will be presented to students. This will usuall relate to Codio panes and what they contain.</em>
-
-## Custom Codio Menu Items:
-<em>This is a space to indicate any buttons that will need to be present in the Codio menu beyond the default items in the template.</em>
-
-## New Integrations Required:
-<em>We will indicate here if this exercise requires any new and unestablished integrations with Codio or Canvas.</em>
+c. No output # <b> correct</b><br>
+d. Error

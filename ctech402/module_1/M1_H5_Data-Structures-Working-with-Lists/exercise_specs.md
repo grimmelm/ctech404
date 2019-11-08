@@ -2,20 +2,53 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
-
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+Multiple choice and TF questions
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+ Choose the result of the following expressions:
+ 
+ 1. <pre>['one', 'two'] + ['three', 'four'] + [] + ['one']</pre>
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+['one', 'two', 'three', 'four', '', 'one'] <br>
+#<b> correct: </b><br>
+['one', 'two', 'three', 'four', 'one']<br> 
+['one', 'two', 'three', 'four']<br>
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+
+2. <pre>['square', 'circle'] * 3</pre>
+
+['square', 'square', 'square', 'circle'] <br>
+['square', 'circle', 'circle', 'circle']<br>
+#<b>correct: </b><br>
+['square', 'circle', 'square', 'circle', 'square', 'circle']  <br>
 
 
+3. <pre>['red', 'blue'] + ['orange'] * 3 </pre>
+ 
+['red', 'blue', 'orange', 'red', 'blue', 'orange', 'red', 'blue', 'orange'] <br>
+#<b>correct:</b><br>
+['red', 'blue', 'orange', 'orange', 'orange'] <br>
+[''red', 'blue', 'red', 'blue', 'red', 'blue', 'orange'] <br>
+ 
+ 
+ Do the following experessions evaluate to True or False?:
+ 
+ #<b>False: </b>
+ 
+ 1. <pre> ['dog', 'cat', 'mouse' , 'rabbit'] == ['dog' , 'cat', 'rabbit', 'mouse'] </pre>   
+ 
+ #<b>True:</b>
+ 
+ 2. <pre> [10, 45, 15, 5] > [10, 30, 20, 6] </pre>
+  #<b>False:</b>
+  
+ 3. <pre>array_one = ['orange', 5, 6, 'green']
+    array_two = ['green', 5, 6, 'orange']
+    array_one == array_two </pre>
+
+ 
 ## Any Unique Requirements or Notes?
 
 ---

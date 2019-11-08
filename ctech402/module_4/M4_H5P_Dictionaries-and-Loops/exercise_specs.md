@@ -1,69 +1,54 @@
-# Exercise Title:
+# Exercise Title: H5P Dictionaries and Loops
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
 
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+Q1: Below is a dictionary containing flight numbers and the IATA codes for the international airports in which they depart.
+Drag and drop the proper values into the missing portions of the code block to output the following sentence "Flight [flight number] departs from [airport]:
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+<pre>
+flights = { 124 : 'LAX',  156: 'JFK',  87: 'MIA', 35: 'IAD', 78: 'HNL' }
+ 
+for f in flights:
+ 	print("Flight " + str(_) + " departs from " + _ ) # <b> f and flights[f] </b>
+ </pre>
+ 
+[ options for drag and drop:  f, f[flightd], flights, flights[f]] 
+  
+Q2: We would like to modify our output to print the names of the airports instead of their IATA codes. We added an additional dictionary who's keys are IATA codes and values are the airport names. 
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+<pre>
+flights = { 124 : 'LAX',  156: 'JFK',  87: 'MIA', 35: 'IAD', 78: 'HNL' }
+airport_names = { 'LAX': 'Los Angeles', 'JFK': 'John F Kennedy', 'MIA': 'Miami', 'IAD': 'Washington Dulles', 'HNL': 'Daniel K. Inouye'}
 
+for f in flights:
+	 IATA = _______ # <b> flights[f] </b>
+ 	print("Flight " + str( _ ) + " departs from " + ____)  #  <b>f and airport_names[IATA]</b>
+</pre>
+ 	
+[options for drag and drop : flights[f], airport_names[IATA], airport_names[f], f]
 
-## Any Unique Requirements or Notes?
+Q3: What is the value of d after the for loop:
 
----
-# Technical Requirements
-<em><strong></strong></em>
+<pre>
+d = { 'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
-## Environment/s Used
-Terminal. Python interpreter
+for key in dictionary:
+ d[key] = d[key]*2
+</pre>
 
-## Language/s Used
-<em></em>
+a. d = {'a': 1, 'b': 2, 'c': 3, 'd': 4} <br>
+b. d = {'a': 2, 'b': 4, 'c': 6, 'd': 8} # <b>correct </b> <br>
+c. d = {'aa': 1, 'bb': 2, 'cc': 3, 'dd': 4} <br>
 
-## Package/s Required
-<em>Python 3</em>
+Q4: Using the dictionary below, answer whether the following questions will return True or False.
 
----
-# Test Requirements
-<em>This is the space to indicate what specifically about the student actions in the exercise needs to be tested. These specifications are the basis of how feedback or grading is given to the student. <strong>Don't worry about the specific method for verifying this initially, just focus on what needs to be checked from the student's actions to validate that they reached the key technical outcome for the exercise. Please also note that not all of these test types need to be specified, only what is necessary to test against the key outcome.</strong></em>
+<pre>cars = {'Camry': 'Toyota', 'Malibu': 'Chevrolet', 'Mustang': 'Ford', 'M-Class': 'Mercedes-Benz'}</pre>
 
-## Outcome Tests
-<em>Indicate here criteria that should be tested relating to the outcomes or outputs of a student's actions in the exercise.</em>
-
-## Student Code Tests
-<em>This relates to specific aspects of the student's code which need to be assessed. The best way to indicate these requirements is with comments in your solution code file, indicating the parts of the code which need to be verified. This helps make the requirements less abstract. However, if you have any requirements that are better explained long form, please do so below.</em>
-
-## Process Tests
-<em>Indicate here criteria that should be tested relating to the process by which the student reached their outcomes in the exercise.</em>
-
----
-#  Implementation Decisions
-
-## Graded or Ungraded:
-<em>This is easily adjusted in future iterations, but this is a place to indicate whether this exercise will pass a grade to the Canvas gradebook, just provide smart feedback to the student without a grade, or simply serve as a sandbox environment with no evaluation.</em>
-
-## Exercise Type:
-<em>This will always be determined in collaboration with the developers, designers, and authors based on the requirements above, what is most feasible and meets the key objectives.</em>
-
-## Success Message
-<em>This is the message the student will see when they complete the exercise, in the case that this is an exercise which provides automatic feedback. This should be written after the implementation decisions are made.</em>
-
-## Test Case Failure Messages
-<em>These should be written later in development, and only apply to automatically tested programming exercises. These will be written in accordance with the test cases developed for the exercise, which will also need to be specified here.</em>
-
-## Environment Layout:
-<em>This is how the environment components will be presented to students. This will usuall relate to Codio panes and what they contain.</em>
-
-## Custom Codio Menu Items:
-<em>This is a space to indicate any buttons that will need to be present in the Codio menu beyond the default items in the template.</em>
-
-## New Integrations Required:
-<em>We will indicate here if this exercise requires any new and unestablished integrations with Codio or Canvas.</em>
+'Camry' in cars.values() F <br>
+'Chevrolet' in dcars.keys() F <br>
+'Ford' in cars.values() T <br>

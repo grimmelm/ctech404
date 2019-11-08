@@ -22,3 +22,5 @@ def median(numbers):
 # Calculate the range (biggest minus smallest).
 def range(numbers):
     return max(numbers) - min(numbers)
+
+# Calculate the sum of all numbers

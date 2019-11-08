@@ -2,19 +2,115 @@
 ---
 # Instructional Requirements
 ## Key Technical Outcome
-This exercise teaches students to create their first Python program using the interactive python interpreter. It builds upon the time-honored programming tradition of writing a first program to say Hello to the world.
-
+mutability and immutability
+strings vs lists.
 ## Exercise Context
-It's time to write your first program! By tradition, when you learn a new programming langauge, that first step is to write a program that prints "Hello world." This exercise builds upon that time-honored tradition. 
+[perhaps explain immutable vs mutable and references here OR add explanations to each MC question to further explain mutability and scope]
 
 ## Exercise Instructions
 
- 1.  Start by running the Python interpreter. Type <code>python</code> at the command prompt <code>$</code>.<br>
+What is the result of <code>a</code> after the program finishes executing? (free text answer)
 
-<code>>>></code> is the Python interpreter's prompt. You can now run Python commands.<br>
+<pre>
+def multiple_strings(s):
+    s = s*5
+    return s
 
-2. Print the text 'I can write Python programs!' to the screen (Hint: You can use Python's print function)
+a =  'foo'
+b = multiple_strings(a)
+</pre>
+Answer: 'foo'
 
+What is the result of <code>a</code> after the program finishes executing?
+
+<pre>
+def multiply_lists(l):
+    l = l*5
+    return l
+
+a =  [1,2,3]
+b = multiply_lists(a)
+</pre>
+
+a. [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]<br>
+b. [1, 2, 3] <b> # correct </b></br>
+c. [5, 10, 15] <br>
+d. ERROR
+
+
+What is the result of <code>a</code> after the program finishes executing?
+
+<pre>
+def add_to_list(l):
+    l.append(5)
+    return l
+
+a =  [4,5,6]
+b = add_to_list(a)
+</pre>
+
+a. [4,5,6]<br>
+b. [5,4,5,6] <br> 
+c. [4,5,6,5]<b> # correct </b> <br>
+d. ERROR
+
+Display after answer is revealed: Lists are mutable. A list's value can change. Variables store references to lists. Therefore, a local variable inside a function and a global variable outside the function can refer to the same list. An operation (such as method append()) that modifies a list that is applied to the local variable in a function will therefore cause a change to the global variable as well. 
+
+What is the result of <code>a</code> after the program finishes executing?
+
+<pre>
+def uppercase_string(s):
+    s = s.upper()
+    return s
+
+a = ‘indeed'
+b = uppercase_string(a)
+</pre>
+
+a. INDEED<br>
+b. indeed <b># correct </b> <br> 
+c. Indeed <br>
+d. ERROR
+
+Display after answer is revealed: Strings are immutable. As we have seem, a method applied to a string does not change the original string. Therefore, the function does not change the value of the original string.
+
+
+<pre>
+def add_to_list(l):
+    m = l
+    m.append(5)
+    return m
+
+a =  [1,2,3]
+b = add_to_list(a)
+</pre>
+
+a. [1,2,3]<br>
+b. [5,1,2,3] <br> 
+c. [1,2,3,5]<b> # correct </b> <br>
+d. ERROR
+
+
+Should we have an open ended question? Explain why this worked as it did?
+
+What is the result of <code>a</code> after the program finishes executing?
+
+<pre>
+def add_to_list(l):
+    m = [1,2,3]
+    m.extend(l)
+    return m
+
+a =  [1,2,3]
+b = add_to_list(a)
+</pre>
+
+a. [1,2,3, 1,2,3]<br>
+b. [1,2,3] <b> # correct </b> <br> 
+c. None of the above<br>
+d. ERROR
+
+Display after answer is revealed: In this example, a new list <code>m</code> is created inside the function. An operation is performed on <code>m</code>, not on the list <code>l</code>. Therefore, the function does not change list <code>l</code>, and list <code>a</code> also retains its original value.
 
 ## Any Unique Requirements or Notes?
 
