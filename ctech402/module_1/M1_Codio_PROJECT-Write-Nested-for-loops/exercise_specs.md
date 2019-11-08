@@ -6,6 +6,9 @@ Write a Program that has a Nested “for” Loop
 ## Exercise Context
 
 ## Exercise Instructions
+
+**This exercise is basically identical to one the students have already done and to an example given in the videos. I think we need one that does something else with the lists rather than just another print statement. -JG**
+
 Examine the code in <code>exercise.py</code> in the code editor. It contains two lists, <code>entree</code> and <code>side</code>.
 
 Write a program that generates dinner suggestions based on these two lists.<br>
