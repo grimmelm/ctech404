@@ -8,6 +8,13 @@ Yahtzee-like game: user vs computer
 <b>Exercise Context</b>
 For this final course project, you will create a game similar to the card game professor Grimmelmann created in this module. Instead of cards, you will write a program in which you roll and reroll three or more dice to try to score higher values than the computer.
 
+**Suggestions:
+* Have player and computer take turns rerolling until one of them has three matching dice. This effectively forces them to use a loop.
+* Add a reusable function for checking whether a player has three matching dice.
+* Score is the total of your dice, but the player who matched three first gets a 5-point bonus?
+* Provide a sample transcript showing how a few plays of the game should look? This will help students a lot in understanding what they need to do.**
+
+
 <b>Exercise Instructions</b>
 To successfully complete this task, your program must include each of the following:
   1. Printed statements that clearly narrate the events of the game to the conclusion.
