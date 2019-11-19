@@ -63,7 +63,7 @@ d. Error <b>correct</b> <br>
 
 Q7: What does the following code output when run?<br> 
 <pre>a_list = [3, 29, 45, 2, 101, 14]
-print(sum(a_list)/len(a_list))</pre>
+print(sum(a_list)//len(a_list))</pre>
 
 a. 6 <br>
 b. 194 <br>
