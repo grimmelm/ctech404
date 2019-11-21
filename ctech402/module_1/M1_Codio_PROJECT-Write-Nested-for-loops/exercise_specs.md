@@ -9,7 +9,7 @@ Write a Program that has a Nested “for” Loop
 
 **This exercise is basically identical to one the students have already done and to an example given in the videos. I think we need one that does something else with the lists rather than just another print statement. -JG**
 
-I'm having a hard time coming up with something that doesn't involve printing. Anything else I come up with requires more knowledge of lists, ranges etc., which we haven't covered yet. For example, i thought about swapping items in a list, or implementing .sort()...can't come up with something more elementary.
+I'm having a hard time coming up with something that doesn't involve printing. Anything else I come up with requires more knowledge of lists, ranges etc., which we haven't covered yet. For example, i thought about swapping items in a list, or implementing .sort()...can't come up with something more elementary.-GI
 
 # UPDATED INSTRUCTIONS
 
