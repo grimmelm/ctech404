@@ -14,6 +14,58 @@ For this final course project, you will create a game similar to the card game p
 * Score is the total of your dice, but the player who matched three first gets a 5-point bonus?
 * Provide a sample transcript showing how a few plays of the game should look? This will help students a lot in understanding what they need to do.**
 
+# UPDATED INSTRUCTIONS:
+
+For this final course project, you will create a game similar to the card game professor Grimmelmann created in this module. Instead of cards, you will be playing with dice. Write a program in which you and the computer roll and re-roll three dice to compete for the highest score.
+
+1. You and the computer should take turns rolling three dice, with possible values of 1-6.
+2. After each roll, save both the computer and user's score
+3. The game ends when one player rolls three matching dice (For example, one player rolls three dice each having the value of 4).
+4. Give a 5 point bonus to the player who rolled the three matching dice to end the game.
+5. Tally up the score at the end of the game. The player with the highest score wins. Display the final score and the winner.
+
+Your program should contain one re-usable function that checks whether a player has three matching dice and returns the boolean result.
+
+To generate a die roll, you should use the <code>random.randint()</code> function to generate a random integer value between 1 and 6 
+
+Below is a sample transcript?? of one game:
+
+<pre>
+Computer rolled:
+6
+4
+1
+You rolled:
+3
+5
+6
+Computer rolled:
+5
+3
+1
+You rolled:
+4
+2
+6
+Computer rolled:
+3
+3
+5
+You rolled:
+2
+2
+2
+You match 3 dice! You score an extra 5 points!
+Computer's total score: 31
+You're total score: 32
+YOU WIN!!! 
+</pre>
+
+
+
+
+
+
 
 <b>Exercise Instructions</b>
 To successfully complete this task, your program must include each of the following:
