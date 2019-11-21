@@ -62,9 +62,7 @@ YOU WIN!!!
 </pre>
 
 
-
-
-
+# END INSTRUCTIONS
 
 
 <b>Exercise Instructions</b>
