@@ -12,5 +12,5 @@ print('The median is: ' +  str(median))
 range = stats.range(my_list)
 print('The range is: ' +  str(range))
 
-sum = stats.sum(my_list)
-print('The sum of all numbers is: ' + str(sum))
+std_dev = stats.standard_deviation(my_list)
+print('The standard deviation is: ' + str(std_dev))
