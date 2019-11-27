@@ -15,7 +15,7 @@ The standard deviation of a group of numbers is a measure of how much the number
 
 To calculate the standard deviation of a list of numbers, do the following:
 
-1. Computer the mean of the numbers.  
+1. Compute the mean of the numbers.  
 2. Subtract that mean from each number and square the result. You will have a new group of numbers.
 3. Compute the mean of those numbers.
 4. Find the square root of that mean.
