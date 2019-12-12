@@ -15,16 +15,16 @@ Write a Program that has a Nested “for” Loop
 
 Write a program that prints out the 1-10 times table. 
 <pre>
-1X1=2         2X1 = 2
-1X2=2         2X2=4
-1X3=3         .
-1X4=4         .
-1X5=5         .
-1X6-6         .
-1X7=7         .
-1X8=8         .
-1X9=9         .
-1X10=10      2X10 = 20
+1X1=2         2X1 = 2   3X1=3     . . .   10X1=10
+1X2=2         .         .                 .
+1X3=3         .         .                 .
+1X4=4         .         .                 .
+1X5=5         .         .                 .
+1X6-6         .         .                 .
+1X7=7         .         .                 .
+1X8=8         .         .                 .
+1X9=9         .         .                 .
+1X10=10      2X10 = 20  3X10=30  . . .   10X10=100     
 </pre>
 
 
