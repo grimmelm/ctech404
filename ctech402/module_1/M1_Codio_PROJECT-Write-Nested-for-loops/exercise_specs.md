@@ -13,7 +13,22 @@ Write a Program that has a Nested “for” Loop
 
 # UPDATED INSTRUCTIONS
 
-Examine the code in <code>exercise.py</code> in the code editor. It contains a lists of integer values.
+Write a program that prints out the 1-10 times table. 
+<pre>
+1X1=2         2X1 = 2
+1X2=2         2X2=4
+1X3=3         .
+1X4=4         .
+1X5=5         .
+1X6-6         .
+1X7=7         .
+1X8=8         .
+1X9=9         .
+1X10=10      2X10 = 20
+</pre>
+
+
+dinner suggestions based on these two lists.<br>
 
 
 Examine the code in <code>exercise.py</code> in the code editor. It contains two lists, <code>entree</code> and <code>side</code>.
