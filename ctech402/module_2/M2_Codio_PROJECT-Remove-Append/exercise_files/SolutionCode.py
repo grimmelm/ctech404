@@ -25,3 +25,23 @@ for r in items_to_remove:
 	numbers.remove(r)
 
 print(numbers)
+
+-----------------------
+
+input_list = [1,2,3,4,5,6,7,8,9,10]
+list_A = []
+list_B = []
+
+for i in len(input_list):
+	if i%2 == 0:
+		list_A.append(input_list[i]))
+	else:
+		list_B.append(input_list[i]))
+
+merged_list = list_A.extend(list_B)
+
+for i in range(len(list_A)):
+	merged_list.append(list_A[i])
+	merged_list.append(list_B[i])
+	
+	
