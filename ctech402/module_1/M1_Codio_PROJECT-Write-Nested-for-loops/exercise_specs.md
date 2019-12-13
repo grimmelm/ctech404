@@ -13,7 +13,8 @@ Write a Program that has a Nested “for” Loop
 
 # UPDATED INSTRUCTIONS
 
-Write a program that prints out the 1-10 times table. 
+Write a program that generates the multiplication table of 1-10 (see chart below). 
+
 <pre>
 1X1=2         2X1 = 2   3X1=3     . . .   10X1=10
 1X2=2         .         .                 .
@@ -27,17 +28,35 @@ Write a program that prints out the 1-10 times table.
 1X10=10      2X10 = 20  3X10=30  . . .   10X10=100     
 </pre>
 
+Use a nested for loop to print out the table.
 
-dinner suggestions based on these two lists.<br>
+Hint: Each loop should iterate 10 times (from 1 - 10)
+  
+
+Sample output:
+
+<pre>
+1 times 1 is 1
+1 times 2 is 2
+.
+.
+.
+4 times 1 is 4
+4 times 2 is 8
+.
+.
+.
+10 times 9 is 90
+10 times 10 is 100
+</pre>
 
 
-Examine the code in <code>exercise.py</code> in the code editor. It contains two lists, <code>entree</code> and <code>side</code>.
 
 Write a program that generates dinner suggestions based on these two lists.<br>
 Use a nested for loop to print each entree and side combination as recommendations. 
 
 Hint:
-  1. One loop should loops through the entree list
+  1. One loop should loops through the entre list.
   2. One loop should loop through the side list.
 
 <b>Sample Output:</b>
