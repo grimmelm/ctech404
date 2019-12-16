@@ -5,11 +5,11 @@ Loops and list functions
 
 ## Exercise Context
 
-## Exercise Instructions
-
 It's time to put list functions and methods into practice!<br>
 
-In the code editor, write a program that accomplishes the following parts using the appropriate list functions and methods<br><br>
+In the code editor, write two programs that accomplish the following parts using the appropriate list functions and methods<br><br>
+
+## Exercise Instructions
 
 <h2>Part One</h2>
 
