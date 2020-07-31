@@ -28,4 +28,4 @@ url = TOP_TRACKS_URL + artist['id'] + '/top-tracks'
 query = {'country': 'US'}
 r = requests.get(url, headers=token_headers, params=query)
 
-requestsview.view(r)
+requestview.view(r)
