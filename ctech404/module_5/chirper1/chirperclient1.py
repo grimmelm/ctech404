@@ -24,7 +24,7 @@ def top_chirps():
  
 def post_chirp(userid):
     t = input('Enter your chirp: ')
-    r = requests.post(POST_ENDPOINT, data={'text': t, 'user' : userid}})
+    r = requests.post(POST_ENDPOINT, data={'text': t, 'user' : userid})
     if r.ok:
         print('chirp posted')
     else:
