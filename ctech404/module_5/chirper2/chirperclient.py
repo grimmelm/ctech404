@@ -3,8 +3,8 @@ import requests, sys
 BASE_URL= 'http://localhost'
 PORT = ":5000"
 
-GET_ENDPOINT = BASE_URL + PORT + '/get-toots'
-POST_ENDPOINT = BASE_URL + PORT + '/post-toot'
+GET_ENDPOINT = BASE_URL + PORT + '/get-chirps'
+POST_ENDPOINT = BASE_URL + PORT + '/post-chirp'
 
 
 def login():
@@ -19,45 +19,40 @@ def login():
         sys.exit()
 
  
-def top_toots():
+def top_chirps():
     r = requests.get(GET_ENDPOINT)
     if r.ok:
-        print('-----TOOTS-----')
-        for toot in reversed(r.json()):
-            print(toot['userid'] + ' -> ' + toot['text'])
+        print('-----chirpS-----')
+        for chirp in reversed(r.json()):
+            print(chirp['userid'] + ' -> ' + chirp['text'])
         print('---------------')
     else:
         print('Error: ' + r.text)
 
  
-def post_toot(tokeen):
-    t = input('Enter your toot: ')
+def post_chirp(tokeen):
+    t = input('Enter your chirp: ')
     r = requests.post(POST_ENDPOINT, data={'text': t}, headers={'Token':token})
     if r.ok:
-        print('Toot posted')
+        print('chirp posted')
     else:
         print('Error: ' + r.text)
 
 
 
 
-print('Welcome to Tooter!')
+print('Welcome to chirper!')
 t = login()
 while True:
     print('(0) quit')
-    print('(1) read toots')
-    print('(2) post toot')
+    print('(1) read chirps')
+    print('(2) post chirp')
     i = input('Enter command : ')
     if i == '0':
         break
     elif i == '1':
-        get_toots()
+        get_chirps()
     elif i == '2':
-        post_toot(t)        
+        post_chirp(t)        
     else:
         print('Illegal command. Please try again.')
-
-
-
-
-            
