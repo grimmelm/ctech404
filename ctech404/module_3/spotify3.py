@@ -18,4 +18,4 @@ SEARCH_URL = 'https://api.spotify.com/v1/search'
 
 # Find top artist matching the user's search
 artist_name = ' '.join(sys.argv[1:])
-print('Artist name: ' + artist_name_)
+print('Artist name: ' + artist_name)
