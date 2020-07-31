@@ -11,7 +11,7 @@ def login():
     u = input('Enter username: ')
     return u
  
-def top_chirps():
+def get_chirps():
     r = requests.get(GET_ENDPOINT)
     if r.ok:
         print('-----chirpS-----')
@@ -34,7 +34,7 @@ def post_chirp(userid):
 
 
 print('Welcome to chirper!')
-u = input('Enter username')
+u = login()
 while True:
     print('(0) quit')
     print('(1) read chirps')
