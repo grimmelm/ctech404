@@ -12,7 +12,7 @@ r = requests.post(AUTHENTICATION_URL, headers=headers, data=body)
 
 token = r.json()['access_token']
 print('Request URL: ' + AUTHENTICATION_URL)
-print('Request header: ' + headers)
-print('Request body: ' + body)
+print('Request header: ' + str(headers))
+print('Request body: ' + str(body))
 print('Response body: ' + r.text)
 print('Token: ' + token)
