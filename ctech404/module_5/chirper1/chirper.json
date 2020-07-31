@@ -1,1 +1,1 @@
-{"chirps": {"filename": "chirps.csv", "fields": ["userid", "time", "text"]}}
+[{"name": "chirps", "filename": "chirps.csv", "fields": ["userid", "time", "text"]}]
