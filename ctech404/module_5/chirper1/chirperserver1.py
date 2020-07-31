@@ -6,7 +6,7 @@ DATABASE = 'chirper.json'
 
 # Setup
 app = flask.Flask(__name__)
-basicdb.open_db(DATABASE)
+basicdb.load_db(DATABASE)
    
 @app.route('/get-chirps')
 def get_chirps():
