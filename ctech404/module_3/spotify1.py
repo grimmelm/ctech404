@@ -11,8 +11,9 @@ body = {'grant_type': 'client_credentials'}
 r = requests.post(AUTHENTICATION_URL, headers=headers, data=body)
 
 token = r.json()['access_token']
-print('Request URL: ' + AUTHENTICATION_URL)
-print('Request header: ' + str(headers))
-print('Request body: ' + str(body))
-print('Response body: ' + r.text)
-print('Token: ' + token)
+
+from requests_toolbelt.utils import dump
+data = dump.dump_all(r, request_prefix = '', response_prefix='')
+print(data.decode('utf-8'))
+
+print('\nToken: ' + token)
