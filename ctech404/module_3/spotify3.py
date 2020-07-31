@@ -1,7 +1,7 @@
 import requests, sys
 from spotifysecrets import *
 from base64 import b64encode
-import requestsview
+import requestview
 
 AUTHENTICATION_URL = 'https://accounts.spotify.com/api/token'
 
@@ -18,4 +18,4 @@ SEARCH_URL = 'https://api.spotify.com/v1/search'
 
 # Find top artist matching the user's search
 artist_name = ' '.join(sys.argv[1:])
-print('Artist name: + 'artist_name_)
+print('Artist name: ' + artist_name_)
