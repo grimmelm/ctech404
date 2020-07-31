@@ -11,6 +11,4 @@ headers = {'Authorization':
 body = {'grant_type': 'client_credentials'}
 r = requests.post(AUTHENTICATION_URL, headers=headers, data=body)
 
-token = r.json()['access_token']
-
 requestview.view(r)
