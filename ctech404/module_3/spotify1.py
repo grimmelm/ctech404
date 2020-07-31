@@ -14,5 +14,3 @@ r = requests.post(AUTHENTICATION_URL, headers=headers, data=body)
 token = r.json()['access_token']
 
 requestview.view(r)
-
-print('Token: ' + token)
