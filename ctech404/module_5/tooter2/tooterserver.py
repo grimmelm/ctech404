@@ -2,7 +2,7 @@ import json, time
 import flask
 import basicdb
 
-DATABASE = 'tooter.json'
+DATABASE = 'chirper.json'
 
 
 @app.route('/login', methods=['POST'])
@@ -17,24 +17,24 @@ def login():
     sessions[token] = username
     return token
    
-@app.route('/get-toots')
-def get_toots():
-    toots = basicdb.orderby(basicdb.sql_from('toots'), 'time')))[-5:]
-    return json.dumps(latest_toots)
+@app.route('/get-chirps')
+def get_chirps():
+    chirps = basicdb.orderby(basicdb.sql_from('chirps'), 'time')))[-5:]
+    return json.dumps(latest_chirps)
 
-@app.route('/post-toot')
-def post_toot():
+@app.route('/post-chirp')
+def post_chirp():
     token = request.headers['Token']
     if token not in sessions:
         return 'Invalid token', 401
-    toot = {'userid': sessions[token],
+    chirp = {'userid': sessions[token],
             'time': str(time.time()), 
             'text': request.form['text']}
-    if len(toot['text'] > 100):
-        return 'Toot too long', 403
-    insert('toots', toot)
-    basicdb.insert('toots', toot)
-    return 'Toot posted'
+    if len(chirp['text'] > 100):
+        return 'chirp too long', 403
+    insert('chirps', chirp)
+    basicdb.insert('chirps', chirp)
+    return 'chirp posted'
 
 
 # Setup
