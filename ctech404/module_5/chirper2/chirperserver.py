@@ -16,8 +16,8 @@ sessions = {}
 
 @app.route('/login', methods=['POST'])
 def login():
-    username = flask.request.header['Username']
-    password = flask.request.header['Password']
+    username = flask.request.headers['Username']
+    password = flask.request.headers['Password']
     if username not in logins:
          return 'No such user', 401
     if password != logins[username]:
