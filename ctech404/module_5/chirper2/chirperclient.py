@@ -20,10 +20,10 @@ def login():
         sys.exit()
 
  
-def top_chirps():
+def get_chirps():
     r = requests.get(GET_ENDPOINT)
     if r.ok:
-        print('-----chirpS-----')
+        print('-----chirps-----')
         for chirp in reversed(r.json()):
             print(chirp['userid'] + ' -> ' + chirp['text'])
         print('---------------')
