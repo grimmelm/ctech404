@@ -5,6 +5,7 @@ PORT = ":5000"
 
 GET_ENDPOINT = BASE_URL + PORT + '/get-chirps'
 POST_ENDPOINT = BASE_URL + PORT + '/post-chirp'
+LOGIN_ENDPOINT = BASE_URL + PORT + '/login'
 
 
 def login():
