@@ -24,7 +24,7 @@ def login():
          return 'Invalid password', 401
     token = secrets.token_hex()
     sessions[token] = username
-    return token
+    return json.dumps({'token': token})
    
 @app.route('/get-chirps')
 def get_chirps():
