@@ -1,16 +1,16 @@
-BODY
+body
 {
   width: 60em;
   background-color: #F5F5FF;
 }
 
-P
+p
 {
   font-family: Georgia;
   text-indent: 1em hanging;
 }
 
-H1, H2, H3, H4, H5, H6
+h1, h2, h3, h4, h5, h6
 {
   color: orange;
   font-size: 150%;
@@ -22,7 +22,7 @@ H1, H2, H3, H4, H5, H6
   text-align: right;
 }
 
-LI
+li
 {
   font-size: 80%;
 }
