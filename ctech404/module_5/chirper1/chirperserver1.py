@@ -18,7 +18,7 @@ def post_chirp():
     chirp = {'userid': flask.request.form['user'],
             'time': str(time.time()), 
             'text': flask.request.form['text']}
-    if len(chirp['text'] > 100):
+    if len(chirp['text']) > 100:
         return 'chirp too long', 403
     basicdb.insert('chirps', chirp)
     return 'chirp posted'
