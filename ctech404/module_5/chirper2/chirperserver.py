@@ -9,7 +9,7 @@ app = flask.Flask(__name__)
 basicdb.load_db(DATABASE)
 
 logins = {}
-for row in basicdb.db_from('passwords'):
+for row in basicdb.db_from('logins'):
     logins[row['userid']] = row['password']
 
 sessions = {}
