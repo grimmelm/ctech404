@@ -31,7 +31,7 @@ def get_chirps():
     chirps = basicdb.orderby(basicdb.db_from('chirps'), 'time')[-5:]
     return json.dumps(chirps)
 
-@app.route('/post-chirp')
+@app.route('/post-chirp', methods=['POST'])
 def post_chirp():
     token = flask.request.headers['Token']
     if token not in sessions:
