@@ -16,8 +16,8 @@ sessions = {}
 
 @app.route('/login', methods=['POST'])
 def login():
-    username = request.header['Username']
-    password = request.header['Password']
+    username = flask.request.header['Username']
+    password = flask.request.header['Password']
     if username not in logins:
          return 'No such user', 401
     if password != logins[username]:
@@ -33,12 +33,12 @@ def get_chirps():
 
 @app.route('/post-chirp')
 def post_chirp():
-    token = request.headers['Token']
+    token = flask.request.headers['Token']
     if token not in sessions:
         return 'Invalid token', 401
     chirp = {'userid': sessions[token],
             'time': str(time.time()), 
-            'text': request.form['text']}
+            'text': flask.request.form['text']}
     if len(chirp['text']) > 100:
         return 'chirp too long', 403
     insert('chirps', chirp)
