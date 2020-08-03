@@ -1,12 +1,12 @@
 BODY
 {
-  font-family: Georgia;
   width: 60em;
   background-color: #F5F5FF;
 }
 
 P
 {
+  font-family: Georgia;
   text-indent: 1em hanging;
 }
 
