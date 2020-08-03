@@ -1,4 +1,4 @@
-import requests, sys, secrets
+import requests, sys
 
 BASE_URL= 'http://localhost'
 PORT = ":5000"
