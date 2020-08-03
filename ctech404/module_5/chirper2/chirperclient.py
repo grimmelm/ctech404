@@ -7,6 +7,7 @@ GET_ENDPOINT = BASE_URL + PORT + '/get-chirps'
 POST_ENDPOINT = BASE_URL + PORT + '/post-chirp'
 LOGIN_ENDPOINT = BASE_URL + PORT + '/login'
 
+token = ''
 
 def login():
     u = input('Enter username: ')
@@ -43,7 +44,7 @@ def post_chirp(tokeen):
 
 
 print('Welcome to chirper!')
-t = login()
+token = login()
 while True:
     print('(0) quit')
     print('(1) read chirps')
