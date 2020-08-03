@@ -19,7 +19,7 @@ def login():
    
 @app.route('/get-chirps')
 def get_chirps():
-    chirps = basicdb.orderby(basicdb.sql_from('chirps'), 'time')))[-5:]
+    chirps = basicdb.orderby(basicdb.db_from('chirps'), 'time')))[-5:]
     return json.dumps(latest_chirps)
 
 @app.route('/post-chirp')
@@ -30,7 +30,7 @@ def post_chirp():
     chirp = {'userid': sessions[token],
             'time': str(time.time()), 
             'text': request.form['text']}
-    if len(chirp['text'] > 100):
+    if len(chirp['text']) > 100:
         return 'chirp too long', 403
     insert('chirps', chirp)
     basicdb.insert('chirps', chirp)
