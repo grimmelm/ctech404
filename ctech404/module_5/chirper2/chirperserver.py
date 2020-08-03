@@ -4,6 +4,15 @@ import basicdb
 
 DATABASE = 'chirper.json'
 
+# Setup
+app = Flask(__name__)
+basicdb.load_db(DATABASE)
+
+logins = {}
+for row in basicdb.sql_from('passwords'):
+    logins[row['userid']] = row['password']
+
+sessions = {}
 
 @app.route('/login', methods=['POST'])
 def login():
@@ -36,16 +45,6 @@ def post_chirp():
     basicdb.insert('chirps', chirp)
     return 'chirp posted'
 
-
-# Setup
-app = Flask(__name__)
-basicdb.load_db(DATABASE)
-
-logins = {}
-for row in basicdb.sql_from('passwords'):
-    logins[row['userid']] = row['password']
-
-sessions = {}
 
 
 app.run(host='0.0.0.0')
