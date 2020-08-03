@@ -29,7 +29,7 @@ def login():
 @app.route('/get-chirps')
 def get_chirps():
     chirps = basicdb.orderby(basicdb.db_from('chirps'), 'time')[-5:]
-    return json.dumps(latest_chirps)
+    return json.dumps(chirps)
 
 @app.route('/post-chirp')
 def post_chirp():
