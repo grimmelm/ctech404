@@ -7,8 +7,6 @@ GET_ENDPOINT = BASE_URL + PORT + '/get-chirps'
 POST_ENDPOINT = BASE_URL + PORT + '/post-chirp'
 LOGIN_ENDPOINT = BASE_URL + PORT + '/login'
 
-token = ''
-
 def login():
     u = input('Enter username: ')
     p = input('Enter password: ')
@@ -32,7 +30,7 @@ def get_chirps():
         print('Error: ' + r.text)
 
  
-def post_chirp(tokeen):
+def post_chirp(token):
     t = input('Enter your chirp: ')
     r = requests.post(POST_ENDPOINT, data={'text': t}, headers={'Token':token})
     if r.ok:
@@ -55,6 +53,6 @@ while True:
     elif i == '1':
         get_chirps()
     elif i == '2':
-        post_chirp(t)        
+        post_chirp(token)        
     else:
         print('Illegal command. Please try again.')
