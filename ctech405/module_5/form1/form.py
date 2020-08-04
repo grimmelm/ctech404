@@ -7,6 +7,6 @@ def form_show():
 
 @app.route('/done')
 def form_submit():
-    return flask.render_template('result.html', fields = flask.request.args)
+    return flask.render_template('result.html', fields = flask.request.args, url=flask.request.url)
 
 app.run(host='0.0.0.0')
