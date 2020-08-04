@@ -11,7 +11,7 @@ def story_start():
 @app.route('/add')
 def story_continue():
     m = request.form['new-text']
-    story.append(m)
+    global story.append(m)
     return flask.render_template('add.html', words = story)
 
 app.run(host='0.0.0.0')
