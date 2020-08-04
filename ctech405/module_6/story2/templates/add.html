@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My story editor</title>
+</head>
+<body>
+{% for line in words %}
+  <p>{{line}}</p>
+{% endfor %}
+{% include 'form.html' %}
+</body>
+</html>
