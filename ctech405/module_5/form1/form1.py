@@ -6,8 +6,7 @@ def form_show():
     return flask.render_template('form.html')
 
 @app.route('/done')
-def form_submit():
-    m = request.args['message']
-    return flask.render_template('result.html', msg = m)
+def formSubmit():
+    return flask.render_template('result.html', fields = flask.request.args)
 
 app.run(host='0.0.0.0')
