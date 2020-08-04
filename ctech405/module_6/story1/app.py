@@ -10,8 +10,8 @@ def form_show():
 
 @app.route('/add')
 def form_show():
-    m = request.form['text']
+    m = request.form['new-text']
     story.append(m)
-    return flask.render_template('add.html', text = story)
+    return flask.render_template('add.html', words = story)
 
 app.run(host='0.0.0.0')
