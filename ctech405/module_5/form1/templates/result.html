@@ -2,6 +2,10 @@
 <html lang="en">
 <head><title>Form demo</title></head>
 <body>
-    <p>You entered <b>{{msg}}</b></p>
+    <p>You entered:</p>
+    <ul>
+      {% for k in fields.keys() %}
+        <li><b>{{k}}</b>: {{fields[k]}}</li>
+      {% endfor %}
 </body>
 </html>
