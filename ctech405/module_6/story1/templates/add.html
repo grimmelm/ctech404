@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Story: start</title>
+<title>Tell me a story</title>
 </head>
 <body>
 {% for line in words %}
   <p>{{line}}</p>
 {% endfor %}
 <hr>
-<form action="add">
-	<input type="text" name="new-text" placeholder="Type the start of your story here">
+<form action="add" method="POST">
+	<input type="text" name="new-text" placeholder="Type the next part of your story here">
 	<input type="submit" value="Go">
 </form>
 </body>
